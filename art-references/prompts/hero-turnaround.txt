@@ -1,0 +1,16 @@
+Image 1 is the current hero sprite of a pixel art game, shown facing right in a side view. Image 2 is a style sheet of approved sprites from the same game.
+
+Draw a character turnaround sheet of the SAME hero as image 1, for a top-down adventure game seen from above at a three-quarter angle (classic 16-bit top-down RPG camera, the head is big and the feet are visible below the body).
+
+The sheet shows exactly 5 views of the hero standing still, side by side in one single row, evenly spaced, all at the same size and on the same baseline, from left to right:
+1. facing the viewer (front view, walking down the screen), symmetric, both eyes visible
+2. three-quarter front, turned 45 degrees toward the right, both eyes visible
+3. strict side view facing right, one eye visible
+4. three-quarter back, turned 45 degrees away toward the right, no eye or only the edge of the cheek visible
+5. back view (walking up the screen), symmetric, only the hair and the back of the jacket visible, no face
+
+Keep the design of image 1 in every view: chibi proportions with a big head, spiky blue hair with green tips, green headband, skin tone, open blue jacket over a white shirt, green shorts, white shoes, and a small light blue pistol held in the right hand. In the front views the pistol points down toward the viewer side, in the side view it points right, in the back views it is mostly hidden by the body.
+
+Match exactly the style of image 2 and image 1: same pixel size, dark ink outline (#1a1424) one pixel thick around the silhouette, 3 to 4 flat tones per material, light coming from the top-left, no dithering, no gradients, no antialiasing, no noise, same simple face style with small dark eyes. Use only the colors of image 1.
+
+Output: the 5 views only, each about 80 percent of the image height, plain flat background #2a2030, nearest-neighbor crisp pixels, no text, no labels, no numbers, no ground line, no shadow, no frame.

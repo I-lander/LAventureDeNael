@@ -1,0 +1,667 @@
+{
+ "palette": [
+  {
+   "name": "boneBrown1",
+   "symbol": "a",
+   "rgb": [
+    145,
+    118,
+    93
+   ]
+  },
+  {
+   "name": "boneBrown2",
+   "symbol": "b",
+   "rgb": [
+    169,
+    127,
+    105
+   ]
+  },
+  {
+   "name": "boneBrown3",
+   "symbol": "c",
+   "rgb": [
+    175,
+    162,
+    139
+   ]
+  },
+  {
+   "name": "boneBrown4",
+   "symbol": "d",
+   "rgb": [
+    218,
+    181,
+    163
+   ]
+  },
+  {
+   "name": "boneBrown5",
+   "symbol": "e",
+   "rgb": [
+    208,
+    197,
+    177
+   ]
+  },
+  {
+   "name": "boneGreen1",
+   "symbol": "f",
+   "rgb": [
+    25,
+    56,
+    45
+   ]
+  },
+  {
+   "name": "boneGreen2",
+   "symbol": "g",
+   "rgb": [
+    47,
+    91,
+    64
+   ]
+  },
+  {
+   "name": "boneGreen3",
+   "symbol": "h",
+   "rgb": [
+    51,
+    131,
+    84
+   ]
+  },
+  {
+   "name": "boneGreen4",
+   "symbol": "i",
+   "rgb": [
+    82,
+    122,
+    70
+   ]
+  },
+  {
+   "name": "boneGreen5",
+   "symbol": "j",
+   "rgb": [
+    110,
+    174,
+    74
+   ]
+  },
+  {
+   "name": "boneGrey1",
+   "symbol": "k",
+   "rgb": [
+    68,
+    60,
+    65
+   ]
+  },
+  {
+   "name": "boneGrey2",
+   "symbol": "l",
+   "rgb": [
+    93,
+    84,
+    84
+   ]
+  },
+  {
+   "name": "boneGrey3",
+   "symbol": "m",
+   "rgb": [
+    112,
+    100,
+    94
+   ]
+  },
+  {
+   "name": "boneGrey4",
+   "symbol": "n",
+   "rgb": [
+    137,
+    126,
+    114
+   ]
+  },
+  {
+   "name": "boneGrey5",
+   "symbol": "o",
+   "rgb": [
+    155,
+    142,
+    130
+   ]
+  },
+  {
+   "name": "boneGrey6",
+   "symbol": "p",
+   "rgb": [
+    184,
+    181,
+    163
+   ]
+  },
+  {
+   "name": "boneInk1",
+   "symbol": "q",
+   "rgb": [
+    3,
+    2,
+    27
+   ]
+  },
+  {
+   "name": "boneInk2",
+   "symbol": "r",
+   "rgb": [
+    18,
+    12,
+    35
+   ]
+  },
+  {
+   "name": "boneOrange1",
+   "symbol": "s",
+   "rgb": [
+    224,
+    179,
+    129
+   ]
+  },
+  {
+   "name": "boneOrange2",
+   "symbol": "t",
+   "rgb": [
+    233,
+    203,
+    155
+   ]
+  },
+  {
+   "name": "bonePink1",
+   "symbol": "u",
+   "rgb": [
+    65,
+    15,
+    36
+   ]
+  },
+  {
+   "name": "bonePurple1",
+   "symbol": "v",
+   "rgb": [
+    49,
+    20,
+    74
+   ]
+  },
+  {
+   "name": "bonePurple2",
+   "symbol": "w",
+   "rgb": [
+    73,
+    30,
+    99
+   ]
+  },
+  {
+   "name": "bonePurple3",
+   "symbol": "x",
+   "rgb": [
+    103,
+    45,
+    124
+   ]
+  },
+  {
+   "name": "bonePurple4",
+   "symbol": "y",
+   "rgb": [
+    106,
+    36,
+    147
+   ]
+  },
+  {
+   "name": "bonePurple5",
+   "symbol": "z",
+   "rgb": [
+    123,
+    57,
+    139
+   ]
+  },
+  {
+   "name": "bonePurple6",
+   "symbol": "A",
+   "rgb": [
+    151,
+    56,
+    187
+   ]
+  },
+  {
+   "name": "bonePurple7",
+   "symbol": "B",
+   "rgb": [
+    207,
+    83,
+    222
+   ]
+  },
+  {
+   "name": "boneRed1",
+   "symbol": "C",
+   "rgb": [
+    93,
+    22,
+    40
+   ]
+  },
+  {
+   "name": "boneRed2",
+   "symbol": "D",
+   "rgb": [
+    130,
+    35,
+    51
+   ]
+  },
+  {
+   "name": "boneRed3",
+   "symbol": "E",
+   "rgb": [
+    102,
+    71,
+    64
+   ]
+  },
+  {
+   "name": "boneRed4",
+   "symbol": "F",
+   "rgb": [
+    153,
+    34,
+    52
+   ]
+  },
+  {
+   "name": "boneRed5",
+   "symbol": "G",
+   "rgb": [
+    178,
+    38,
+    50
+   ]
+  },
+  {
+   "name": "boneRed6",
+   "symbol": "H",
+   "rgb": [
+    210,
+    48,
+    49
+   ]
+  },
+  {
+   "name": "boneRed7",
+   "symbol": "I",
+   "rgb": [
+    173,
+    91,
+    97
+   ]
+  },
+  {
+   "name": "boneRed8",
+   "symbol": "J",
+   "rgb": [
+    199,
+    112,
+    107
+   ]
+  },
+  {
+   "name": "boneRed9",
+   "symbol": "K",
+   "rgb": [
+    218,
+    113,
+    105
+   ]
+  },
+  {
+   "name": "boneRed10",
+   "symbol": "L",
+   "rgb": [
+    213,
+    141,
+    128
+   ]
+  },
+  {
+   "name": "boneRed11",
+   "symbol": "M",
+   "rgb": [
+    238,
+    162,
+    148
+   ]
+  },
+  {
+   "name": "boneWhite1",
+   "symbol": "N",
+   "rgb": [
+    244,
+    242,
+    226
+   ]
+  },
+  {
+   "name": "boneWhite2",
+   "symbol": "O",
+   "rgb": [
+    254,
+    254,
+    252
+   ]
+  },
+  {
+   "name": "boneYellow1",
+   "symbol": "P",
+   "rgb": [
+    241,
+    229,
+    179
+   ]
+  },
+  {
+   "name": "boneYellow2",
+   "symbol": "Q",
+   "rgb": [
+    236,
+    228,
+    196
+   ]
+  }
+ ],
+ "sprites": [
+  {
+   "box": [
+    9,
+    4,
+    32,
+    33
+   ],
+   "rows": [
+    ".....rqqqqqqr...........",
+    "...qmcQQQQQQoqr.........",
+    "..qQQOOQQQQQQQoq........",
+    ".qQQOOOQQQQQQQQor.......",
+    ".oQQOOQQQQQQQQQQq.......",
+    "qQQQQQQQQQQQQQQQor......",
+    "kQQQQQQQQQQQQQQQQq......",
+    "mQQorroQQQQQrrrQQq......",
+    "mQerrrqcQQQrrrrrQq......",
+    "mQnqrrrkQQQrgrqrQq......",
+    "kQnrrfhkQQQrprrrQq......",
+    "qQQrrrqQQnQoqrqncq......",
+    "qcQQeeQQqreQeeeQq.......",
+    ".qcQQQQQQQQQQeeq........",
+    "..qkkmQQQQQQpk......r...",
+    "....qqQkQkQmcr.....QQr..",
+    "....vwvqqqqvwr.....QQmq.",
+    "....kwzzzzzz.q....qeQQQr",
+    "..qQn.qvzzqvkQ.....Qp...",
+    "..onqeckqqmQqqeq..QQr...",
+    "..eqrc.oql..k.qe.QQ.....",
+    "rcq...lqmkml...k.Qr.....",
+    "Ql....mqnkll...qkQr.....",
+    "Ql...kkoQQkQ..qokn......",
+    "r....qcenpQlrlQQk.......",
+    ".....kk...qpq..Ql.......",
+    "....qe....rlpq.l........",
+    "....qQr....ll...........",
+    "....qor....kr...........",
+    "...rmlr....qmq.........."
+   ]
+  },
+  {
+   "box": [
+    39,
+    4,
+    56,
+    33
+   ],
+   "rows": [
+    ".....rqqqqqqr.....",
+    "...qqpQQQQQenq....",
+    "..qcQOOQQQQQQQq...",
+    ".qcQOOONQQQQQQQq..",
+    ".qQQOOQQQQQQQQQpq.",
+    ".kQQQQQQQQQQQQQQq.",
+    "qQQQQQQQQQQQQQQQor",
+    "qQQQQQQQQQQrrrQQor",
+    "qQQQQQQQQQrqrrrQor",
+    "qcQQQQQQQQrrrgrQor",
+    "qcQQQQQQQQrrrprQor",
+    "..cQQQQQQQorqroQq.",
+    "..cccQQQQQQeeeQlq.",
+    "..qlccccQQQQQQQQn.",
+    "...rqkkkkkoQQQQQq.",
+    ".....qvv.qqQQlmQq.",
+    "....qrrrzzvqqqqq..",
+    "...qxxqpqxxzzr....",
+    ".rzzzvmkrqrzv.....",
+    "rvxzzqQqkpcqq.....",
+    "..qzvqnkp..l......",
+    "..vq..pqqmmq......",
+    "..r...kmkq........",
+    "......qQmQ........",
+    "......qnkkr.......",
+    ".......qcq........",
+    ".......rkn........",
+    ".......rpq........",
+    ".......ko.........",
+    ".......qlm........"
+   ]
+  },
+  {
+   "box": [
+    63,
+    4,
+    86,
+    33
+   ],
+   "rows": [
+    "..........rqqqqqqr......",
+    "........rqoQQQQQQpmq....",
+    ".......qcQNOQQQQQQQQq...",
+    ".......oQOOONQQQQQQQQq..",
+    "......qQQOONQQQQQQQQQpr.",
+    ".....rlQQQQQQQQQQQQQQQq.",
+    ".....qQQQQQQQQQQQQQQQQkr",
+    ".....qQQQQQQQQQQQQQQQQkr",
+    ".....qQQQQQQQQQQQQQQQQkr",
+    ".....qcQQQQQQQQQQQQQQQkr",
+    ".....qcQQQQQQQQQQQQQQc.r",
+    ".....qncQQQQQQQQQQQQccq.",
+    "......qcccpQQQQQQQcccmq.",
+    ".......kocccccccccccmq..",
+    "..r......kmccnnncc..r...",
+    ".rQQ......qvwwwwwqq.....",
+    "qlQQr.....wzzzxzzx......",
+    "eQQpq.....qqvvvvvqlr....",
+    "..cQl....QkQklcrkpoQq...",
+    "..qQQ..qeqqoQlorQlqonr..",
+    "....QQ.pq.kromcm..rqe...",
+    "....rQe....k.loql...qor.",
+    ".....emq...lkmoql....kQ.",
+    ".....olnq.rQQQQQQm...kQr",
+    ".......QQlr.eolccq....r.",
+    "......kQr.rpq...kn......",
+    "......rl..lcr...ke......",
+    "..........qm....ror.....",
+    "..........rm....roq.....",
+    ".........qmq....rllr...."
+   ]
+  },
+  {
+   "box": [
+    100,
+    13,
+    110,
+    24
+   ],
+   "rows": [
+    "........l..",
+    "......rOQq.",
+    "......rQQen",
+    "......qQQcc",
+    ".....qQQ.qq",
+    "....qQQq...",
+    "...qQQq....",
+    ".qqQQq.....",
+    "nNQQq......",
+    "cpQe.......",
+    ".qpc.......",
+    "..m........"
+   ]
+  },
+  {
+   "box": [
+    6,
+    38,
+    29,
+    64
+   ],
+   "rows": [
+    ".......rqqqqqqqr........",
+    "......quFQQHHHHCqq......",
+    "....qCHHHHHHHHHHHGq.....",
+    "...qFKHHHHHHHQQQHHGq....",
+    "..qDQQHHHHHHHQQQQHHGq...",
+    "..uIQHHHHHHHHQQQQHHGFq..",
+    ".rFHHHHHQQHHHHLLHHHHFFr.",
+    ".FFHHHHQQQdHHHHHHHHHFIq.",
+    "qFFGHHHQQQHHHHHHHHHHIplq",
+    "rpFFHHHHLHHHHHHHQQHFIppq",
+    ".pLFFFGGGGGGGGGGedFFFppq",
+    ".pFFFFFFFFFFFFFFFFFFFFFq",
+    "uFFFFuuuqmmmmmmquuFFFFFq",
+    "qDFuru.ssssssssssquuFFq.",
+    ".qCCCrsaQQQQQQQosauCCr..",
+    "...qqrQnqqQQQlqqQcuqr...",
+    ".....kQmqqQQQkqqQQr.....",
+    "....qlQQcQQQQQcQQQq.....",
+    "....jlQMMQQqqQQMtQfj....",
+    "..qjhlQQQQqCrnQQQQfjg...",
+    "..fjjlQQQQLLLQQQQQqjjr..",
+    "...g.kQQQQQQQQQQQtqri...",
+    ".....rsQQQQQQQQQtm......",
+    ".......sssttttssE.......",
+    ".......msbqrr.ssr.......",
+    "........ss....sl........",
+    "........rr....rr........"
+   ]
+  },
+  {
+   "box": [
+    36,
+    38,
+    58,
+    64
+   ],
+   "rows": [
+    ".......rqqqqqqqr.......",
+    "......quFHHHHHFuq......",
+    "....qCHHHHHHHHHQQoq....",
+    "...qDKHHHHQQHHHQQQLq...",
+    "..qFQQQHHHHHHHHHKKHGq..",
+    "..uFQQQHHHHHHHHHHHHHD..",
+    ".rFGHKHHHHHHHQQHHHHHHq.",
+    ".uFHHHHHHHHHHQQKHHHHQnr",
+    "qFFHHHHQQQHHHHMHHHHHQQq",
+    "qFFFHHKQQQLHHHHHHHHHQQq",
+    "qFFFHHHQQQHHHHHHQQHHGFq",
+    "qppFFHHHKHHHHHGGJFFFFq.",
+    "qppoFFFGGGGFFFFFFuuuq..",
+    "ruIFFFFFFFFFFCu.aq.....",
+    ".qFFFIpFCCukkLastl.....",
+    "...qqqqassssttaqkl.....",
+    "......rsttQQQQoqqQr....",
+    "......bQQPccQQQcPPr....",
+    ".....rtQQjhjjtMQPnr....",
+    ".....rtQPgjjkPQPrCr....",
+    ".....rsQPfjfPQPPLLr....",
+    "......bsQPiQPPPQPd.....",
+    ".......sstQQQQQQt......",
+    "........assssssa.......",
+    ".........qssamq........",
+    "..........lsEc.........",
+    "..........rrr.........."
+   ]
+  },
+  {
+   "box": [
+    65,
+    38,
+    89,
+    64
+   ],
+   "rows": [
+    "........rqqqqqqqr........",
+    "......qqCHQQQHHDuq.......",
+    ".....qGHHHHKHHHHHHCq.....",
+    "....qHHHHHHHHHHHHHJFq....",
+    "...rQQQHHHHHHHHHHKQdFq...",
+    "..qHQQQHHJQHHHHHHHQQGC...",
+    ".rFHHLHHHHLHHHHHHHHJHFq..",
+    ".rHHHHHHHHHHHHLLHHHHHGFr.",
+    ".CHHHHHHHHHHHQQQQHHHHGFq.",
+    "qFHHHHQQHHHHHQQQQHHHHGFur",
+    "qFFHHMQQQHHHHQQQQHHHHFpmr",
+    "qFFHHHQQQHHHHHKKHHHHFIpmr",
+    "qFpFFHHJHHHHHHHHHHGFFFpur",
+    ".qpIFFFFFFGFFGGGFbFFFFDq.",
+    "..qDFFFFFFFFFFFFopIFFuq..",
+    "...rquuFFFFFFFFFFlurq....",
+    ".....rbklklkElllksq......",
+    ".....qQPtssssssPPQkq.....",
+    "....ifPQQQQQQQQQQQkhr....",
+    "...gjfPQQQQQQQQQQQkhjq...",
+    "...jjqQQQQQQQPQQQQkjjg...",
+    "...i.qtQQQQQQQQQQQ..g....",
+    "......ltQQQQQQQQQs.......",
+    ".......Esssttttss........",
+    ".......rss.rrqbsl........",
+    "........ms....ss.........",
+    "........rr....rr........."
+   ]
+  },
+  {
+   "box": [
+    100,
+    46,
+    110,
+    56
+   ],
+   "rows": [
+    "...rqqqr...",
+    "..qwyyywq..",
+    ".qyAABBzyq.",
+    "rvABBBOOAw.",
+    "qyABBBBBAyq",
+    "qyABBBBBAyq",
+    "qyAABBBBAyq",
+    "qveAAAAAyw.",
+    ".qyyAAAyyq.",
+    "..qvyyyvq..",
+    "...rqqqr..."
+   ]
+  }
+ ]
+}

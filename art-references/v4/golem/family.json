@@ -1,0 +1,85 @@
+{
+  "family": "golem",
+  "art": "src/tools/spriteBaker/half/GolemHalf.ts",
+  "palette": "src/game/elements/halfPalette/GolemPalette.ts",
+  "paletteConst": "GOLEM_PALETTE",
+  "keyPrefix": "golem",
+  "reference": "art-references/v3/golem-b.jpg",
+  "design": [
+    "art-references/v3/input/golem-design.png",
+    "art-references/v3/golem-a.jpg"
+  ],
+  "sprites": [
+    {
+      "name": "BAT_WINGS_UP",
+      "cells": "art-references/v4/golem/cells.json",
+      "index": 0,
+      "legend": "GOLEM_LEGEND",
+      "max": [
+        20,
+        13
+      ]
+    },
+    {
+      "name": "BAT_WINGS_DOWN",
+      "cells": "art-references/v4/golem/cells.json",
+      "index": 1,
+      "legend": "GOLEM_LEGEND",
+      "max": [
+        20,
+        13
+      ]
+    },
+    {
+      "name": "GOLEM_FRONT",
+      "cells": "art-references/v4/golem/cells.json",
+      "index": 2,
+      "legend": "GOLEM_LEGEND",
+      "box": [
+        44,
+        32,
+        3
+      ]
+    },
+    {
+      "name": "GOLEM_SIDE",
+      "cells": "art-references/v4/golem/cells.json",
+      "index": 3,
+      "legend": "GOLEM_LEGEND",
+      "box": [
+        44,
+        32,
+        3
+      ]
+    },
+    {
+      "name": "GOLEM_BACK",
+      "cells": "art-references/v4/golem/cells.json",
+      "index": 4,
+      "legend": "GOLEM_LEGEND",
+      "box": [
+        44,
+        32,
+        3
+      ]
+    },
+    {
+      "name": "LAVA_BALL",
+      "cells": "art-references/v4/golem/cells.json",
+      "index": 5,
+      "legend": "GOLEM_LEGEND"
+    },
+    {
+      "name": "COIN",
+      "cells": "art-references/v4/golem/cells.json",
+      "index": 6,
+      "legend": "GOLEM_LEGEND"
+    },
+    {
+      "name": "COIN_STACK",
+      "cells": "art-references/v4/golem/cells.json",
+      "index": 7,
+      "legend": "GOLEM_LEGEND"
+    }
+  ]
+}

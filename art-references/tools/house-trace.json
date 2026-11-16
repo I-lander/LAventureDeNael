@@ -1,0 +1,471 @@
+{
+ "palette": [
+  {
+   "name": "houseBlue1",
+   "symbol": "a",
+   "rgb": [
+    53,
+    100,
+    155
+   ]
+  },
+  {
+   "name": "houseBlue2",
+   "symbol": "b",
+   "rgb": [
+    69,
+    150,
+    202
+   ]
+  },
+  {
+   "name": "houseBlue3",
+   "symbol": "c",
+   "rgb": [
+    86,
+    148,
+    187
+   ]
+  },
+  {
+   "name": "houseBrown1",
+   "symbol": "d",
+   "rgb": [
+    164,
+    100,
+    63
+   ]
+  },
+  {
+   "name": "houseBrown2",
+   "symbol": "e",
+   "rgb": [
+    178,
+    119,
+    78
+   ]
+  },
+  {
+   "name": "houseBrown3",
+   "symbol": "f",
+   "rgb": [
+    201,
+    144,
+    95
+   ]
+  },
+  {
+   "name": "houseBrown4",
+   "symbol": "g",
+   "rgb": [
+    187,
+    152,
+    124
+   ]
+  },
+  {
+   "name": "houseGreen1",
+   "symbol": "h",
+   "rgb": [
+    50,
+    80,
+    45
+   ]
+  },
+  {
+   "name": "houseGreen2",
+   "symbol": "i",
+   "rgb": [
+    58,
+    108,
+    47
+   ]
+  },
+  {
+   "name": "houseGreen3",
+   "symbol": "j",
+   "rgb": [
+    83,
+    131,
+    68
+   ]
+  },
+  {
+   "name": "houseGrey1",
+   "symbol": "k",
+   "rgb": [
+    79,
+    69,
+    79
+   ]
+  },
+  {
+   "name": "houseGrey2",
+   "symbol": "l",
+   "rgb": [
+    106,
+    100,
+    108
+   ]
+  },
+  {
+   "name": "houseGrey3",
+   "symbol": "m",
+   "rgb": [
+    126,
+    117,
+    121
+   ]
+  },
+  {
+   "name": "houseGrey4",
+   "symbol": "n",
+   "rgb": [
+    146,
+    136,
+    132
+   ]
+  },
+  {
+   "name": "houseGrey5",
+   "symbol": "o",
+   "rgb": [
+    160,
+    154,
+    153
+   ]
+  },
+  {
+   "name": "houseGrey6",
+   "symbol": "p",
+   "rgb": [
+    179,
+    170,
+    163
+   ]
+  },
+  {
+   "name": "houseInk1",
+   "symbol": "q",
+   "rgb": [
+    7,
+    0,
+    7
+   ]
+  },
+  {
+   "name": "houseInk2",
+   "symbol": "r",
+   "rgb": [
+    26,
+    6,
+    18
+   ]
+  },
+  {
+   "name": "houseRed1",
+   "symbol": "s",
+   "rgb": [
+    69,
+    33,
+    34
+   ]
+  },
+  {
+   "name": "houseRed2",
+   "symbol": "t",
+   "rgb": [
+    69,
+    33,
+    40
+   ]
+  },
+  {
+   "name": "houseRed3",
+   "symbol": "u",
+   "rgb": [
+    103,
+    37,
+    49
+   ]
+  },
+  {
+   "name": "houseRed4",
+   "symbol": "v",
+   "rgb": [
+    111,
+    56,
+    49
+   ]
+  },
+  {
+   "name": "houseRed5",
+   "symbol": "w",
+   "rgb": [
+    136,
+    36,
+    46
+   ]
+  },
+  {
+   "name": "houseRed6",
+   "symbol": "x",
+   "rgb": [
+    138,
+    76,
+    52
+   ]
+  },
+  {
+   "name": "houseRed7",
+   "symbol": "y",
+   "rgb": [
+    170,
+    50,
+    50
+   ]
+  },
+  {
+   "name": "houseRed8",
+   "symbol": "z",
+   "rgb": [
+    183,
+    75,
+    71
+   ]
+  },
+  {
+   "name": "houseRed9",
+   "symbol": "A",
+   "rgb": [
+    207,
+    70,
+    60
+   ]
+  },
+  {
+   "name": "houseRed10",
+   "symbol": "B",
+   "rgb": [
+    214,
+    100,
+    80
+   ]
+  },
+  {
+   "name": "houseRed11",
+   "symbol": "C",
+   "rgb": [
+    225,
+    128,
+    98
+   ]
+  },
+  {
+   "name": "houseYellow1",
+   "symbol": "D",
+   "rgb": [
+    245,
+    212,
+    102
+   ]
+  },
+  {
+   "name": "houseYellow2",
+   "symbol": "E",
+   "rgb": [
+    240,
+    226,
+    183
+   ]
+  }
+ ],
+ "sprites": [
+  {
+   "box": [
+    10,
+    12,
+    189,
+    187
+   ],
+   "rows": [
+    "......................................................................qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq......................................................................",
+    "......................................................................qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq......................................................................",
+    "................................................................qqqqqqqqBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBqqqqqqqq................................................................",
+    "................................................................qqqqqqqqBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBqqqqqqqq................................................................",
+    "..........................................................qqqqqqAAAAAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAzqqqqqq..........................................................",
+    "..........................................................qqqqqqAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAqqqqqq..........................................................",
+    "......................................................qqqqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBqqqq......................................................",
+    "......................................................qqqqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqvAAAAAAAAAABBqqqq......................................................",
+    "..................................................qqqqAAuqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBquyyqqqq..................................................",
+    "..................................................qqqqAAvqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBqvyyqqqq..................................................",
+    "....................qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqzAAAAAuqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBquyyyyyyqqqqqq............................................",
+    "....................qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqzAAAAAvqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBquyyyyyyqqqqqq............................................",
+    "..................qqeBBBBBBBBBBBBBxxBBBBBBBBBBBBeqqAAAAAvqBBAAAAAAAAAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAAAAAABBqvyyyyyyyyyyyyqq..........................................",
+    "..................qqBBBBBBBBBBBBBBxyBBBBBBBBBBBBBqqAAAAAvqBBAAAAAAAAAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAAAAAABBquyyyyyyyyyyyyqq..........................................",
+    "..................qqBBBBBBBBBBBBBBxxBBBBBBBBBBBBBqqAAAAAvqBBAAAAAAAAAAqqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqqAAAAAAAAAABBquyyyyyyyyyyyyqtqq........................................",
+    "..................qqBBBBBBBBBBBBBBxxBBBBBBBBBBBBBqqAAAAAvqBBAAAAAAAAAAqqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqqzAAAAAAAAABBqvyyyyyyyyyyyyquqq........................................",
+    "..................qqBBBBttuuuvuvuvvvuuvuwuttBBBBBqqAAAAAvqBBBBBBqqqqqquqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquqqqqqqBBBBBBqvyyyyyyyyyyyyquywqq......................................",
+    "..................qqBBBBttvvuvvvvvvvuvvvuvttBBBBBqqAAAAAwqBBBBBBqqqqqquqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquqqqqqqBBBBBBqvyyyyyyyyyyyyquyyqq......................................",
+    "..................qqxxxxttvvvvvvvvuuuvvuvuttxxxxxqqAAAAAwqqqqqqqAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAzqqqqqqqvyyyyyyyyyyyyqvyyyyqq....................................",
+    "..................qqxxxxttvuuvuuuvvuuvuuuuttxxxxxqqAAAAAvqqqqqqqAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqvAAAAAAqqqqqqqvyyyyyyyyyyyyquyyyyqq....................................",
+    "..................qqBBBBttttttttttttttttttttBBBBBqqAAAAAvqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBquyyyyyyyyyyyyquyyyyyyqq..................................",
+    "..................qqBBBBttttttttttttttttttttBBBBBqqzAAAzuqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBquyyyyyyyyyyyyquyyyyyyqq..................................",
+    "..................qqBBBBttttttttttttttttttttBBBBBqqzAAqqqqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBqqqqyyyyyyyyyyquyyyyyyywqq................................",
+    "..................qqBBBBttttttttttttttttttttBBBBBqqzAzqqqqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBqqqqyyyyyyyyyyqvyyyyyyyyqq................................",
+    "..................qqCBBBBBBBBBBBBBxxBBBBBBBBBBBBCqqqqqzzvqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBquyyqqqqqyyyyyquyyyyyyyyyxqq..............................",
+    "..................qqCBBBBBBBBBBBBByyBBBBBBBBBBBBCqqqqqAAwqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBqvyyqqqqqyyyyyquyyyyyyyyyyqq..............................",
+    "..................qqCCBBBBBBBBBBBBxxBBBBBBBBBBBCCqqzzzwwwqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAAAAAABBqvyyyyyyyqqqqqquyyyyyyyyyyyyqq............................",
+    "..................qqCCCfCffCCCffCBxxCCffCCCfCCfCCqqzAAwwwqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAAAAAABBquyyyyyyyqqqqqquyyyyyyyyyyyyqq............................",
+    "..................qqdyyyyyddddddddvuyyddyddddddyxqqwwwwwvqBBAAAAAAAAqqtqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqtqqAAAAAAAABBquyyyyyyyyyyyyquyyyyyyyyyyyyqtqq..........................",
+    "..................qqddddddddddddddvvddddddddddddxqqwwwwwvqBBAAAAAAAzqqtqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqtqqzAAAAAAABBquyyyyyyyyyyyyquyyyyyyyyyyyyquqq..........................",
+    "..................qqxxddddddddddddvvxdddddddddddxqqvwwwwuqBBBBqqqqqqzAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAzqqqqqqBBBBquyyyyyyyyyyyyqqyyyyyyyyyyyyquywqq........................",
+    "..................qqxddddddddddddduwdddddddddddxxqqvwwwwwqBBBBqqqqqqAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAqqqqqqBBBBquyyyyyyyyyyyyqqyyyyyyyyyyyyqtyyqq........................",
+    "..................qqxddddddddddddduuddddddddddddxqqvwwwwwqqqqqzzAAAAAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqvAAAAAzzzqqqqquyyyyyyyyyyyyquqqyyyyyyyyyyquyyyyqq......................",
+    "..................qqxddddddxxxxxdduudddxxxxxdddxxqqvwwwwwqqqqqAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqvAAAAAAAAqqqqquyyyyyyyyyyyyquqqwyyyyyyyyyqtyyyyqq......................",
+    "....................qqqqqqqqqqqqqqqqqqqqqqqqqqqqquvwwwwwwqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqvAAAAAAAAAABBquyyyyyyyyyyyyquywqqqryyyyyyquyyyyyyqq....................",
+    "....................qqqqqqqqqqqqqqqqqqqqqqqqqqqqqvwwwwvwuqBBAAAAAAAAAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBquyyyyyyyyyyyyquyyqqqryyyyyyquyyyyyyqq....................",
+    "..................qqqqttttttttttttttttttttttttqqvwwwwvqqqqBBAAAAAAAAAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAAAAAABBqqqqyyyyyyyyyyquyyyyyyqqyyyyquyyyyyyywqq..................",
+    "..................qqqqttttttttttttttttttttttttqqvwwwuvqqqqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBqqqqyyyyyyyyyyquyyyyyyrqxyyyquyyyyyyyyqq..................",
+    "................qqyyqqddxduvdddddddduudddddddxqqvuqqqquvuqBBAAAAAAAAAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqvAAAAAAAAAABBquyyqqqqyyyyyyquyyyyyyywqqqqquyyyyyyyyyyqq................",
+    "................qqyyqqxdddvvddddddddvvdddddddxqqvuqqqqwwvqBBAAAAAAAAAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqvAAAAAAAAAABBquyyqqqqzyyyyyquyyyyyyyyqqqqquyyyyyyyyyyqq................",
+    "..............qqxyyyqqvvvvvuvvvwwuvvvvvvvvvvvvqqqqvvwwwwvqBBAAAAAAAAAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAAAAAABBqvyyyyyzqqqqyyquyyyyyyyyyyyyquyyyyyyyyyyyyqq..............",
+    "..............qqyyyyqquvuuuuvuuwvvwvuvuuvvuuuuqqqqvwwwwwwqBBAAAAAAAAAAuqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAAAAAABBquyyyyyyqqqqyyqvyyyyyyyyyyyyquyyyyyyyyyyyyqq..............",
+    "............qquqyyyyqqBBBBBBBBBBwwBBBBBBBBuuBBqquvwwwwwwwqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAAAAAABBquyyyyyyyyyyqqquyyyyyyyyyyyyqqyyyyyyyyyyyyqtqq............",
+    "............qquqyyyyqqCddddydddzuvdydddddduvddqqwwwwwwwwwqBBAAAAAAAAAzwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqvAAAAAAAAAABBquyyyyyyyyyyqqquyyyyyyyyyyyyqqyyyyyyyyyyyyquqq............",
+    "..........qqwyuqyyyyqqCddddddddduuxdddddddvvxdqqwwwwwwwwwqBBAAAAAAAAqquqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquqqzAAAAAAABBquyyyyyyyyyyyzquyyyyyyyyyyyyqtqqyyyyyyyyyyquyyqq..........",
+    "..........qqyyvqyyyyqqByddddddddvvddddddddvvxxqqwwwwwwwwwqBBAAAAAAAzqquqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquqqzAAAAAAABBqvyyyyyyyyyyyyquyyyyyyyyyyyyqtqqyyyyyyyyyyquyyqq..........",
+    "........qqyyyyuqyyyyqqxxddddddddvvzddddddduvxxqqwwwwwwwwuqBBBBqqqqqqzzwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquzzqqqqqqBBBBquyyyyyyyyyyyyqqyyyyyyyyyyyyquyyqqyyyyyyyyquyyyyqq........",
+    "........qqyyyyuqyyyyqqvvvvuuwvvuvvwvuvuuwuuvuuqqwwwwwwwwvqBBBBqqqqqqAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAqqqqqqBBBBqvyyyyyyyyyyyyqqwyyyyyyyyyyyqtyyrqyyyyyyyyqvyyyyqq........",
+    "......qqyyyyyyvqyyyyqqvvuwuwwuvvwwvvvuvvuwwuvuqqvwwwwwwyvqqqqqzAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqvAAAAAAAzqqqqquyyyyyyyyyyyyqtqqyyyyyyyyyyquyyyxqqqyyyyyquyyyyyyqq......",
+    "......qqyyyyyyuqyyyyqqBBBBwuBBBBBBBBvvCBBBdddxqqvwwwwwwyvqqqqqAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAqqqqquyyyyyyyyyyyyquqqyyyyyyyyyyquyyyyqqqyyyyyquyyyyyyqq......",
+    "....qqyyyyyyyyuqyyqqqqdddxuuxdddddyxvwzdyyydqquuwwwwwAAAvqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAAAAAABBquyyyyyyyyyyyyquyyrqqqyyyyyyquyyyyyyyqqqywquyyyyyyywqq....",
+    "....qqyyyyyyyyuqyyqqqqdddxvuxddddyyxwwdddxxxqqvwwwwwAAAzvqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBquAAAAAAAAAABBquyyyyyyyyyyyyquyyrqqqwyyyyyquyyyyyyyqqqwwquyyyyyyyyqq....",
+    "..qqyyyyyyyyyyuqqqywqqxdddvvxddddyydwwddxxqquwwwwwwzAAqqqqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBqtqqyyyyyyyyyyquyyyyywqqqryyquyyyyyyyyyyqqquyyyyyyyyyyqq..",
+    "..qqyyyyyyyyyyuqqqyyqqxxddwwddxxxddzwwxxxxqquwwwwwzzyzqqtqBBAAAAAAAAAAwqBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBqwAAAAAAAAAABBquqqzyyyyyyyyyquyyyyyyqrrryyquyyyyyyyyyyqqquyyyyyyyyyyqq..",
+    "qqyyyyyyyyyyyyuqyyyyqquvvwuwwwvvvvuwvvuuqqtqvwwwAyqqqqzzvqBBAAAAAAAAAAwqBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBqwAAAAAAAAAABBquyyqqqqyyyyyyqvyyyyyyyyyyqqquyyyyyyyyyyyyquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqyyyyqquvuwwwwuuvvvwwwwuuqqtqvwwwAzqqqqAAuqBBAAAAAAAAAAwqBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBquAAAAAAAAAABBquyyqqqqyyyyyyquyyyyyyyyyyqqquyyyyyyyyyyyyquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyqqyyyyqqBBBBBBBBdzwuBBBBqqvwuqvwqqqqzAAAAAvqBBAAAAAAAAAAwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwAAAAAAAAAABBquyyyyyyqqqqyyquyyyyyyyyyyyyquyyyyyyyyyyyyqryyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyqqyyyyqqBddddddddzwuxxxdqqwwuquuqqqqAAAAAAuqBBAAAAAAAAAAwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwAAAAAAAAAABBquyyyyyyqqqqyyquyyyyyyyyyyyyquyyyyyyyyyyyyqryyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyqqtqyyyyqqCdddddddzzwvxxqqwwwwuqqqzAAAAAAAAAuqBBAAAABBBBBBqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqBBBBBBAAAABBquyyyyyyyyyyqqquyyyyyyyyyyyyqqyyyyyyyyyyyyquqqyyyyyyyyyyqq",
+    "qqyyyyyyyyyyqquqyyyyqqCddddddddduwxxqqwwwwuqqqAAAAAAAAAAvqBBAAAABBBBBBqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqBBBBBBAAAABBquyyyyyyyyyyqqquyyyyyyyyyyyyqqyyyyyyyyyyyyquqqyyyyyyyyyyqq",
+    "qqyyyyyyqqqqyyuqyyyyqqwdddddddxdwvqqvwwwwwuqzAAAAAAAAAAAuqBBBBBBqqqqqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqqqqqBBBBBBquyyyyyyyyyyyzquyyyyyyyyyyyyquqqyyyyyyyyyyquyyrqqqyyyyyyqq",
+    "qqyyyyyyqqqyyyuqyyyyqquwwwuuuuuuuuqqwwwwwytqzAAAAAAAAAAAuqBBBBBBqqqqqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqqqqqBBBBBBquyyyyyyyyyyyyquyyyyyyyyyyyyquqqyyyyyyyyyyquyywqqqyyyyyyqq",
+    "qqyyyyrqxyyyyyuqyyyyqqzzBBwvzdddqqvwwwwwAAqqzAAAAAAAAAAAuqqqqqqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqqqqqquyyyyyyyyyyyyqryyyyyyyyyyyyquyyqqyyyyyyyyquyyyyyyqqyyyyqq",
+    "qqyyyyqqyyyyyyuqyyyyqqxdddwvddddqqwwwwwAAzqqzAAAAAAAAAAAuuqqqqqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqqqqqtuyyyyyyyyyyyyqryyyyyyyyyyyyqtyyqqrryyyyyyquyyyyyyrqyyyyqq",
+    "qquuqqyyyyyyyyvqyyyyqqxdddwwddqqvwwwwyyyqqvqAAAAAAAAAABByrqvwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqryAAyyyyyyyyyyquqqyyyyyyyyyyquyyyyqqqyyyyyquyyyyyyyyqquuqq",
+    "qqqqqqyyyyyyyyvqyyyyqqxxxdwwddqqwwwwwyyyqqurAAAAAAAAAABBxqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqyBBAyyyyyyyyyquqqyyyyyyyyyyqtyyyyyyqqyyyyquyyyyyyyyqqqqqq",
+    "qqqqyyyyyyyyyyvqwyqqqqxxxxvuqqvwwwwwzzqqzAwrAAAAAAAABBqqqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqqqBByyyyyyyyquyyqqyyyyyyyyqtyyyyyyyqqqyyquyyyyyyyyyyqqqq",
+    "qqyyyyyyyyyyyyvqqqqqqqxxdduvqqwwwwyyrqzAAAwqAAAAAAABBBqqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqqBBAyyyyyyyquyyyyqryyyyyyqtyyyyyyyyqqqqqvyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqqqyyqquvvvqqtqwwwwyuqqAAAAwqAAAAAABBqqqwwwwwwwwwwwwwwwwwwwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwwwwwwwwwwwwwwwwwwwqqqBAyyyyyyquyyyyqqyyyyyyquyyyyyyyyyyqqqvyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyvqwyyyqquvvuqquqwwyyrrzAAAAAvrAAAAABBqqqwwwwwwwwwwwwwwwwwwwwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwwwwwwwwwwwwwwwwwwwwqqqBByyyyyquyyyyywqqyyyyquyyyyyyyyyyyyquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyvqyyyyqqdxqqyyvqwwttqzAAAAAAwrAAAABBqqwwwwwwwwwwwwwwwwqqqqqqqqqqqggggggggggggggggggggggqqqqqqqqqqqvwwwwwwwwwwwwwwuqqzByyyyquyyyyyywqttyyquyyyyyyyyyyyyqvyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqyyyyqqdxqqyyuqvtqqzAAAAAAAuqAAABBqqwwwwwwwwwwwwwwwqqqqqqqqqqkkqggggggggggggggggggggggqkkqqqqqqqqqqwwwwwwwwwwwwwwwqqBByyyquyyyyyyyyrqrwquyyyyyyyyyyyyquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqyyyyqqqqyyyyuqrqzAAAAAAAAAuqwAABrqwwwwwwwwwwwwqqqqqqqqqqktnntkqggggggggggggggggggggggqktll.kqqqqqqqqqqwwwwwwwwwwwwqqBAAwquyyyyyyyyyyqqquyyyyyyyyyyyyquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyrqyyyyqqqqyyyyuqrzAAAAAAAAAAuquBAuqwwwwwwwwwwwwwqqqqqqgggqktnntkqggggggggggggggggggggggqktnn.kqgggqqqqqqwwwwwwwwwwwwwquAAwquyyyyyyyyyyyqqtyyyyyyyyyyyyqruyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyqquqyyyyyyyyyyyyuqzAAAAAAAAAAAvqqqqqwwwwwwwwwwwwqqqqqqggggggqqnnqqggggggggggggggggggggggggqqnnqqggggggqqqqqqwwwwwwwwwwwwqqqqquyyyyyyyyyyyyquyyyyyyyyyyyyqtqqyyyyyyyyyyqq",
+    "qqyyyyyyyyuuqquqyyyyyyyyyyyyuqAAAAAAAAAAAAuuqqqwwwwwwwwwwwwqqqggggggggggqqllqqggggggggggggggggggggggggqqnnqqggggggggggqqqwwwwwwwwwwwwqqqtuyyyyyyyyyyyyqtyyyyyyyyyyyyquqqtuyyyyyyyyqq",
+    "qqyyyyyyqrqqyyuqyyyyyyyyyyyyqqAAAAAAAAAAAAwuqqwwwwwwwwwwqqqqqqgggggggggqlklltkqggggggggggggggggggggggqktllkkqgggggggggqqqqqqwwwwwwwwwwqquwyyyyyyyyyyyyqqyyyyyyyyyyyyquywqqqqyyyyyyqq",
+    "qqyyyyyyqqyyyyuqyyyyyyyyyyyyqqAAAAAAAAAAAAwqqwwwwwwwwwqqqqqggggggggggggqlklltkqEEEEEEEEEEEEEEEEEEEEEEqk.llklqggggggggggggqqqqqwwwwwwwwwqquByyyyyyyyyyyqqyyyyyyyyyyyyquyyyyqqyyyyyyqq",
+    "qqyyyyqqyyyyyyuqyyyyyyyyyyqquqAAAAAAAAAAByrqwwwwwwwwwqqqqqqggggggggggggqnkqqknqEEEEEEEEEEEEEEEEEEEEEEqlkqqklqggggggggggggqqqqqqwwwwwwwwuqryByyyyyyyyyyqurryyyyyyyyyyquyyyyyyqqyyyyqq",
+    "qqyyutqqyyyyyyuqyyyyyyyyywqquqAAAAAAAAABBrqwwwwwwwwwqqqqggggggggggggggEqlkEEknqEEEEEEEEEEEEEEEEEEEEEEqlkEEklqEggggggggggggggqqqqwwwwwwwwwqrBByyyyyyyyyquqqwyyyyyyyyyquyyyyyyqqtuyyqq",
+    "qquuqqyyyyyyyyuqyyyyyyyyrqwyuqAAAAAAAABuqqwwwwwwwwqqqqggggggggggggEEEEEqlkqqknqEEEEEEEEEEEEEEEEEEEEEEqnkqqtlqEEEEEggggggggggggqqqqwwwwwwwwqqwByyyyyyyyquywqqyyyyyyyyqvyyyyyyywqquuqq",
+    "qqqqqqyyyyyyyyuqyyyyyyrrqqyyuqAAAAAAABBqqwwwwwwwwqqqqgggggggggggEEEEEEEErqnnrrEEEEEEEEEEEEEEEEEEEEEEEEqqpnqqEEEEEEEEgggggggggggqqqqwwwwwwwwqqzAyyyyyyyquyyqqrryyyyyyquyyyyyyyyqqqqqq",
+    "qqqqyyyyyyyyyyvqyyyyyrrryyyyuqAAAAAABBqquwwwwwwwqqqqggggggggggEEEEEEEEEEEqnlqEEEEEEEEEEEEEEEEEEEEEEEEEEqnlqEEEEEEEEEEEggggggggggqqqqwwwwwwwwqqzAyyyyyyquyyyyrqqyyyyyquyyyyyyyyyyrqqq",
+    "qqyyyyyyyyyyyyuqyyywqqyyyyyyvqAAAAABBqqwwwwwwwwwqqggggggggggEEEEEEEEEEEEqqllqqEEEEEEEEEEEEEEEEEEEEEEEEqqplqqEEEEEEEEEEEEggggggggggqqwwwwwwwwuqqzByyyyyquyyyyyyqryyyyqvyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqyyqqqyyyyyyyuqAAAABwrrwwwwwwwwrqrtgggggggggEEEEEEEqqqqqqqqllqqqqqqqqqqqqqqqqqqqqqqqqqqqqllqqqqqqqqEEEEEEEgggggggggkqqqwwwwwwwwqrwByyyyquyyyyyyyqqqyyquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqyyqyyyyyyyyyuqAAABuqqwwwwwwwwqqqggggggggEEEEEEEEEqqqqqqqqqnlqqqqqqqqqqqqqqqqqqqqqqqqqqqqnnqqqqqqqqqEEEEEEEEEggggggggqqqwwwwwwwwqqyByyyquyyyyyyyyyqyyquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqqqyyyyyyyyyyuqzAwwqqwwwwwwwwqqqgggggggEEEEEEEEEEqqxxxxxxxqkkqvvvvvvvvvvvvvvvvvvvvvvvvvvqkkqxxxxxxxqqEEEEEEEEEEgggggggqqqwwwwwwwwqqyyyyquyyyyyyyyyyqqquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqqyyyyyyyyyyyuqwzrrqwwwwwwwwqqqgggggggEEEEEEEEEEqquxxxxxxxxqqxxvxxvvvvvxxvvvvvxxvxxvxxxxxqqxxxxxxxxvqqEEEEEEEEEEgggggggqqqwwwwwwwwqrryuquyyyyyyyyyyyqquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqyyyyyyyyyyyyuqqqqqvwwwwwwwqqqgggggggEEEEEEEEEEEqqvdxxdxxxxuvxxxxxxxxxxxxxxxxxxxxxxxxxxxxvvxxxxxxxxvqqEEEEEEEEEEEgggggggqqqwwwwwwwwqqqqquyyyyyyyyyyyyquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqyyyyyyyyyyyywuqqqvwwwwwwwwqqqggggggEEEEEEEEEEEEqquffffffffffffffffffffffffffffffffffffffffffffffffuqqEEEEEEEEEEEEggggggqqqwwwwwwwwwqqquuyyyyyyyyyyyyquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuqyyyyyyyyyyyyAvqwwwwwwwwwqqqqggggggEEEEEEEEEEEEEqqufddddddddddddddddddddddddddddddddddddddddddddddfuqqEEEEEEEEEEEEEggggggqqqqwwwwwwwwwruyyyyyyyyyyyyyquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyrruqyyyyyyyyyyyAyqqwwwwwwwwwqqqggggggEEEEEEEEEEEEEEqqvfdddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEggggggqqqwwwwwwwwwrqwAyyyyyyyyyyyqurqyyyyyyyyyyqq",
+    "qqyyyyyyyyyyrquqyyyyyyyyyyzzqqwwwwwwwwwqqqggggggEEEEEEEEEEEEEEEqqvddvvddddddddddddddddddddddddddddddddddddddddvvddvqqEEEEEEEEEEEEEEEggggggqqqwwwwwwwwwqqzzyyyyyyyyyyquqqyyyyyyyyyyqq",
+    "qqyyyyyyyyrrqwuqyyyyyyyyyAqqqwwwwwwwwqqqqgggggggEEEEEEEEEEEEEEEqqvdduudddddddddddddddddddddddddddddddddddddddduuddvqqEEEEEEEEEEEEEEEgggggggqqqqwwwwwwwwqqqzyyyyyyyyyquwqrryyyyyyyyqq",
+    "qqyyyyyyqqqqyyuqyyyyyyyyAyqqwwwwwwwwwqqqggggggEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEggggggqqqwwwwwwwwwqqyByyyyyyyyquyyqqqqyyyyyyqq",
+    "qqyyyyyyqqyyyyuqyyyyyyyAzqqwwwwwwwwwqqqgggggggEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEgggggggqqqwwwwwwwwwqqzAyyyyyyyquyyywqqyyyyyyqq",
+    "qqyyyyqqqyyyyyuqyyyyyyBuqqwwwwwwwwqqqqggggggEEEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEEEggggggqqqqwwwwwwwwqqwByyyyyyquyyyyyrqqyyyyqq",
+    "qqyytrqqyyyyyyuqyyyyyBwqrwwwwwwwwwqqqgggggggEEEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEEEgggggggqqqwwwwwwwwwqqwByyyyyquyyyyyyrqttyyqq",
+    "qqyyqqyyyyyyyyvqyyyyAyrqwwwwwwwwqqqqggggggEEEEEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEEEEEggggggqqqqwwwwwwwwqqwAyyyyquyyyyyyyyqqwyqq",
+    "qqqqyyyyyyyyyyvqyyAAwqqwwwwwwwwwqqqgggggggEEEEEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEEEEEgggggggqqqwwwwwwwwwqqwAAyyquyyyyyyyyyyqqqq",
+    "qqqqyyyyyyyyyyvqyywwqqwwwwwwwwwqqqggggggEEEEEEEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEEEEEEEggggggqqqwwwwwwwwwqqzAyyquyyyyyyyyyyqqqq",
+    "qqyyyyyyyyyyyyuquuuqqwwwwwwwwwqqqgggggggEEEEEEEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEEEEEEEgggggggqqqwwwwwwwwwqquuuquyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuquqqqwwwwwwwwwqqqggggggEEEEEEEEEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEEEEEEEEEggggggqqqwwwwwwwwwqqquqvyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyyuuqqqwwwwwwwwwqqqgggggggEEEEEEEEEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEEEEEEEEEgggggggqqqwwwwwwwwwqqquwyyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyyAAuqwwwwwwwwwqqqqgggggggEEEEEEEEEEEEEEEEEEEEEEEEEEqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqEEEEEEEEEEEEEEEEEEEEEEEEEEEggggggqqqqwwwwwwwwwquzAyyyyyyyyyyyqq",
+    "qqyyyyyyyyyyAAwqqwwwwwwwwwqqqttttttttttttttttttttttttttttttttttqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqttttttttttttttttttttttttttttttttt.qqqwwwwwwwwwqqwAAyyyyyyyyyyqq",
+    "qqyyyyyyyyyAAuqqwwwwwwwwqqqqvvvvvvfffffffffffffffffffffffffffffqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqgffffffffffffffffffffffffffffvvvvvvqqqqwwwwwwwwqqwAAyyyyyyyyyqq",
+    "qqyyyyyyyyAAwqqwwwwwwwwwqqqvvvvvedddddddddddddxxxddxeeedddddeddqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqedddddddddddddddddddddddddddeexvvvvvqqqwwwwwwwwwqqzAAyyyyyyyyqq",
+    "qqyyyyyyyAAwqqwwwwwwwwwqqqvvvvvvddxxxxxxxddxddddddddddddxxxdxxxqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqxxxxdxddxdddddddddddddddxxxxxxxvvvvvvqqqwwwwwwwwuqqwAAyyyyyyyqq",
+    "qqyyyyyyAAwqqwwwwwwwwwqqqvvvvvvdddedeeedddddxxeddddddxxxeddeeddqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqdddddeedddddddddddddxxddddddddddvvvvvvqqqwwwwwwwwwqqwBAyyyyyyqq",
+    "qqyyyyyAAwqqwwwwwwwwwqqqvvvvvxxxxxxxxxxdddddddxxxxxxdddddddddddqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqdddddddddddddddedddedexxxxxxxxxxxvvvvvvqqqwwwwwwwwwqqwAAyyyyyqq",
+    "qqyyyyAAuqqwwwwwwwwwqqqvvvvvvddddddddddxxxddddddddddddxxxxdxxxxqqvddvvdddddddddddddddddddddddddddddddddddddddduvddvqqxxxxxxxxxxxdxdxxxxxxddddddddddddddvvvvvvqqqwwwwwwwwwqqwAAyyyyqq",
+    "qqyyyAAwqqwwwwwwwwwqqqvvvvvvddddddddddddddddddddddddddeeeeeddddqqvddvvdddddddddddddddddddddddddddddddddddddddduuddvqqdddddddddddddddddddddddddddddddddddvvvvvvqqqwwwwwwwwwqqwAAyyyqq",
+    "qqyAAAwqqwwwwwwwwwqqqvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvqqvddddddddddddddddddddddddddddddddddddddddddddddddvqqvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvqqqwwwwwwwwwqqwAAAyqq",
+    "qqwAAuqqwwwwwwwwwqqqtttttttttttttttttttttttttttttttttttttttttttqqrfdddddddddddddddddddddddddddddddddddddddddddddddrqqtttttttttttttttttttttttttttttttttttttttttttqqqwwwwwwwwwqquzAwqq",
+    "qqvzqqqwwwwwwwwwqqqvttggggggggggggggggggggggggggggggggtxxxxxvtggqquuuvuuvuvuuuuvvvvvuuuuvvvvvuuuuuuuuuuuuvuuuvuuutqqggtvvvxxxtggggggggggggggggggggggggggggggggttvqqqwwwwwwwwwqqqzvqq",
+    ".qqqqqwwwwwwwwwqqqvvttggggggggggggggggggggggggggggggggtxxxxxxtgggqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqgggtvvxxxxtggggggggggggggggggggggggggggggggttvvqqqwwwwwwwwwqqqqq.",
+    "..qqqvwwwwwwwwqqqvvvttggggggggggggggggggggggggggggggggtxxxxxxtggggqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqggggtxxvvvxtggggggggggggggggggggggggggggggggttvvvqqqwwwwwwwwuqqq..",
+    "...qqqwwwwwwwqqqvvvvttEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEtfxdddftEEEggggggggggggggggggggggggggggggggggggggggggggggggggEEEtfdddvetEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEttvvvvqqqwwwwwwwqqq...",
+    "....qqqwwwwwqqqvvvvvttEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEtfxdddftEEEEggggggggggggggggggggggggggggggggggggggggggggggggEEEEtfdddvftEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEttvvvvvqqqwwwwwqqq....",
+    ".....qqqvwwqqqvvvvvvttEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEtfxdddftEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEtedddvftEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEttvvvvvvqqqwwwqqq.....",
+    "......qqqqqqqvvvvvvvttEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEtfxdddftEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEtedddxftEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEttvvvvvvvqqqqqqq......",
+    ".......qqqqqvvvvvvvdvtEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEtfxdddftEEEEEEEEEEEEEEEEEEEEqqqqqqqqqqqqqqqqEEEEEEEEEEEEEEEEEEEEtedddxftEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEtvdvvvvvvvqqqqq.......",
+    "..........qqvvvvvvddvtEEEqqqqqqqqqqqqqqqqqqqqqqqqqqEEEtfxdddftEEEEEEEEEEEEEEEEEEqqttffffffffffffttqqEEEEEEEEEEEEEEEEEEtfdddxftEEEqqqqqqqqqqqqqqqqqqqqqqqqqqEEEtvddvvvvvvqq..........",
+    "..........qqvvvvvvddvtEEqqgffffffdddddddfffffffffgqqEEtfexddftEEEEEEEEEEEEEEEEqqufffddddddddddddffgvqqEEEEEEEEEEEEEEEEteddxdftEEqqgffffffeedddddddfffffffgqqEEtvddxvvvvvqq..........",
+    "..........qqvvvvdxddvtEEqqxxxxxxxxddddddxxxxxxxxxxqqEEtfddddftEEEEEEEEEEEEEEqqrvfdddxxdxdddxxxxxdddfvrqqEEEEEEEEEEEEEEteddxdftEEqqxxxxxxxxdddddddvxxxxxxxdqqEEtvddddvvvvqq..........",
+    "..........qqvvvvdxddvtEEqqddddddddddddddddddddddxdqqEEtfddddftEEEEEEEEEEEEEqrdffedxxddddddddddddxxddffdrqEEEEEEEEEEEEEtfddxdftEEqqddddddddddddddddddddddxxqqEEtvddxdvvvvqq..........",
+    "..........qqvvevdxddvtEEqqvvvvvvvvvvvvvvvvvvvvvvvvqqEEtfddddftEEEEEEEEEEEEqrefdddxdddddddddddddedddxddef.qEEEEEEEEEEEEtfddxdftEEqqvvvvvvvvvvvvvvvvvvvvvvvvqqEEtvddxdvdvvqq..........",
+    "..........qqvddxdxddvtEEEqqqqqqqqqqqqqqqqqqqqqqqqqqEEEtfdxddftEEEEEEEEEEEqtfedddddeerqqqqqqqqqqqedddddddftqEEEEEEEEEEEtfddxdftEEEqqqqqqqqqqqqqqqqqqqqqqqqqqEEEtvddddvddvqq..........",
+    "..........qqfddvdxddvtEEEEqvvttttt..ttttttt...tvvqEEEEtfdxddftEEEEEEEEEEqtfedddddvqqtuvvvvvvvvu.qquddxxdefuqEEEEEEEEEEtfddxdftEEEEqvv...ttttttttt.ttt.tvvqEEEEtvddddvddfqq..........",
+    "..........qqfddvdxddvtEEEEqvv.aaaaaa.tttaaaaaatvvqEEEEtfdxddftEEEEEEEEEqrfdddddtqqtvvvvvvvvvvvvvv.qqtddxddfqqEEEEEEEEEtfddxdftEEEEqvv.aaaaaa.tt.aaaaaatvvqEEEEtvddxdvddfqq..........",
+    "..........qqfddxdxddvtEEEEqvv.aaaaaa.dd.aaaaaatvvqEEEEtfdxddftEEEEEEEEq.ffdddvqq.vvvvvvttttttvvvvvttqqeexdegrqEEEEEEEEtfddxdftEEEEqvvtaaaaaatdd.aaaaaatvvqEEEEtvddddvddfqq..........",
+    "..........qqfddddxddvtEEEEqdd.aaaaaa.dd.aaaaaatddqEEEEtfdxddftEEEEEEEEqrfdddvqqtvvvvtttvxxxxvtttvvvvuqqddxdfrqEEEEEEEEtfddxdftEEEEqddtaaaaaatdd.aaaaaatedqEEEEtvddxddddfqq..........",
+    "..........qqfddddxddvtEEEEqddtbbbbbb.dd.bbbbbbtddqEEEEtfdxddftEEEEEEEqqfdddeq.vvvvttutxxdddddvtuttvvvv.qdxddeqqEEEEEEEtfddxdftEEEEqddtbbbbbb.ddtbbbbbbtddqEEEEtvdddddddfqq..........",
+    "..........qqfddddxddvtEEEEqddtbbbbbb.dd.bbbbbbtddqEEEEtfdxddftEEEEEEEqtfddxvqtvvvtvxxtxxdddddxtxxxtvvvtqddddetqEEEEEEEtfddxdftEEEEqddtbbbbbbtddtbbbbbbtddqEEEEtvdddddddfqq..........",
+    "..........qqfddddxddvtEEEEqddtbbbbbbtddtbbbbbbtddqEEEEtfdxddftEEEEEEq.fdddxq.vvvtdddvtxxdddddxtxdxxtvvv.qddxdf.qEEEEEEteddxdftEEEEqddtbbbbbbtddtbbbbbbtddqEEEEtvdddddddfqq..........",
+    "..........qqfdxddxddvtEEEEqddtttt...tddtt.....tddqEEEEtfddddftEEEEEEqrfxddxqtvvtxdddvtxxdddddxtxdddxtvvtqdddxftqEEEEEEtedddxftEEEEqddt.....ttddt...tt.tddqEEEEtvdddddxdfqq..........",
+    "..........qqfdxddxddvtEEEEqddttddddddddddddddttddqEEEEtfddddftEEEEEEqrdxddrrtvvtddddxtexdddddxtxddddtvvtqvddddtqEEEEEEtedddxftEEEEqddttddddddddddddddttddqEEEEtvddxddxdfqq..........",
+    "..........qqfdxddxddvtEEEEqddttddddddddddddddttddqEEEEtfxddxetEEEEEErfdxeuqtvvtxddddxtexddddddtdddddxtvvtqvdxdfqEEEEEEtexddxftEEEEqddttddddddddddddddttddqEEEEtvddxddxdfqq..........",
+    "..........qqfdxddxddvtEEEEqddttttttttddtttt..ttddqEEEEtfxddxetEEEEEEqfdxeuqtvvtxddddxtexddddddtdddddxtvvtqvdxdfqEEEEEEtexddxftEEEEqddt.ttttttddttttt..tddqEEEEtvddxddddfqq..........",
+    "..........qqfdxdddxdvtEEEEqdd.bbbbbbtdd.bbbbbbtddqEEEEtfdddxetEEEEEEqddxeqqvvtvddddddtexddddddtdddddxxtvvqqdxdeqEEEEEEtexdddftEEEEqddtcbbbbctddtcbbbbc.ddqEEEEtvdxdddxdfqq..........",
+    "..........qqfdxdddxdvtEEEEqdd.bbbbbbtdd.bbbbbbtddqEEEEtfdddxetEEEEEEqddxeqqvvtvddddddtexddddddudddddxxtvvqqdxxeqEEEEEEtexdddftEEEEqddtbbbbbbtddtbbbbbb.ddqEEEEtvdxdddddfqq..........",
+    "..........qqfdxdddxdvtEEEEqddtzzbbbbtddtbbbbbctddqEEEEtfdddxetEEEEEEqddxdqqqqtvddddddtexddddddtdddddxxtvvqqdxxeqEEEEEEtexdddftEEEEqddtzzbbbbtddtcbbbbb.ddqEEEEtvdxdddxdfqq..........",
+    "..........qqfdxdddxdvtEEEEqddtAycbbctdfBgbbcDDtddqEEEEtfdddxetEEEEEEqddddqqppqvddddddtedxdddddtdddddxdtvvqqdxxeqEEEEEEtexdddftEEEEqddtBycbbctdBBgbbcDDsddqEEEEtvdxdddxdfqq..........",
+    "..........qqfdxdxdxdvtEEEEqddyDDzcczyddhcbbDBBDddqEEEEtfdxddetEEEEEEqddddqqnnqqqqqqqssedxdddxdsdddddxdsvvqqdxxeqEEEEEEsexdxdftEEEEqddADDzcczyddhcbbDBADddqEEEEtvdxdxdxdfqq..........",
+    "..........qqfdxdxdxdvtEEEEqddAAAnczCAdhhjbcDAADddqEEEEsfdddxetEEEEEEqddddqqklknlnppllrxdxdddxdsdddddxdtvvqqdxxdqEEEEEEtexdxdftEEEEqddyAAnczDBAhhjbcDAwDddqEEEEtvdxdxdxdfqq..........",
+    "..........qqfxddddxdvtEEEqqqj.AA..yDDyhjjh.sDDhhqqqEEEsfdxddetEEEEEEqddxdqqkl.kkkkkk.rudxdddddsdddddxdtvvqqddddqEEEEEEsexexdfsEEEqqqj.zz.hyDDy.jjh.sDDhhqqqEEEsvdxdxdddfqq..........",
+    "..........qqfxddddxdvtEEqqsjijihjjhyAhiiiiiijijjstqqEEsfdxddesEEEEEEqddddqqllqqqqqqqqtedxdddxdtdddddxdsvvqqdxddqEEEEEEtexdxdftEEqqsjijhijiiyAhhiiiiijijjssqqEEtvdxdxdddfqq..........",
+    "..........qqfdddddxdvtEEqqgffffffffhhfffffffffffffqqEEtfdxddesEEEEEEqddxdqqkkqdxddddxsedxdddddtdddddddtvvqqddddqEEEEEEtexdxdftEEqqgfffffffghhgffffffffffffqqEEsvdxdxdddfqq..........",
+    "..........qqfdddxdxdvsEEqqddddddddddddddddddddddddqqEEtfddddesEEEEEEqddxdqqqqtdxdddddsedxdddxdsdddssddtvvqqdxddqEEEEEEtdxdxdftEEqqddddddddddddddddddddddddqqEEsvdxdxdddfqq..........",
+    "..........qqfdddddxdvsEEqqvvxxddddddvxxvdddddddxvvqqEEtfdxdxdsEEEEEEqddddqqvvsdxdddddtedxdddddtddtnnrdsvvqqdxddqEEEEEEtdxdxdftEEqqvvxxddddddvvvvdddddddvvvqqEEsvdxdxdddfqq..........",
+    "..........qqfdddxdxdvtEEqqddxxxvvdddddddxxxdvvvxddqqEEtfdddxdtEEEEEEqddxdqqvvsdxdddddsedddddxdsddtlprdsvvqqdxddqEEEEEEtdxdxdftEEqqddxxxvvdddddddvvvdvvvxddqqEEsvdxdxdddfqq..........",
+    "..........qqfdddddxdvtEEqqvvddddddddddddddddddddvvqqEEtfdxdxdtEEEEEEqddxdqqvvtdxdddddsddddddddsdd..nrduvvqqdxddqEEEEEEtdxdxdfsEEqqvvddddddddddddddddddddvvqqEEsvdxdddddfqq..........",
+    "..........qqfdddddxdvtEEEqqvvvvvvvvvvvvvvvvvvvvvvqqEEEtfdddxdtEEEEEEqddddqqvvsdxdddddtddddddddudrp.mk.tvvqqddddqEEEEEEtdxdxdfsEEEqqvvvvvvvvvvvvvvvvvvvvvvqqEEEtvdxdddddfqq..........",
+    "..........qqfddddxddvtEEEpqqqqqqqqqqqqqqqqqqqqqqqqpEEEsfdxdddsEEEEEEqddddqqvvtdxdddddteddxddddutnt.m.ptvvqqddddqEEEEEEsdddxdfsEEEEqqqqqqqqqqqqqqqqqqqqqqqqgEEEtvddxddddfqq..........",
+    "..........qqfddddxddvtEEEEggggggggggggggggggggggggEEEEseddddesEEEEEEqddxdqqvvsdddddddsdddxddddttlt...ltvvqqddddqEEEEEEsdddddftEEEEggggggggggggggggggggggggEEEEtvddxddddfqq..........",
+    "..........qqfdxddxddvtEEEEEggggggggggggggggggggggEEEEEtfddxdesEEEEEEqddddqqvvtdddddddsdddxddddutltttkltvvqqdxddqEEEEEEtddxddftEEEEEggggggggggggggggggggggEEEEEtvddxddxdfqq..........",
+    "..........qqfdxddxddvtEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEtfxdxdesEEEEEEqddddqqvvtdddddddsdddxdddduxqmkkmqtvvqqddddqEEEEEEtddxddfsEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEsvdddddxdfqq..........",
+    "..........qqfdxddxddvtkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkksfddxddtkkkkkkqddddqqvvsdddddddsdddxdddxsxxrlnrvtvvqqdxddqkkkkkktddxddfskkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkktvdddddxdfqq..........",
+    "..........qqfdxddxddvtklppppppppppppkknpppppppppppppmksfddxddskmppplqddddqqvvsdddddddtdddxdddxsxxxrrvdtvvqqddddqknppplsddxddfskmpppppppppppnkkkmpppppppppppplktvdddddxdfqq..........",
+    "..........qqfdxdddddvtkppnnnnnnnnnnppknpnnnnnnnnnnnppktfddxddskppnnnqddxdqqqqsdddddddsdddxdddxsxdvvvxdtvvqqddddqkppnnnsddxddfskppnnnnnnnnnnppknppnnnnnnnnnnppksvdddddxdfqq..........",
+    "..........qqfdxddxddvtkpnnnnnnnnnnnnpknnnnnnnnnnnnnnnktfddxddsknnnnnqddxdqqooqdddddddsdddxdddxsxddxxxdsvvqqddddqknnnnnsddxddftkpnnnnnnnnnnnnpknnnnnnnnnnnnnnnk.vdddddxdfqq..........",
+    "..........qqfdxddxddvtkpnnnnnnnnnnnnpknnnnnnnnnnnnnnnksfddxxdsknnnnnqddddqqnnqqqqqqqqtdddxdddxsxddddxdsvvqqddddqknnnnntdxdddfskpnnnnnnnnnnnnmknnnnnnnnnnnnnnnk.vddxddxdfqq..........",
+    "..........qqfdxdddddvtkonnnnnnnnnnnnlknnnnnnnnnnnnnnnktfdddxdtknnnnnqddxdqqkm.omnoolm.sddxddxdsxddddddtvvqqddddqknnnnntdxdddftknnnnnnnnnnnnnnknnnnnnnnnnnnnnnk.vdddddxdfqq..........",
+    "..........qqfdxdddddvtllnnnnnnnnnnnllknnllmnlmlllmlnlksfdddxetknnnnlqddxdqqkl.kkkkll.qtddxddxdsxddddddsvvqqddddqknnnnltdxdddfsklnnnnnnnnnnnllknnnnnnnnnnnnmmmk.vdddddxdfqq..........",
+    "..........qqfddddxddvtkkllllllllllllkkknnnllmmmlmmmlkktddddxetkllllkqddxdqqllqqqqqqqqsdddxddddtxddddxdtvvqqdxddqkllllktdxddddsklllllllllllllkkklnnlllllmmmmnkktvddxddddfqq..........",
+    "..........qqfxdddxddvtkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkksddddxdtkkkkkkqddxdqqkkqxxdddddsdddxddxdtxddddddsvvqqdxddqkkkkkktdxdddeskkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkktvddxdddxfqq..........",
+    "..........qqfxdddxddvtlpppppnlkknppppppppppnlkmpppppnlsedddxdslooonkqddxdqqqqtdxdddddsdxddddxdtxddddddtvvqqddddqkpoooltdxdddetlpppppmlklpppppppppppnlklppppppmtvddxdddxeqq..........",
+    "..........qqdxddddddvtnnnnnnpokppnnnnnnnnnnpmkppnnnnnntddddxdtnnnnokqddddqqvvtdxdddddtdxddddxdtxddddddtvvqqdxddqkpnnnntdxdddetnnnnnpplkppnnnnnnnnnnplkppnnnnnnsvddxdddxdqq..........",
+    "..........qqdxddddddvtnnnnnnnnkpnnnnnnnnnnnpnkpnnnnnnntexddxdtnnnnnkqddxdqqvvtdxdddddsdxddddxdtxddddddtvvqqdxddqknnnnntdxddxetnnnnnnnkkpnnnnnnnnnnnnlkpnnnnnnnsvddxdddxdqq..........",
+    "..........qqdxdddxddvtnnnnnnnnkpnnnnnnnnnnnnnkpnnnnnnnsexddxdtnnnnnkqddxdqqvvtdxdddddtdxddddddsxddddxdtvvqqdxddqlnnnnnsdxdddetnnnnnnnlkpnnnnnnnnnnnnlkpnnnnnnnsvddxdddxdqq..........",
+    "..........qqddxddxddvtnnnnnnnnkpnnnnnnnnnnnnnknnnnnnnntexddxdtnnnnnlqddddqqvvsexdddddsxxddddxetxddddxdtvvqqdxddqknnnnntdxddxetnnnnnnnlkpnnnnnnnnnnnnlkpnnnnnnnsvddxdddddqq..........",
+    "..........qqddxdddddvtlnnnnnllkllnnnnnnnnnnllkmnnnnnnltexddxdtlnnnmlqddxdqqvvvsstsssttstststtststttssstvvqqdxddqknnnnltdxddxetlnnnnnllkllnnnnnnnnnnllkmnnnnnnlsvddxddxddqq..........",
+    "..........qqdddddxddvtlllllllkkkllllllllllllkkkllllllltexddxdtllllllqddxeqqvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvqqexddqkllllltdxddxetlllllllkkkllllllllllllkkkllllllltvddxddxddqq..........",
+    "...........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq...........",
+    "............qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq............"
+   ]
+  }
+ ]
+}

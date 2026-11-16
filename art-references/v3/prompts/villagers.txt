@@ -1,0 +1,10 @@
+Image 1 is a sheet of approved sprites of a pixel art game: it is the design to keep.
+Image 2 shows the same sprites, at the same places, automatically reduced to half resolution: each sprite now uses half as many pixels in width and in height, so its pixels are twice as big. The automatic reduction broke the faces and the small details.
+
+Redraw image 2 by hand, as a professional pixel artist would, on exactly the same pixel grid as image 2: same pixel size, same size of each sprite in pixels, same position of each sprite on the sheet, same silhouettes, same poses, same views and same colors as image 1.
+
+Fix the broken parts so that they read clearly at this low resolution: each villager's face (two dark eyes, a small smile), the elder's white beard and wooden staff, the farmer girl's straw hat, orange braids and apple basket, the blacksmith's black beard, leather apron and hammer, the boy's messy brown hair and wooden sword, the wizard's starry blue hat and wand, the hunter's grey wolf hood, red scarf and lantern, the big red exclamation mark and blue question mark in the two bubbles.
+
+Rules: at this resolution a face is made of a few clear pixels (two dark eyes of 1 or 2 pixels with a white glint pixel, a mouth of 1 to 2 pixels). A dark colored outline one pixel thick around each silhouette (a darker shade of the local color). 2 to 3 flat tones per material in clean clusters, light from the top-left. No dithering, no noise, no stray pixels, no anti-aliasing, no gradients.
+
+Output: the 8 sprites only, at the same positions as in image 2, plain flat background #2a2030, crisp nearest-neighbor square pixels, no text, no labels, no numbers, no grid lines, no ground line, no cast shadow.

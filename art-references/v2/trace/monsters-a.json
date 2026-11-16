@@ -1,0 +1,813 @@
+{
+ "palette": [
+  {
+   "name": "skeletonBrown1",
+   "symbol": "a",
+   "rgb": [
+    151,
+    110,
+    88
+   ]
+  },
+  {
+   "name": "skeletonBrown2",
+   "symbol": "b",
+   "rgb": [
+    183,
+    142,
+    108
+   ]
+  },
+  {
+   "name": "skeletonBrown3",
+   "symbol": "c",
+   "rgb": [
+    174,
+    159,
+    140
+   ]
+  },
+  {
+   "name": "skeletonBrown4",
+   "symbol": "d",
+   "rgb": [
+    204,
+    162,
+    123
+   ]
+  },
+  {
+   "name": "skeletonBrown5",
+   "symbol": "e",
+   "rgb": [
+    193,
+    176,
+    160
+   ]
+  },
+  {
+   "name": "skeletonBrown6",
+   "symbol": "f",
+   "rgb": [
+    218,
+    206,
+    181
+   ]
+  },
+  {
+   "name": "skeletonGreen1",
+   "symbol": "g",
+   "rgb": [
+    51,
+    122,
+    70
+   ]
+  },
+  {
+   "name": "skeletonGreen2",
+   "symbol": "h",
+   "rgb": [
+    117,
+    179,
+    77
+   ]
+  },
+  {
+   "name": "skeletonGreen3",
+   "symbol": "i",
+   "rgb": [
+    126,
+    181,
+    89
+   ]
+  },
+  {
+   "name": "skeletonGrey1",
+   "symbol": "j",
+   "rgb": [
+    62,
+    48,
+    55
+   ]
+  },
+  {
+   "name": "skeletonGrey2",
+   "symbol": "k",
+   "rgb": [
+    108,
+    89,
+    84
+   ]
+  },
+  {
+   "name": "skeletonGrey3",
+   "symbol": "l",
+   "rgb": [
+    126,
+    108,
+    99
+   ]
+  },
+  {
+   "name": "skeletonGrey4",
+   "symbol": "m",
+   "rgb": [
+    153,
+    136,
+    122
+   ]
+  },
+  {
+   "name": "skeletonInk1",
+   "symbol": "n",
+   "rgb": [
+    4,
+    2,
+    25
+   ]
+  },
+  {
+   "name": "skeletonInk2",
+   "symbol": "o",
+   "rgb": [
+    14,
+    11,
+    35
+   ]
+  },
+  {
+   "name": "skeletonOrange1",
+   "symbol": "p",
+   "rgb": [
+    222,
+    178,
+    131
+   ]
+  },
+  {
+   "name": "skeletonPink1",
+   "symbol": "q",
+   "rgb": [
+    77,
+    20,
+    43
+   ]
+  },
+  {
+   "name": "skeletonPurple1",
+   "symbol": "r",
+   "rgb": [
+    44,
+    12,
+    75
+   ]
+  },
+  {
+   "name": "skeletonPurple2",
+   "symbol": "s",
+   "rgb": [
+    63,
+    21,
+    93
+   ]
+  },
+  {
+   "name": "skeletonPurple3",
+   "symbol": "t",
+   "rgb": [
+    85,
+    35,
+    110
+   ]
+  },
+  {
+   "name": "skeletonPurple4",
+   "symbol": "u",
+   "rgb": [
+    104,
+    36,
+    145
+   ]
+  },
+  {
+   "name": "skeletonPurple5",
+   "symbol": "v",
+   "rgb": [
+    124,
+    59,
+    139
+   ]
+  },
+  {
+   "name": "skeletonPurple6",
+   "symbol": "w",
+   "rgb": [
+    147,
+    54,
+    184
+   ]
+  },
+  {
+   "name": "skeletonPurple7",
+   "symbol": "x",
+   "rgb": [
+    207,
+    83,
+    222
+   ]
+  },
+  {
+   "name": "skeletonRed1",
+   "symbol": "y",
+   "rgb": [
+    126,
+    32,
+    52
+   ]
+  },
+  {
+   "name": "skeletonRed2",
+   "symbol": "z",
+   "rgb": [
+    87,
+    68,
+    65
+   ]
+  },
+  {
+   "name": "skeletonRed3",
+   "symbol": "A",
+   "rgb": [
+    112,
+    64,
+    58
+   ]
+  },
+  {
+   "name": "skeletonRed4",
+   "symbol": "B",
+   "rgb": [
+    152,
+    33,
+    52
+   ]
+  },
+  {
+   "name": "skeletonRed5",
+   "symbol": "C",
+   "rgb": [
+    191,
+    51,
+    53
+   ]
+  },
+  {
+   "name": "skeletonRed6",
+   "symbol": "D",
+   "rgb": [
+    210,
+    48,
+    49
+   ]
+  },
+  {
+   "name": "skeletonRed7",
+   "symbol": "E",
+   "rgb": [
+    186,
+    70,
+    75
+   ]
+  },
+  {
+   "name": "skeletonRed8",
+   "symbol": "F",
+   "rgb": [
+    242,
+    169,
+    150
+   ]
+  },
+  {
+   "name": "skeletonTeal1",
+   "symbol": "G",
+   "rgb": [
+    34,
+    174,
+    166
+   ]
+  },
+  {
+   "name": "skeletonTeal2",
+   "symbol": "H",
+   "rgb": [
+    71,
+    246,
+    227
+   ]
+  },
+  {
+   "name": "skeletonWhite1",
+   "symbol": "I",
+   "rgb": [
+    246,
+    244,
+    225
+   ]
+  },
+  {
+   "name": "skeletonWhite2",
+   "symbol": "J",
+   "rgb": [
+    255,
+    254,
+    252
+   ]
+  },
+  {
+   "name": "skeletonYellow1",
+   "symbol": "K",
+   "rgb": [
+    242,
+    230,
+    181
+   ]
+  },
+  {
+   "name": "skeletonYellow2",
+   "symbol": "L",
+   "rgb": [
+    236,
+    228,
+    196
+   ]
+  }
+ ],
+ "sprites": [
+  {
+   "box": [
+    16,
+    7,
+    63,
+    66
+   ],
+   "rows": [
+    ".............nnnnnnnnnnn........................",
+    "..........nnnnnnnnnnnnnnnnn.....................",
+    "........nnnnmLLLLLLLLLLLmnnnn...................",
+    "......nnnlLLLLLLLLLLLLLLLLLmnnn.................",
+    ".....nnmLLLLJJJLLLLLLLLLLLLLLmnn................",
+    "....nncLLLJJJJJJLLLLLLLLLLLLLLcnn...............",
+    "...nnmLLLJJJJJJJLLLLLLLLLLLLLLLcnn..............",
+    "...nmLLLJJJJJJJLLLLLLLLLLLLLLLLLmn..............",
+    "..nnLLLLJJJJJJLLLLLLLLLLLLLLLLLLLnn.............",
+    "..nlLLLLLJJJLLLLLLLLLLLLLLLLLLLLLln.............",
+    ".nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn............",
+    ".nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn............",
+    "nnmLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLmnn...........",
+    "nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn...........",
+    "nnLLLLLLcnnnnmLLLLLLLLLLLcnnnncLLLLnn...........",
+    "nnLLLLLmnnnnnnmLLLLLLLLLmnnnnnncLLLnn...........",
+    "nnLLLLcnnnnnnnncLLLLLLLmnnnnnnnncLLnn...........",
+    "nnLLLLnnnnnnnnnnLLLLLLLnnnnnnnnnnLLnn...........",
+    "nnLLLLnnnnnnnnnnLLLLLLLnnnnnnnnnnLLnn...........",
+    "nnLLLLnnnnnnGGnnLLLLLLLnoGGonnnnnLLnn...........",
+    "nnLLLLonnnnoHHnnLLLLLLLnoHHonnonoLLnn...........",
+    "nnmLLLnnononHHooLLLLLLLnoHHonnnnoLcnn...........",
+    "nnmLLLmnnnnnoonmLLLmLLLmoonnnnnomLcnn...........",
+    ".nncLLLmnooonnmLLLmnmLLLmonnnnomLcnn............",
+    ".nnccLLLcoooomLLLcnnomLLLcoooomLLlnn............",
+    "..nnccLLLLLLLLLLLnncnnLLLLLLLLLLmnn.............",
+    "...nnccLLLLLLLLLLLLLLLLLLLLLLLLmnn..............",
+    "....njccLLLLLLLLLLLLLLLLLLLceclnn...............",
+    ".....nnlmcclcLLLLLLLLLLLLLczmznn................",
+    "......nnnnnneLLcLLLcLLLcLLcnnn..........nnn.....",
+    ".........nnneLLnLLLnLLLnLLcn...........nLLLn....",
+    "..........nnnLLnLLLnLLLnLcnn..........nLJJLn....",
+    ".........nttnnnnnnnnnnnnnntn..........nLLLLnnnn.",
+    ".........ntvtttnnnnnnntttttn..........nLLLLlLLnn",
+    "........nnntvvvvvvvvvvvvvtnnn.........noLLLLLLcn",
+    "........nflntvvvvvvvvvvtunlfn........nneLLLLLLcn",
+    ".......nLfmnnnvvvvvvvnntnnmfLn.......noLLLccccnn",
+    ".....nnLLlnm.nnnnvvvvnstnmnlLLnn....n.LLLLlnnn..",
+    "....nnLLlnnfL..jjnvvnmonfLnncLLnn...neLLLon.....",
+    "....nflennnnLLLLjnnnnjfLLnnnnelfn..ncLLLln......",
+    "....nLenn.nmooo.knemn.nonmn.nneLn..nLLLcn.......",
+    "...nLenn..nLLjjLLnnnLLjjLLn..nnfLnnfLLcn........",
+    "..nnLnn....nLLLLnmemnLLLLn....nnLfnLLcnn........",
+    "..nfln......nnnnnzlkoonnn......nk.nnL.n.........",
+    ".nLkkn......nnnnnmecnnnnn.......nnlLnn..........",
+    "nLLLn......nLLLLnzkzneLLLn.....nnolLLn..........",
+    "nLLLn......nLzzmLLLLLmzzLn....nnmnLmln..........",
+    "nLLmn......nLLo.cLLLc..Lfn..nnnLmnlen...........",
+    ".nnn.......nncLLeLLLLLLmnn.nLLLLLmnn............",
+    "...........nmocemnnnmfmnln.nLLLLLzn.............",
+    "...........nLcnnn...nnncLn.neelLLmn.............",
+    "..........nnLcn.......ncLnn.nnncLcn.............",
+    ".........nnLLkn.......nkLLnn..ncccn.............",
+    ".........nfclkn.......nkkcfn...nnn..............",
+    ".........nnLLn.........nLLnn....................",
+    "..........nLfn.........nLLn.....................",
+    "..........n.fn.........nf.n.....................",
+    ".........nneln.........nkenn....................",
+    "........nLLemn.........nceLfn...................",
+    "........nnnnnn.........nnnnnn..................."
+   ]
+  },
+  {
+   "box": [
+    77,
+    7,
+    111,
+    66
+   ],
+   "rows": [
+    "............nnnnnnnnnnn............",
+    ".........nnnnnnnnnnnnnnnnn.........",
+    ".......nnnnleLLLLLLLLLcnnnnn.......",
+    "......nnnmLLLLLLLLLLLLLLLmnnn......",
+    ".....nncLLLJJJLLLLLLLLLLLLLmnn.....",
+    "....nncLLJJJJJJLLLLLLLLLLLLLcnn....",
+    "...nncLLJJJJJJJLLLLLLLLLLLLLLcnn...",
+    "..nncLLLJJJJJJJLLLLLLLLLLLLLLLcnn..",
+    "..nnLLLLJJJJJLLLLLLLLLLLLLLLLLLnn..",
+    ".nnmLLLLLJJJLLLLLLLLLLLLLLLLLLLmno.",
+    ".nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn.",
+    ".nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn.",
+    "nncLLLLLLLLLLLLLLLLLLLLLLLLLLLLLmnn",
+    "nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn",
+    "nnLLLLLLLLLLLLLLLLLLLLmnnnncLLLLLnn",
+    "nnLLLLLLLLLLLLLLLLLLLconnnnncLLLLnn",
+    "nnLLLLLLLLLLLLLLLLLLcnnnnnnnncLLLnn",
+    "nncLLLLLLLLLLLLLLLLLnonnnnonooLLLnn",
+    "nncLLLLLLLLLLLLLLLLLnnnnnoonnnLLLnn",
+    "nnccLLLLLLLLLLLLLLLLnnnnooGGooLLLnn",
+    "nnccLLLLLLLLLLLLLLLLnnnnnoHHnnLLLnn",
+    "nnlccLLLLLLLLLLLLLLLonnnnoHHooLLLnn",
+    ".nncccLLLLLLLLLLLLLLcnonnnooncLLmn.",
+    ".nnlcccLLLLLLLLLLLLLLmnnnnnncLLcnn.",
+    "..nzcccccLLLLLLLLLLLLLcnonocLLLnnn.",
+    "...nkccccccLLLLLLLLLLLLLLLLLLLcnkn.",
+    "....nkkccccccccmLLLLLLLLLLLLLLLLLn.",
+    "....onnkcccccccmmLLLLLLLLLLLLLLLcn.",
+    "......nnnkkccccmmmmmlfLLLLLLLLLLnn.",
+    "........nnnnnnnnnnnnneLLLLcLLcLLnn.",
+    "...........nnnnnlllnncLLLLoLLoLLnn.",
+    "..........nnttttnnnnnnmLLLnLLoLLnn.",
+    ".........nnottttvvtnnnnnnnnnnnnnn..",
+    "........nntonnnnvvvvttnnnnnnnnnn...",
+    ".......nntvtnnemntvvvvvvvvn........",
+    ".....nnnvvvtnnLfnnttttvvvvn........",
+    "...nnvvvvvvnnLLnnnnnvvvvuon........",
+    "..nvvvvvvvvnnLlne.oonnvvvn.........",
+    ".nvvvvvvvvnnLLnnlfk...oovn.........",
+    ".nnntnvvvtnnLmnnnnLLLLnnnn.........",
+    "...nonvvtnnmllnccnonoonmn..........",
+    ".....nvvsnnnfcnmfLj..kcnn..........",
+    "....nvvnn..nmLnnncLLLLnn...........",
+    "....nvnn...nnLLnnnnnnnn............",
+    "....nnn.....neLnmmmn...............",
+    "............nmklnnnn...............",
+    "............nnLLLnLLn..............",
+    "............nnLLLnlLfn.............",
+    "............nnLLLnlLmn.............",
+    ".............nnnncnnn..............",
+    "..............nnccn................",
+    "...............neLnn...............",
+    "...............nnLLn...............",
+    "...............nnmmn...............",
+    "...............nlLnn...............",
+    "...............nLcn................",
+    "..............nzLnn................",
+    "..............ncmeLn...............",
+    "..............nceeLLn..............",
+    "..............nnnnnnn.............."
+   ]
+  },
+  {
+   "box": [
+    124,
+    7,
+    171,
+    66
+   ],
+   "rows": [
+    "........................nnnnnnnnnnn.............",
+    ".....................nnnnnnnnnnnnnnnnn..........",
+    "...................nnnnmLLLLLLLLLLLmnnnn........",
+    ".................nnnmLLLLLLLLLLLLLLLLLmnnn......",
+    "................nnmLLLLJJLLLLLLLLLLLLLLLmnn.....",
+    "...............nncLLLJJJJJLLLLLLLLLLLLLLLcnn....",
+    "..............nnmLLLJJJJJJLLLLLLLLLLLLLLLLmnn...",
+    "..............nmLLLJJJJJJJLLLLLLLLLLLLLLLLLcn...",
+    ".............nnLLLLJJJJJJLLLLLLLLLLLLLLLLLLLnn..",
+    ".............nmLLLLLJJJLLLLLLLLLLLLLLLLLLLLLln..",
+    "............nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn.",
+    "............nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn.",
+    "...........nnmLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLmnn",
+    "...........nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn",
+    "...........nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn",
+    "...........nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn",
+    "...........nnLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLnn",
+    "...........nncLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLcnn",
+    "...........nncLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLcnn",
+    "...........nnccLLLLLLLLLLLLLLLLLLLLLLLLLLLLLccnn",
+    "...........nnccLLLLLLLLLLLLLLLLLLLLLLLLLLLLLccnn",
+    "...........nnlccLLLLLLLLLLLLLLLLLLLLLLLLLLLcclnn",
+    "...........nnlcccLLLLLLLLLLLLLLLLLLLLLLLLLccclnn",
+    "............nnccccLLLLLLLLLLLLLLLLLLLLLLLccccnn.",
+    "............nnlcccccLLLLLLLLLLLLLLLLLLLccccclnn.",
+    ".............nnlcccccccLLLLLLLLLLLLLccccccclnn..",
+    "..............nnlccccccccccccccccccccccccclnn...",
+    "...............njllccccccccccccccccccccclljn....",
+    "................nnllllccccccccccccccckkllnn.....",
+    ".....nnn..........nnnnlcccllllllllcclnnnn.......",
+    "....nLLLn...........nnnnnnnnnnnnnnnnnnn.........",
+    "....nLJJLn...........nnttvvvvvvvvvvtnn..........",
+    ".nnnnLLLLn..........ntttttvvvvvvvvttttn.........",
+    "nnLLlLLLLn..........ntvvvvvvttttvvvvvtn.........",
+    "nmLLLLLLnn.........nlnnnttvvvvvvvvvvnnnn........",
+    "nmLLLLLLmnn........nfmnnnnnnnnnnnnnnncfn........",
+    "nneeccLLLnn.......nLfmnLLLcnffcncLLLnmLLn.......",
+    "..nnnmfLLLkn....nnLLlnmL.oonmczno..LmnlLLnn.....",
+    ".....nnLLLfn...nnLLmnnejjLfnLLcnLL.jennmLfnn....",
+    "......nmLLLln..nflennnofLLnnmcknoLfcnnnnemLn....",
+    ".......ncLLLn..nLfnn.nknonlnLLcnlnn.kn.nnfLn....",
+    "........ncLLLnnLmnn..nc.zffnmmknffzocn..nneLn...",
+    "........nncLLnLmnn....nlffnnLLcnnffln....nnLnn..",
+    ".........n.LnLezn......nnn.nmmkn.nnn......nlfn..",
+    "..........nnLlmn.......nnnnnLLmnnnnn......n.lLn.",
+    "..........nLeennn.....nLLLmnllzncLLLn......nLLLn",
+    "..........nmmek.nn....nLLLLLLLLLLLLfn......nLLLn",
+    "...........ncknmfnnn..ncLLLLLLLLLLLcn......nmLLn",
+    "............nnlLLLLen.nnmLLcmmmcLLcnn.......nnn.",
+    ".............njLLLLen.njocccnnncccozn...........",
+    ".............ncLLlcmn.neknnnn.nnnnlfn...........",
+    ".............ncLcnnn..nLen.......neLn...........",
+    ".............ncccn...nLLkn.......nlLLn..........",
+    "..............nnn....ncekn.......nkeen..........",
+    ".....................onmn.........nlnn..........",
+    ".....................offn.........nffn..........",
+    ".....................n.Ln.........nf.n..........",
+    "....................nnLln.........nlLnn.........",
+    "...................nfLLfn.........nfLLfn........",
+    "...................nnnnnn.........nnnnnn........"
+   ]
+  },
+  {
+   "box": [
+    198,
+    25,
+    221,
+    48
+   ],
+   "rows": [
+    "................nnn.....",
+    "...............nILIn....",
+    "..............nLJJIn....",
+    "..............nJJLLnnn..",
+    "..............nIILLmcln.",
+    "..............nnLLLLLfmn",
+    "..............nmLLLLLccn",
+    ".............nnLLLccccnn",
+    "............nnLLLelnnnn.",
+    "...........nnJLLcnnnnn..",
+    "..........nnILLmnn......",
+    ".........nnLLLcnn.......",
+    "........nnILLmnn........",
+    ".......nnLLLmnn.........",
+    "......nnILLcnn..........",
+    "..nnnnnLLLcnn...........",
+    ".nlJJcLLLcnn............",
+    "omILLLLLcnn.............",
+    "ozLLLLLLln..............",
+    "ooeccmLLcn..............",
+    "..nnneLLcn..............",
+    "....nceccn..............",
+    "....ncccn...............",
+    ".....nnn................"
+   ]
+  },
+  {
+   "box": [
+    10,
+    75,
+    58,
+    127
+   ],
+   "rows": [
+    "..................nnnnnnnnnnnnn..................",
+    "...............nnnnnnnnnnnnnnnnnnn...............",
+    ".............nnnnnBeLLLLDDDDDDynnnnn.............",
+    "...........nnnnBDDDfLLLDDDDDDDDDDBnnnn...........",
+    "..........nnnBDDDDDDDDDDDDDDDDDDDDDBnnn..........",
+    ".........nnyDDDDDDDDDDDDDDDDDDDDDDDDDynn.........",
+    "........nnBDDDDDDDDDDDDDDDDDLLLLLDDDDDBnn........",
+    ".......nnBLLLDDDDDDDDDDDDDDLLLLLLLDDDDBBnn.......",
+    "......nnBfLLLDDDDDDDDDDDDDDLLLLLLLLDDDDBBnn......",
+    ".....nnyeLLLLDDDDDDDDDDDDDDLLLLLLLLDDDDDBBnn.....",
+    "....nnyBLLLLDDDDDDDDDDDDDDDLLLLLLLLDDDDDBBBnn....",
+    "....nqBBLLLDDDDDDDDDDDDDDDDDLLLLLLLDDDDDBBBqn....",
+    "...nnBBDDDDDDDDDDDLLDDDDDDDDDLLLLLDDDDDDDBBBnn...",
+    "...nBBBDDDDDDDDDLLLLLDDDDDDDDDDDDDDDDDDDDBBBBn...",
+    "..nnBBBDDDDDDDDLLLLLLLDDDDDDDDDDDDDDDDDDDBBBBnn..",
+    "..nBBBBDDDDDDDDLLLLLLLDDDDDDDDDDDDDDDDDDDBBeenn..",
+    ".nnBBBBBDDDDDDDLLLLLLLDDDDDDDDDDDDDDDDDDDBeeeenn.",
+    ".nnBBBBBDDDDDDDLLLLLLDDDDDDDDDDDDDDDDDDDBBeeeenn.",
+    "nnBeeBBBBDDDDDDDLLLLDDDDDDDDDDDDDDLLDDDDBBeeeeenn",
+    "nneeeeBBBBDDDDDDDDDDDDDDDDDDDDDDDLLLLDDBBBeeeeenn",
+    "nneeeeBBBBBBDDDDDDDDDDDDDDDDDDDDDLLLLBBBBBBeeeenn",
+    "nneeeeBBBBBBBBBBBBBBBBBBBBBBBBBBBeeeBBBBBBBBeemnn",
+    "nneeeeBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBnn",
+    "nneeeBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBnn",
+    "nneeBBBBBBBBBBBBBnnnnnnnnnnnnnnnBBBBBBBBBBBBBBBnn",
+    "nnBBBBBBBBBnnnnnnndpppppppppppdnnnnnnnBBBBBBBBBnn",
+    ".nnBBBBBBnnqq.jpppppppppppppppppppznqqnnBBBBBBnn.",
+    "..nnBBBnnqqqnnpppppppppppppppppppppnnqqqnnBBBnn..",
+    "...nnBBqqqqqnpppKLLLLLKLLLLLLLKLKpppnqqqqqBBnn...",
+    "....nnnBBBqqnKLnnnLLLLLLLLLLLLLnnnLKnqqyBynnn....",
+    "......nnnnBynLKLnnnnLKLLLLLLKnnnnKLLnBBnnnn......",
+    "........nnnn.LLKnnnnnnKLLLKnnnnnnLLKjnnnn........",
+    "...........ndLLLnnnJndLLLLLdnnnJnLLLpn...........",
+    "...........nLLLKnnnnnLLLLLLLnnnnnLLLKn...........",
+    "..........nnLLLKLnnnLLLLLLLKLnnnLLLLLnn..........",
+    ".........nnnLLLLLKKLLLLLKLLLLKLKLLLLLnnn.........",
+    "........nhgnLLKFFFFLLLLnnnKLLLFFFFLLLnghn........",
+    ".......nihgnKLLFFFKLLKnnnnnLKLKFFFLLLnghhn.......",
+    "......nihggnLLLLLKLKLnnnnnnnLLLLLLLLLngghin......",
+    ".....nnhhghnLKLLLLLLLnnEEEnnKLLLLLLLLnighhnn.....",
+    ".....nhhghhnLLLLLLLLLnEEEEEnLLLLLLLLLnihghhn.....",
+    ".....nhhhhnnpLLLLLLLLLLLLLLLLLLLLLLLpnnhhhhn.....",
+    ".....nhhgn.npLLLLLLLLLLLLLLLLLLLLLLKpnonghhn.....",
+    "......nnn..nmLLLLLLLLLLLLLLLLLLLLLLKln..nnn......",
+    "............npLLLLLLLLLLLLLLLLLLLLLpn............",
+    "............npppKLLLLLLLLLLLLLLLLpppn............",
+    ".............napppKKLKLLLLLLLLKpppan.............",
+    "..............nzppppppppppppppppp.n..............",
+    "...............npppAAnnnnnnnAApppn...............",
+    "...............npppppn.....npppppn...............",
+    "................nppppn.....nppppn................",
+    "................npppn.......npppn................",
+    "................nnnnn.......nnnnn................"
+   ]
+  },
+  {
+   "box": [
+    71,
+    75,
+    116,
+    127
+   ],
+   "rows": [
+    ".................nnnnnnnnnnnn.................",
+    "..............nnnnnnnnnnnnnnnnnn..............",
+    "............nnnnnBBDDDDDDDDDBnnnnn............",
+    "..........nnnnBBDDDDDDDDDDDDDDCLnnnn..........",
+    ".........nnnBDDDDDDDDDDDDDDDDDLLLLnnn.........",
+    "........nnyDDDDDDDDDDLLDDDDDDDLLLLLLnn........",
+    ".......nnBCDDDDDDDDDLLLLDDDDDDLLLLLLLnn.......",
+    "......nnyBLLLDDDDDDDLLLLDDDDDDCLLLLLLCnn......",
+    ".....nnBBLLLLLDDDDDDDLLCDDDDDDDDLLLLDDCnn.....",
+    "....nnBBLLLLLLDDDDDDDDDDDDDDDDDDDDDDDDDCnn....",
+    "....nBBBLLLLLLDDDDDDDDDDDDDDDDDDDDDDDDDDCn....",
+    "...nnBBCLLLLLDDDDDDDDDDDDDDDDDDDDDDDDDDDD.n...",
+    "..onBBBDCLLLCDDDDDDDDDDDDDDLLLCDDDDDDDDDDCnn..",
+    "..nBBBBDDDDDDDDDDDDDDDDDDDLLLLLDDDDDDDDDDDBn..",
+    "..nBBBBDDDDDDDDDDDDDDDDDDDLLLLLDDDDDDDDDCLLnn.",
+    ".nnBBBDDDDDDDDDDDDDDDDDDDDLLLLLDDDDDDDDDLLLnn.",
+    ".nnBBBDDDDDDDDDLLLLDDDDDDDDLLLCDDDDDDDDDLLLLnn",
+    "nnBBBBBDDDDDDCLLLLLLDDDDDDDDDDDDDDDDDDDDLLLLnn",
+    "nnBBBBBDDDDDDLLLLLLLLDDDDDDDDDDDDDDDDDDDLLLLnn",
+    "nnBBBBBBDDDDDLLLLLLLLDDDDDDDDDDDDDDDDDDDCLLLnn",
+    "nnBBBBBBDDDDDLLLLLLLLDDDDDDDDDDDLLLDDDDDDDBBnn",
+    "nnBeeBBBBDDDDDLLLLLLDDDDDDDDDDDLLLLLDDDBBBBBnn",
+    "nneeeeBBBBDDDDCLLLLCDDDDDDDDDDDLLLEEBBBBBBBnn.",
+    "nneeeeeBBBBDDDDDDDDDDDDDDDDDBBBBBBBBBBBBBBnn..",
+    "nneeeeeBBBBBBDDDDDDDDDDBBBBBBBBBBBBBBBBBnnn...",
+    ".nAeeeeBBBBBBBBBBBBBBBBBBBBBBBBBBBnnnnnnn.....",
+    ".nneeeBBBBBBBBBBBBBBBBBBBBBBBByynnnnnnn.......",
+    ".nnBBBBBBBBBBBBBBBBBBBBBBBqnnnnnpppn..........",
+    "..nnBBBBBBBeeeBBBBBBynnnnnnbpppppppn..........",
+    "...nnBBBBBBeeeeynnnnnappppppnnpKKLLn..........",
+    "....nnnnnnnnnnnnkppppppppppppnnndLKn..........",
+    ".......nnnnnnoppppppppppKLLLLnnnnnLn..........",
+    "............noppppppKLLLLLLLKnnnJnLbn.........",
+    "............nppKLLLLLLLLLLLLKnnnnnLKn.........",
+    "............npLKLLLLLKKKLLLLLLnnnLLKn.........",
+    "...........napLLLKKhhghhKLLLKKKLKLLKn.........",
+    "...........npLLLLKhhhghhhKKFFFKLKLKLn.........",
+    "...........npKKLLLnhhghhnKKFFFLLKnnnn.........",
+    "...........npLLLLKnighhhnKLKLKLKnnnnn.........",
+    "...........npLLLLLnighhgnLLLLLLnnEEEn.........",
+    "...........nppLLKKnhghhnLLLLLLLnEEEEn.........",
+    "...........nppLLLKnghhgnLLLLLLLLKKLKn.........",
+    "...........nappKLKKnhinLLLKLLLLLLLLpn.........",
+    "............npppKLLLnnLLLLLLLKKLLLKn..........",
+    "............nAppppLKLKLLLLLLLKKLLKdn..........",
+    ".............nkppppppKLLLLLLLLLLppn...........",
+    "..............nkppppppppppppppppdn............",
+    "...............nnzppppppppppppAnn.............",
+    "..................nnpppppnnnnno...............",
+    "...................nappppnppn.................",
+    "....................npppAzpbn.................",
+    "....................npppnppn..................",
+    "....................nnnnnnn..................."
+   ]
+  },
+  {
+   "box": [
+    129,
+    75,
+    177,
+    127
+   ],
+   "rows": [
+    "..................nnnnnnnnnnnnn..................",
+    "...............nnnnnnnnnnnnnnnnnnn...............",
+    ".............nnnnnBLLLLLLLLDDCynnnnn.............",
+    "...........nnnnBDDDDLLLLLLDDDDDDDBnnnn...........",
+    "..........nnnBDDDDDDDLLLLCDDDDDDDDDBnnn..........",
+    ".........nnyCDDDDDDDDDDDDDDDDDDDDDDDCynn.........",
+    "........nnBDDDDDDDDDDDDDDDDDDDDDDDDDCCBnn........",
+    ".......nnyELLDDDDDDDDDDDDDDDDDDDDDDCffBBnn.......",
+    "......nnBLLLLLDDDDDDDDDDDDDDDDDDDDDLLLfBBnn......",
+    ".....nnCLLLLLLDDDDDDDDDDDDDDDDDDDDDLLLLeBBnn.....",
+    "....nnBDLLLLLLDDDDDLLLDDDDDDDDDDDDDLLLLLCBBnn....",
+    "....nqDDLLLLLCDDDDDLLLDDDDDDDDDDDDDDLLLLCBBqn....",
+    "...nnyDDCLLLDDDDDDDLLLDDDDDDDDDDDDDDDLLLDDBBnn...",
+    "...nBDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDBBBn...",
+    "..nnCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDBBnn..",
+    "..nBDDDDDDDDDDDDDDDDDDDDDDDDLLLLDDDDDDDDDDDBBBn..",
+    ".nnBDDDDDDDDDDDDDDDDDDDDDDDLLLLLLDDDDDDDDDDBBBnn.",
+    ".nnBDDDDDDDDDDDDDDDDDDDDDDLLLLLLLLDDDDDDDDDBBBnn.",
+    "nnBBDDDDDDDDCLLLDDDDDDDDDDLLLLLLLLDDDDDDDDDBBBynn",
+    "nnBBDDDDDDDDLLLLLDDDDDDDDDLLLLLLLLDDDDDDDDDBBeBnn",
+    "nnBBBDDDDDDLLLLLLLDDDDDDDDLLLLLLLLDDDDDDDDBBeeenn",
+    "nnBBBBDDDDDLLLLLLLDDDDDDDDDLLLLLLCDDDDDDDBBeeeenn",
+    "nnBBBBDDDDDLLLLLLLDDDDDDDDDDLLLLDDDDDDDDDBBeeeenn",
+    "nnBBBBBDDDDDLLLLLCDDDDDDDDDDDDDDDDDDDDDDBBBeeeenn",
+    "nnBBeeBBBDDDDLLLDDDDDDDDDDDDDDDDDDDDDDBBBBBeeeenn",
+    "nnAeeeeBBBBDDDDDDDDDDDDDDDDDDDDDDDDDBBBBBBBBeeBnn",
+    ".nneeeeBBBBBBBBDDDDDDDDDDDDDDDDDBBBBBBBBBBBBBynn.",
+    "..nnyeeBBBBBBBBBBBBBBBBBBBBBBBBBBBeeBBBBBBBBBnn..",
+    "...nneBBBBBBBBBBBBBBBBBBBBBBBBBBBeeeeBBBBBBynn...",
+    "....nnnqBBBBBBBBBBBBBBBBBBBBBBBBBeeeeBBBBqnnn....",
+    "......nnnnBBBBBBBBBBBBBBBBBBBBBBBBeeeBBnnnn......",
+    "........nnnnnnnBBBBBBBBBBBBBBBBBBBnnnnnnn........",
+    "...........nnpnnnnnnnnnnnnnnnnnnnnjpnn...........",
+    "...........napppppppppppppppppppppppan...........",
+    "..........nnKLpppppppppppppppppppppLfnn..........",
+    ".........nnnKLLLLKLpppppppppppKKLLKLLnnn.........",
+    "........nggnKLKLLLLLLLLLLLLKLLLLLLLLLnggn........",
+    ".......nihgnLLLLLLLLLLLLLLLLLLLLLLLLLnghhn.......",
+    "......nhhggnLLLLKLLLLLLLLLLLLLLLLLLLLngghin......",
+    ".....nnhhggnLLLLLLLLLLLLLLLLLLLLLKLLLngghhnn.....",
+    ".....nhhghhnKLLKLLLLLLLLLLLLLLLLLLLLKnhhghin.....",
+    ".....nhhhhnnLLLLLLLLLLLLLKLLLLLLLLLLKnnhhhhn.....",
+    ".....nihgnnndKLLLLLLLLLLLLLLLLLLLLLKpnonghhn.....",
+    "......nnn..nbKKLLLLLLLLLLLLLLLLLLLLLmn..nnn......",
+    "............npLLLLLLLLLLLLLLLLLLLLLpn............",
+    "............npppKLLLLLLLLLLLLLLLLpppn............",
+    ".............nappppKKKLLLLLKKKppppan.............",
+    "..............nzpppppppppppppppppAn..............",
+    "...............npppAAnnnnnnnAApppn...............",
+    "...............npppppn.....npppppn...............",
+    "................oppppn.....nppppn................",
+    "................npppn.......npppn................",
+    "................nnnnn.......nnnnn................"
+   ]
+  },
+  {
+   "box": [
+    199,
+    91,
+    220,
+    112
+   ],
+   "rows": [
+    "........nnnnnn........",
+    "......nnnnnnnnnn......",
+    "....nnosuuuuuurnnn....",
+    "...nnsuuuuuuuuuusnn...",
+    "..nntuwwwwxxxwuuusnn..",
+    "..nsuwwwxxxxxJJwuusn..",
+    ".nnuwwwxxxxxJJJJwuunn.",
+    ".nruwwxxxxxxJJJJwwurn.",
+    "nnuwwwxxxxxxxJJxwwuunn",
+    "nnuwwwxxxxxxxxxxJwuunn",
+    "nnuwwwxxxxxxxxxxJwuunn",
+    "nnuuwwxxxxxxxxxxwwuunn",
+    "nnuuwwwxxxxxxxxxwwuunn",
+    "nnuuwwwwxxxxxxxwwwuunn",
+    ".nouuJwwwxxxxxwwwuuon.",
+    ".nouuJxwwwwwwwwwwuuon.",
+    "..nruuuwwwwwwwwuuurn..",
+    "..nnruuuuwwwwuuuusnn..",
+    "...nnruuuuuuuuuusnn...",
+    "....nnnouuuuuurnnn....",
+    "......nnnnnnnnnn......",
+    "........nnnnnn........"
+   ]
+  }
+ ]
+}

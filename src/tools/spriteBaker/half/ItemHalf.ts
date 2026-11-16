@@ -1,0 +1,131 @@
+import type { PixelGrid, PixelLegend } from '../../../game/elements';
+
+export const HEART: PixelGrid = [
+  '.mmm..mmm.',
+  'mwwrmmrrrm',
+  'mwrrrrrrrm',
+  'mrrrrrrrrm',
+  'mdrrrrrrdm',
+  '.mdrrrrdm.',
+  '..mdrrdm..',
+  '...mddm...',
+  '....mm....',
+];
+
+export const STAR: PixelGrid = [
+  '......uu......',
+  '......uu......',
+  '.....uhyu.....',
+  '.....uhyu.....',
+  '.uuuuyyyyuuuu.',
+  'uyhhywyywyyyyu',
+  '.uyyyDyyDyyou.',
+  '..uyyoyyoyou..',
+  '...uyyuuyyu...',
+  '...uyyyyyyu...',
+  '..uyyyuuyyyu..',
+  '..uyuu..uuyu..',
+  '..uu......uu..',
+];
+
+export const BOMB: PixelGrid = [
+  '..........e..',
+  '.........eye.',
+  '.......kxxYye',
+  '...kkkkbkDeL.',
+  '..kbbbssk..L.',
+  '.kggbbbsk....',
+  'kbggbbbsk....',
+  'kbbbbbbsk....',
+  'ksbbbbbsk....',
+  'kssbbbssk....',
+  '.ksssssk.....',
+  '..kkkkk......',
+];
+
+export const EXPLOSION: PixelGrid = [
+  '........LLLLL........',
+  '......LLLLLLLLL......',
+  '....LLLLoooooLLLL....',
+  '...LLLooLLLLLooLLL...',
+  '..LLooLLoooooLLooLL..',
+  '..LLoLLooYYYooLLoLL..',
+  '.LLoLLooYYYYYooLLoLL.',
+  '.LLoLooYYwwwYYooLoLL.',
+  'LLoLeoYYwwwwwYYoeLoLL',
+  'LLoLeoYwwwwwwwYoeLoLL',
+  'LLoLeoYwwwwwwwYoeLoLL',
+  'LLoLeoYYwwwwwYYoeLoLL',
+  '.LLoLooYYwwwYYoLLoLL.',
+  '.LLooLooYYYYYoLLooLL.',
+  '..LLooLLoooooLLooLL..',
+  '..LLLooeeeeeLLooLLL..',
+  '...LLLooLLLLLooLLL...',
+  '....LLLLoooooLLLL....',
+  '......LLLLLLLLL......',
+  '........LLLLL........',
+];
+
+export const DESERT_SKULL: PixelGrid = [
+  '..........nn..............',
+  '.........nMn......n.......',
+  '........nMn.......nn......',
+  '.......nMMn.......nMn.....',
+  '.......nMMMn......nMn.....',
+  '.......nMMnnnnn..nBMn.....',
+  '........nnBBMBBnnBMMn.....',
+  '........nBBMBBnBBMMn......',
+  '........nBMBBBnMMMnc......',
+  '......acnBMBDDBnnnaaac....',
+  '....caanBMBDDDMMncaaacc...',
+  '..caaanBMBBDDMMMncccaaccc.',
+  '.caaanBMBMMMMMnnccaaaaxccc',
+  'caaaanDDMMMnnncccccaccxccc',
+  '.caaanMMMnnccaaccaaaxccxcc',
+  '..caaanMncaaaaaaccccxxxxc.',
+  '...caaaaaaaaaaaacccxxcc...',
+  '.....caaaaaaaaacccccx.....',
+  '.........caaaac...........',
+];
+
+export const ARROW: PixelGrid = [
+  'rrrr.........kk..',
+  '.rrrr.......kttk.',
+  '.nnnnnnnnnnnttttk',
+  '.dddd.......kggk.',
+  'rrrr.........kk..',
+];
+
+export const ITEM_LEGEND: PixelLegend = {
+  'k': 'itemInk',
+  'm': 'itemHeartLine',
+  'r': 'itemRed',
+  'd': 'itemRedShade',
+  'w': 'itemWhite',
+  'u': 'itemStarLine',
+  'y': 'itemGold',
+  'h': 'itemGoldLight',
+  'o': 'itemOrange',
+  'Y': 'itemYellow',
+  'e': 'itemEmber',
+  'L': 'itemBrick',
+  'b': 'itemIronBase',
+  's': 'itemIronShade',
+  'g': 'itemIronLight',
+  't': 'itemSteel',
+  'n': 'itemWood',
+  'D': 'itemDarkBrown',
+  'B': 'itemBoneLight',
+  'M': 'itemBoneBase',
+  'a': 'itemSandLight',
+  'c': 'itemSandBase',
+  'x': 'itemSandShade',
+};
+
+export const EMPTY_HEART_LEGEND: PixelLegend = {
+  ...ITEM_LEGEND,
+  'm': 'itemInk',
+  'r': 'itemEmptyFill',
+  'd': 'itemEmptyFill',
+  'w': 'itemEmptyGlint',
+};

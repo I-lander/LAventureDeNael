@@ -1,0 +1,27 @@
+{
+ "colors": [
+  {"symbol": "k", "key": "decorInk", "hex": "#0a040a"},
+  {"symbol": "d", "key": "decorStoneDeep", "hex": "#473e4b"},
+  {"symbol": "e", "key": "decorStoneDark", "hex": "#6e666d"},
+  {"symbol": "f", "key": "decorStoneShade", "hex": "#8a8280"},
+  {"symbol": "g", "key": "decorStoneMid", "hex": "#a39a91"},
+  {"symbol": "h", "key": "decorStoneLight", "hex": "#cfc9b9"},
+  {"symbol": "i", "key": "decorStoneGlint", "hex": "#eae2cf"},
+  {"symbol": "m", "key": "decorWoodDeep", "hex": "#562a2a"},
+  {"symbol": "n", "key": "decorWoodShade", "hex": "#7e4530"},
+  {"symbol": "o", "key": "decorWoodBase", "hex": "#995a37"},
+  {"symbol": "p", "key": "decorWoodLight", "hex": "#ba7a4a"},
+  {"symbol": "a", "key": "decorWaterDeep", "hex": "#2a78b8"},
+  {"symbol": "b", "key": "decorWaterBase", "hex": "#399bd8"},
+  {"symbol": "c", "key": "decorWaterLight", "hex": "#7dd7f2"},
+  {"symbol": "r", "key": "decorRedBase", "hex": "#c93a34"},
+  {"symbol": "s", "key": "decorRedDark", "hex": "#962b35"},
+  {"symbol": "q", "key": "decorPink", "hex": "#f0b5a2"},
+  {"symbol": "w", "key": "decorWhite", "hex": "#fffefc"},
+  {"symbol": "y", "key": "decorYellow", "hex": "#f6cd4c"},
+  {"symbol": "z", "key": "decorOrange", "hex": "#e6953f"},
+  {"symbol": "u", "key": "decorGreenLight", "hex": "#7cbb46"},
+  {"symbol": "v", "key": "decorGreenDark", "hex": "#42864f"},
+  {"symbol": "x", "key": "decorGreenDeep", "hex": "#275f40"}
+ ]
+}

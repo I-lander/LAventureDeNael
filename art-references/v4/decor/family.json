@@ -1,0 +1,61 @@
+{
+  "family": "decor",
+  "art": "src/tools/spriteBaker/half/DecorHalf.ts",
+  "palette": "src/game/elements/halfPalette/DecorPalette.ts",
+  "paletteConst": "DECOR_PALETTE",
+  "keyPrefix": "decor",
+  "reference": "art-references/v3/decor-a.jpg",
+  "design": [
+    "art-references/v3/input/decor-design.png"
+  ],
+  "sprites": [
+    {
+      "name": "FOUNTAIN",
+      "cells": "art-references/v4/decor/cells.json",
+      "index": 0,
+      "legend": "VILLAGE_DECOR_LEGEND"
+    },
+    {
+      "name": "STREET_LAMP",
+      "cells": "art-references/v4/decor/cells.json",
+      "index": 1,
+      "legend": "VILLAGE_DECOR_LEGEND"
+    },
+    {
+      "name": "WELL",
+      "cells": "art-references/v4/decor/cells.json",
+      "index": 2,
+      "legend": "VILLAGE_DECOR_LEGEND"
+    },
+    {
+      "name": "BENCH",
+      "cells": "art-references/v4/decor/cells.json",
+      "index": 3,
+      "legend": "VILLAGE_DECOR_LEGEND"
+    },
+    {
+      "name": "MARKET_STALL",
+      "cells": "art-references/v4/decor/cells.json",
+      "index": 4,
+      "legend": "VILLAGE_DECOR_LEGEND"
+    },
+    {
+      "name": "FLOWER_BED",
+      "cells": "art-references/v4/decor/cells.json",
+      "index": 5,
+      "legend": "VILLAGE_DECOR_LEGEND"
+    },
+    {
+      "name": "BARRELS",
+      "cells": "art-references/v4/decor/cells.json",
+      "index": 6,
+      "legend": "VILLAGE_DECOR_LEGEND"
+    },
+    {
+      "name": "FENCE",
+      "cells": "art-references/v4/decor/cells.json",
+      "index": 7,
+      "legend": "VILLAGE_DECOR_LEGEND"
+    }
+  ]
+}

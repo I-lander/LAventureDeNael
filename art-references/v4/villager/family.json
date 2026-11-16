@@ -1,0 +1,61 @@
+{
+  "family": "villager",
+  "art": "src/tools/spriteBaker/half/VillagerHalf.ts",
+  "palette": "src/game/elements/halfPalette/VillagerPalette.ts",
+  "paletteConst": "VILLAGER_PALETTE",
+  "keyPrefix": "villager",
+  "reference": "art-references/v3/villagers3-b.jpg",
+  "design": [
+    "art-references/v3/input/villagers-design.png"
+  ],
+  "sprites": [
+    {
+      "name": "VILLAGER_ELDER",
+      "cells": "art-references/v4/villager/cells.json",
+      "index": 0,
+      "legend": "VILLAGER_LEGEND"
+    },
+    {
+      "name": "VILLAGER_FARMER",
+      "cells": "art-references/v4/villager/cells.json",
+      "index": 1,
+      "legend": "VILLAGER_LEGEND"
+    },
+    {
+      "name": "VILLAGER_SMITH",
+      "cells": "art-references/v4/villager/cells.json",
+      "index": 2,
+      "legend": "VILLAGER_LEGEND"
+    },
+    {
+      "name": "VILLAGER_BOY",
+      "cells": "art-references/v4/villager/cells.json",
+      "index": 3,
+      "legend": "VILLAGER_LEGEND"
+    },
+    {
+      "name": "VILLAGER_WIZARD",
+      "cells": "art-references/v4/villager/cells.json",
+      "index": 4,
+      "legend": "VILLAGER_LEGEND"
+    },
+    {
+      "name": "VILLAGER_HUNTER",
+      "cells": "art-references/v4/villager/cells.json",
+      "index": 5,
+      "legend": "VILLAGER_LEGEND"
+    },
+    {
+      "name": "BUBBLE_QUEST",
+      "cells": "art-references/v4/villager/cells.json",
+      "index": 6,
+      "legend": "VILLAGER_LEGEND"
+    },
+    {
+      "name": "BUBBLE_DONE",
+      "cells": "art-references/v4/villager/cells.json",
+      "index": 7,
+      "legend": "VILLAGER_LEGEND"
+    }
+  ]
+}

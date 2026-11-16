@@ -1,0 +1,16 @@
+Image 1 is the current hero sprite of a pixel art game. Use it ONLY to know who the character is (hair, clothes, colors, pistol). Its drawing quality is too poor: do not copy its style.
+
+Draw a professional pixel art character turnaround sheet of this same hero, redesigned in a cute and colorful style, for a top-down adventure game seen from above at a three-quarter angle (classic 16-bit top-down RPG camera: the top of the head is visible, the head is big, the feet are visible below the body).
+
+The sheet shows exactly 5 views of the hero standing still, side by side in one single row, evenly spaced, all at exactly the same size and on the same baseline, from left to right:
+1. front view, facing the viewer (walking down the screen), symmetric, both eyes visible
+2. three-quarter front, turned 45 degrees toward the right, both eyes visible
+3. strict side view facing right, one eye visible
+4. three-quarter back, turned 45 degrees away toward the right, the face hidden except the edge of the cheek
+5. back view (walking up the screen), symmetric, only the hair and the back of the jacket visible, no face
+
+Character, identical in every view: a brave little boy, chibi proportions (head about half of the total height, small round body, short limbs), big spiky blue hair with bright green tips, a green headband, warm skin tone, big shiny dark eyes with a white glint, rosy cheeks, a small confident smile, an open blue jacket over a white shirt, green shorts, white sneakers. He holds a small light blue toy-like pistol in his right hand: pointing down in the front views, pointing right in the side view, mostly hidden by the body in the back views.
+
+Style: high quality hand-placed pixel art as made by a professional pixel artist for a commercial 16-bit game. Low resolution: each character is drawn on a grid of about 40 by 48 pixels, with big clearly visible square pixels. Rounded, readable silhouettes. A dark outline one pixel thick around the silhouette, colored (dark navy for blue parts, dark brown for skin, dark green for green parts) instead of pure black. Bright, saturated, cheerful colors. 3 to 4 flat tones per material, in large clean clusters, one light source from the top-left, a soft darker tone on the lower right. No dithering, no gradients, no antialiasing, no noise, no blur, no stray pixels.
+
+Output: the 5 views only, each about 75 percent of the image height, plain flat background #2a2030, crisp nearest-neighbor pixels, no text, no labels, no numbers, no ground line, no cast shadow, no frame.

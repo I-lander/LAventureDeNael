@@ -1,0 +1,27 @@
+{
+  "colors": [
+    {"symbol": "k", "key": "itemInk", "hex": "#02040f"},
+    {"symbol": "m", "key": "itemHeartLine", "hex": "#380418"},
+    {"symbol": "r", "key": "itemRed", "hex": "#cc2829"},
+    {"symbol": "d", "key": "itemRedShade", "hex": "#8c1c33"},
+    {"symbol": "w", "key": "itemWhite", "hex": "#fdf6ec"},
+    {"symbol": "u", "key": "itemStarLine", "hex": "#92381c"},
+    {"symbol": "y", "key": "itemGold", "hex": "#f5b12c"},
+    {"symbol": "h", "key": "itemGoldLight", "hex": "#fbdd8c"},
+    {"symbol": "o", "key": "itemOrange", "hex": "#f28c26"},
+    {"symbol": "Y", "key": "itemYellow", "hex": "#fde44d"},
+    {"symbol": "e", "key": "itemEmber", "hex": "#d0521a"},
+    {"symbol": "L", "key": "itemBrick", "hex": "#ad4220"},
+    {"symbol": "b", "key": "itemIronBase", "hex": "#31313d"},
+    {"symbol": "s", "key": "itemIronShade", "hex": "#191d22"},
+    {"symbol": "g", "key": "itemIronLight", "hex": "#52565e"},
+    {"symbol": "t", "key": "itemSteel", "hex": "#858287"},
+    {"symbol": "n", "key": "itemWood", "hex": "#684932"},
+    {"symbol": "D", "key": "itemDarkBrown", "hex": "#4a2e1f"},
+    {"symbol": "B", "key": "itemBoneLight", "hex": "#ebdbae"},
+    {"symbol": "M", "key": "itemBoneBase", "hex": "#cbab80"},
+    {"symbol": "a", "key": "itemSandLight", "hex": "#f5c565"},
+    {"symbol": "c", "key": "itemSandBase", "hex": "#dc9b54"},
+    {"symbol": "x", "key": "itemSandShade", "hex": "#ad6d3f"}
+  ]
+}

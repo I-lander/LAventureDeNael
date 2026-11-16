@@ -1,0 +1,21 @@
+Image 1 shows approved sprites of a pixel art game, from left to right: the hero, a forest tree, a snowy pine, a volcanic rock and a village shop cottage. Match exactly its style and its scale: the pixels must have exactly the same size as the pixels of image 1, same dark colored outline one pixel thick, bright saturated cheerful colors, 3 to 4 flat tones per material in large clean clusters, light from the top-left, no dithering. Do not draw anything of image 1.
+
+Draw a professional pixel art environment asset sheet for two new areas of the same top-down adventure game, a desert and a swamp (three-quarter view from above: tree tops are visible from above, trunks are visible below them).
+
+The sheet has exactly 2 rows, on a regular grid, each asset well separated from the others.
+
+Row 1, four objects, from left to right:
+1. a tall green saguaro cactus with two arms raised, light green ribs and small white spines
+2. a dead desert tree: a twisted bare grey-brown trunk with a few crooked branches, no leaves
+3. a weeping swamp willow tree: a dark teal-green drooping canopy with hanging vines, a twisted dark brown trunk
+4. a mossy fallen log with three small orange mushrooms growing on it
+
+Row 2, from left to right:
+5. a cluster of round green lily pads with one pink water lily flower, floating on a small patch of dark green water
+6. a sun-bleached animal skull half buried in a small sand mound, with a small sandstone rock
+7. a square ground tile, seamless and tileable, viewed from straight above: warm golden desert sand with a few small wind ripples and tiny pebbles
+8. a square ground tile, seamless and tileable, viewed from straight above: dark olive-green swamp mud and moss with a few small puddles
+
+Sizes: the cactus is one and a half times as tall as the hero of image 1. The dead tree and the willow are as big as the forest tree of image 1. The log, the lily pads and the skull are about as wide as the hero. Each ground tile is exactly 16 by 16 pixels shown enlarged, with no outline.
+
+Output: the 8 assets only, plain flat background #2a2030, crisp nearest-neighbor pixels, no character, no text, no labels, no numbers, no cast shadow, no frame, no grid lines.

@@ -1,0 +1,91 @@
+{
+  "family": "skeleton",
+  "art": "src/tools/spriteBaker/half/SkeletonHalf.ts",
+  "palette": "src/game/elements/halfPalette/SkeletonPalette.ts",
+  "paletteConst": "SKELETON_PALETTE",
+  "keyPrefix": "skeleton",
+  "reference": "art-references/v3/skeleton3-a.jpg",
+  "design": [
+    "art-references/v3/input/skeleton-design.png"
+  ],
+  "sprites": [
+    {
+      "name": "SKELETON_FRONT",
+      "cells": "art-references/v4/skeleton/cells.json",
+      "index": 0,
+      "legend": "NEW_MONSTER_LEGEND",
+      "box": [
+        38,
+        34,
+        3
+      ]
+    },
+    {
+      "name": "SKELETON_SIDE",
+      "cells": "art-references/v4/skeleton/cells.json",
+      "index": 1,
+      "legend": "NEW_MONSTER_LEGEND",
+      "box": [
+        38,
+        34,
+        3
+      ]
+    },
+    {
+      "name": "SKELETON_BACK",
+      "cells": "art-references/v4/skeleton/cells.json",
+      "index": 2,
+      "legend": "NEW_MONSTER_LEGEND",
+      "box": [
+        38,
+        34,
+        3
+      ]
+    },
+    {
+      "name": "BONE",
+      "cells": "art-references/v4/skeleton/cells.json",
+      "index": 3,
+      "legend": "NEW_MONSTER_LEGEND"
+    },
+    {
+      "name": "MUSHROOM_FRONT",
+      "cells": "art-references/v4/skeleton/cells.json",
+      "index": 4,
+      "legend": "NEW_MONSTER_LEGEND",
+      "box": [
+        34,
+        31,
+        2
+      ]
+    },
+    {
+      "name": "MUSHROOM_SIDE",
+      "cells": "art-references/v4/skeleton/cells.json",
+      "index": 5,
+      "legend": "NEW_MONSTER_LEGEND",
+      "box": [
+        34,
+        31,
+        2
+      ]
+    },
+    {
+      "name": "MUSHROOM_BACK",
+      "cells": "art-references/v4/skeleton/cells.json",
+      "index": 6,
+      "legend": "NEW_MONSTER_LEGEND",
+      "box": [
+        34,
+        31,
+        2
+      ]
+    },
+    {
+      "name": "SPORE",
+      "cells": "art-references/v4/skeleton/cells.json",
+      "index": 7,
+      "legend": "NEW_MONSTER_LEGEND"
+    }
+  ]
+}

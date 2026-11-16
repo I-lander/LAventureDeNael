@@ -1,0 +1,21 @@
+{
+ "colors": [
+  {"symbol": "k", "key": "skeletonInk", "hex": "#04021a"},
+  {"symbol": "w", "key": "skeletonBoneLight", "hex": "#ffffff"},
+  {"symbol": "b", "key": "skeletonBone", "hex": "#ece3c2"},
+  {"symbol": "s", "key": "skeletonBoneShade", "hex": "#b3a28c"},
+  {"symbol": "d", "key": "skeletonBoneDark", "hex": "#7b695e"},
+  {"symbol": "c", "key": "skeletonEyeGlow", "hex": "#3ce8dc"},
+  {"symbol": "p", "key": "skeletonScarf", "hex": "#773786"},
+  {"symbol": "q", "key": "skeletonScarfShade", "hex": "#50206a"},
+  {"symbol": "v", "key": "skeletonSporeLight", "hex": "#c84dd0"},
+  {"symbol": "r", "key": "skeletonCapRed", "hex": "#d02d2e"},
+  {"symbol": "m", "key": "skeletonCapShade", "hex": "#941f31"},
+  {"symbol": "n", "key": "skeletonCapDark", "hex": "#4a122b"},
+  {"symbol": "t", "key": "skeletonStem", "hex": "#dcae80"},
+  {"symbol": "h", "key": "skeletonCheek", "hex": "#f2a593"},
+  {"symbol": "g", "key": "skeletonLeaf", "hex": "#77ae4b"},
+  {"symbol": "f", "key": "skeletonLeafShade", "hex": "#327a46"},
+  {"symbol": "o", "key": "skeletonTongue", "hex": "#b44344"}
+ ]
+}

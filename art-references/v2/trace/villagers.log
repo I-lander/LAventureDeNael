@@ -1,0 +1,90 @@
+grid 5.734 4.5 5.738 1.5
+sprite 0 size 40 x 53
+sprite 1 size 39 x 55
+sprite 2 size 39 x 58
+sprite 3 size 39 x 51
+sprite 4 size 45 x 58
+sprite 5 size 41 x 58
+sprite 6 size 31 x 30
+sprite 7 size 31 x 30
+colors 80
+  a villagerBlue1 #161c40
+  b villagerBlue2 #222e68
+  c villagerBlue3 #244686
+  d villagerBlue4 #444573
+  e villagerBlue5 #265298
+  f villagerBlue6 #3068b3
+  g villagerBlue7 #337cc7
+  h villagerBlue8 #2a7ad6
+  i villagerBlue9 #5d7da4
+  j villagerBlue10 #a5adbe
+  k villagerBrown1 #bf4814
+  l villagerBrown2 #99583b
+  m villagerBrown3 #d4571d
+  n villagerBrown4 #a76b4b
+  o villagerBrown5 #b67959
+  p villagerBrown6 #c5864b
+  q villagerBrown7 #b78a6e
+  r villagerBrown8 #cc8c69
+  s villagerBrown9 #d9a77f
+  t villagerBrown10 #c7b9ac
+  u villagerGreen1 #1b5a4a
+  v villagerGreen2 #377449
+  w villagerGreen3 #44904e
+  x villagerGrey1 #4a4a56
+  y villagerGrey2 #595b65
+  z villagerGrey3 #706f76
+  A villagerGrey4 #6a8475
+  B villagerGrey5 #838588
+  C villagerGrey6 #9e9089
+  D villagerGrey7 #9596a3
+  E villagerGrey8 #b1a49c
+  F villagerGrey9 #c1c5c9
+  G villagerInk1 #040118
+  H villagerInk2 #170713
+  I villagerInk3 #0b0431
+  J villagerInk4 #0b142a
+  K villagerInk5 #321015
+  L villagerOrange1 #ec7231
+  M villagerOrange2 #f97f2c
+  N villagerOrange3 #e18751
+  O villagerOrange4 #f6a232
+  P villagerOrange5 #eba040
+  Q villagerOrange6 #e7af5e
+  R villagerOrange7 #f8b947
+  S villagerOrange8 #eab387
+  T villagerOrange9 #f5c76a
+  U villagerOrange10 #ecc7af
+  V villagerOrange11 #f9e2c4
+  W villagerPurple1 #352e3f
+  X villagerPurple2 #451761
+  Y villagerPurple3 #532277
+  Z villagerPurple4 #662b89
+  0 villagerPurple5 #9f52b4
+  1 villagerRed1 #5b0b1c
+  2 villagerRed2 #412125
+  3 villagerRed3 #78152b
+  4 villagerRed4 #5a332e
+  5 villagerRed5 #51373a
+  6 villagerRed6 #743626
+  7 villagerRed7 #841a32
+  8 villagerRed8 #8f3315
+  9 villagerRed9 #714236
+  ! villagerRed10 #a73d15
+  # villagerRed11 #aa2532
+  $ villagerRed12 #7f4d3a
+  % villagerRed13 #b63238
+  & villagerRed14 #c62b30
+  ( villagerRed15 #7f5a54
+  ) villagerRed16 #916c5f
+  * villagerRed17 #e38f73
+  + villagerTeal1 #093d3b
+  , villagerTeal2 #154d44
+  - villagerTeal3 #dde4e6
+  / villagerWhite1 #e9eeef
+  : villagerWhite2 #f4f7f7
+  ; villagerYellow1 #fbd83c
+  < villagerYellow2 #f6d74e
+  = villagerYellow3 #e3d56c
+  > villagerYellow4 #fde461
+  ? villagerYellow5 #fff29a

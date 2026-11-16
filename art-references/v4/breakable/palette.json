@@ -1,0 +1,32 @@
+{
+ "colors": [
+  {"symbol": "k", "key": "breakableInk", "hex": "#05040b"},
+  {"symbol": "g", "key": "breakableLeafInk", "hex": "#06270f"},
+  {"symbol": "n", "key": "breakableSnowInk", "hex": "#081a2e"},
+  {"symbol": "x", "key": "breakableCrystalInk", "hex": "#20062d"},
+  {"symbol": "s", "key": "breakableLeafShadow", "hex": "#245b3c"},
+  {"symbol": "b", "key": "breakableLeafBase", "hex": "#448d3e"},
+  {"symbol": "l", "key": "breakableLeafLight", "hex": "#66ae3e"},
+  {"symbol": "h", "key": "breakableLeafGlint", "hex": "#a3d358"},
+  {"symbol": "a", "key": "breakableBladeLight", "hex": "#7abc41"},
+  {"symbol": "t", "key": "breakableTealShadow", "hex": "#1a4a55"},
+  {"symbol": "T", "key": "breakableTealBase", "hex": "#2d7974"},
+  {"symbol": "W", "key": "breakableSnowLight", "hex": "#e8fbff"},
+  {"symbol": "w", "key": "breakableSnowBase", "hex": "#b1dff9"},
+  {"symbol": "v", "key": "breakableSnowShadow", "hex": "#8fc4ef"},
+  {"symbol": "V", "key": "breakableSnowRim", "hex": "#5f8fc8"},
+  {"symbol": "d", "key": "breakableBrownDark", "hex": "#4f2529"},
+  {"symbol": "r", "key": "breakableBrownShadow", "hex": "#783e30"},
+  {"symbol": "o", "key": "breakableBrownBase", "hex": "#98533a"},
+  {"symbol": "c", "key": "breakableBrownLight", "hex": "#c17045"},
+  {"symbol": "e", "key": "breakableRust", "hex": "#c9481e"},
+  {"symbol": "p", "key": "breakablePurpleDark", "hex": "#351a47"},
+  {"symbol": "u", "key": "breakablePurpleBase", "hex": "#542b6f"},
+  {"symbol": "U", "key": "breakablePurpleLight", "hex": "#815592"},
+  {"symbol": "m", "key": "breakableMauve", "hex": "#a85c84"},
+  {"symbol": "f", "key": "breakableOrange", "hex": "#f66e0b"},
+  {"symbol": "y", "key": "breakableYellow", "hex": "#f7d04f"},
+  {"symbol": "F", "key": "breakablePink", "hex": "#d96098"},
+  {"symbol": "i", "key": "breakableCream", "hex": "#edecbc"}
+ ]
+}

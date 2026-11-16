@@ -1,0 +1,11 @@
+Image 1 is the approved village shop cottage of a pixel art game. Image 2 is the approved hero of the same game, shown from 5 angles.
+
+Redraw the cottage of image 1 as a much bigger and more detailed building, at the right scale for the hero of image 2. Keep the design of image 1: a big rounded red tiled roof with a brick chimney on its left side, cream plaster walls with brown wooden beams, a stone base, an arched wooden door in the middle, two windows with blue glass, and a blank wooden sign board hanging above the door (the sign is empty: no drawing, no text).
+
+Scale, this is the most important point: the pixels must have exactly the same size as the pixels of the hero in image 2. The door is as tall as the hero and a little wider. The whole building is about two and a half times as tall as the hero and about three times as wide as the hero. Because it is bigger, add detail instead of enlarging the pixels: rows of roof tiles, wood grain on the beams, window frames with small flower boxes, a door handle, stones in the base.
+
+View: front view seen from slightly above, like a classic 16-bit top-down RPG building (the roof is seen from above, the front wall is seen from the front).
+
+Style: match image 1 and image 2 exactly. Dark colored outline one pixel thick around the silhouette, bright saturated cheerful colors, 3 to 4 flat tones per material in large clean clusters, light from the top-left, no dithering, no gradients, no antialiasing, no noise.
+
+Output: one single building, centered, about 90 percent of the image height, plain flat background #2a2030, crisp nearest-neighbor pixels, no hero, no character, no text, no ground, no grass, no cast shadow, no frame.

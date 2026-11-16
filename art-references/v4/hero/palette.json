@@ -1,0 +1,24 @@
+{
+ "colors": [
+  {"symbol": "k", "key": "heroInk", "hex": "#000228"},
+  {"symbol": "b", "key": "heroBlue", "hex": "#2579dc"},
+  {"symbol": "s", "key": "heroBlueShade", "hex": "#1e5996"},
+  {"symbol": "n", "key": "heroBlueDark", "hex": "#1b335c"},
+  {"symbol": "l", "key": "heroGreenLight", "hex": "#68d03d"},
+  {"symbol": "g", "key": "heroGreen", "hex": "#3f9234"},
+  {"symbol": "d", "key": "heroGreenDark", "hex": "#256332"},
+  {"symbol": "f", "key": "heroSkin", "hex": "#e9b480"},
+  {"symbol": "h", "key": "heroSkinShade", "hex": "#bc7d5a"},
+  {"symbol": "r", "key": "heroBrown", "hex": "#894a34"},
+  {"symbol": "p", "key": "heroBlush", "hex": "#ec7766"},
+  {"symbol": "w", "key": "heroWhite", "hex": "#f0ede4"},
+  {"symbol": "y", "key": "heroGrey", "hex": "#b1b2c4"},
+  {"symbol": "c", "key": "heroCuff", "hex": "#9b672b"},
+  {"symbol": "a", "key": "heroPistol", "hex": "#4999d5"},
+  {"symbol": "i", "key": "heroPistolLight", "hex": "#83d3ed"},
+  {"symbol": "o", "key": "heroDogOrange", "hex": "#efa32c"},
+  {"symbol": "t", "key": "heroDogOrangeShade", "hex": "#de721d"},
+  {"symbol": "e", "key": "heroDogDark", "hex": "#5e2a1d"},
+  {"symbol": "m", "key": "heroDogCream", "hex": "#f5e0a1"}
+ ]
+}

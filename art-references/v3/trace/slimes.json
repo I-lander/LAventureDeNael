@@ -1,0 +1,644 @@
+{
+ "palette": [
+  {
+   "name": "slime2Blue1",
+   "symbol": "a",
+   "rgb": [
+    58,
+    59,
+    84
+   ]
+  },
+  {
+   "name": "slime2Brown1",
+   "symbol": "b",
+   "rgb": [
+    139,
+    84,
+    58
+   ]
+  },
+  {
+   "name": "slime2Brown2",
+   "symbol": "c",
+   "rgb": [
+    198,
+    105,
+    46
+   ]
+  },
+  {
+   "name": "slime2Brown3",
+   "symbol": "d",
+   "rgb": [
+    174,
+    114,
+    77
+   ]
+  },
+  {
+   "name": "slime2Brown4",
+   "symbol": "e",
+   "rgb": [
+    194,
+    158,
+    127
+   ]
+  },
+  {
+   "name": "slime2Brown5",
+   "symbol": "f",
+   "rgb": [
+    203,
+    182,
+    146
+   ]
+  },
+  {
+   "name": "slime2Green1",
+   "symbol": "g",
+   "rgb": [
+    33,
+    87,
+    63
+   ]
+  },
+  {
+   "name": "slime2Green2",
+   "symbol": "h",
+   "rgb": [
+    47,
+    103,
+    64
+   ]
+  },
+  {
+   "name": "slime2Green3",
+   "symbol": "i",
+   "rgb": [
+    48,
+    138,
+    70
+   ]
+  },
+  {
+   "name": "slime2Green4",
+   "symbol": "j",
+   "rgb": [
+    78,
+    134,
+    74
+   ]
+  },
+  {
+   "name": "slime2Green5",
+   "symbol": "k",
+   "rgb": [
+    68,
+    164,
+    62
+   ]
+  },
+  {
+   "name": "slime2Green6",
+   "symbol": "l",
+   "rgb": [
+    107,
+    162,
+    71
+   ]
+  },
+  {
+   "name": "slime2Green7",
+   "symbol": "m",
+   "rgb": [
+    88,
+    196,
+    61
+   ]
+  },
+  {
+   "name": "slime2Green8",
+   "symbol": "n",
+   "rgb": [
+    134,
+    159,
+    81
+   ]
+  },
+  {
+   "name": "slime2Green9",
+   "symbol": "o",
+   "rgb": [
+    110,
+    203,
+    78
+   ]
+  },
+  {
+   "name": "slime2Green10",
+   "symbol": "p",
+   "rgb": [
+    139,
+    180,
+    74
+   ]
+  },
+  {
+   "name": "slime2Green11",
+   "symbol": "q",
+   "rgb": [
+    114,
+    188,
+    99
+   ]
+  },
+  {
+   "name": "slime2Green12",
+   "symbol": "r",
+   "rgb": [
+    138,
+    205,
+    88
+   ]
+  },
+  {
+   "name": "slime2Green13",
+   "symbol": "s",
+   "rgb": [
+    130,
+    235,
+    81
+   ]
+  },
+  {
+   "name": "slime2Green14",
+   "symbol": "t",
+   "rgb": [
+    176,
+    220,
+    101
+   ]
+  },
+  {
+   "name": "slime2Ink1",
+   "symbol": "u",
+   "rgb": [
+    2,
+    3,
+    26
+   ]
+  },
+  {
+   "name": "slime2Ink2",
+   "symbol": "v",
+   "rgb": [
+    6,
+    23,
+    25
+   ]
+  },
+  {
+   "name": "slime2Ink3",
+   "symbol": "w",
+   "rgb": [
+    40,
+    0,
+    24
+   ]
+  },
+  {
+   "name": "slime2Orange1",
+   "symbol": "x",
+   "rgb": [
+    237,
+    173,
+    65
+   ]
+  },
+  {
+   "name": "slime2Pink1",
+   "symbol": "y",
+   "rgb": [
+    110,
+    27,
+    62
+   ]
+  },
+  {
+   "name": "slime2Purple1",
+   "symbol": "z",
+   "rgb": [
+    90,
+    49,
+    129
+   ]
+  },
+  {
+   "name": "slime2Purple2",
+   "symbol": "A",
+   "rgb": [
+    138,
+    90,
+    158
+   ]
+  },
+  {
+   "name": "slime2Purple3",
+   "symbol": "B",
+   "rgb": [
+    161,
+    85,
+    182
+   ]
+  },
+  {
+   "name": "slime2Red1",
+   "symbol": "C",
+   "rgb": [
+    67,
+    32,
+    41
+   ]
+  },
+  {
+   "name": "slime2Red2",
+   "symbol": "D",
+   "rgb": [
+    90,
+    52,
+    47
+   ]
+  },
+  {
+   "name": "slime2Red3",
+   "symbol": "E",
+   "rgb": [
+    134,
+    25,
+    55
+   ]
+  },
+  {
+   "name": "slime2Red4",
+   "symbol": "F",
+   "rgb": [
+    111,
+    76,
+    62
+   ]
+  },
+  {
+   "name": "slime2Red5",
+   "symbol": "G",
+   "rgb": [
+    165,
+    40,
+    56
+   ]
+  },
+  {
+   "name": "slime2Red6",
+   "symbol": "H",
+   "rgb": [
+    202,
+    48,
+    53
+   ]
+  },
+  {
+   "name": "slime2Red7",
+   "symbol": "I",
+   "rgb": [
+    181,
+    62,
+    67
+   ]
+  },
+  {
+   "name": "slime2White1",
+   "symbol": "J",
+   "rgb": [
+    228,
+    252,
+    221
+   ]
+  },
+  {
+   "name": "slime2White2",
+   "symbol": "K",
+   "rgb": [
+    252,
+    254,
+    249
+   ]
+  },
+  {
+   "name": "slime2Yellow1",
+   "symbol": "L",
+   "rgb": [
+    250,
+    211,
+    56
+   ]
+  },
+  {
+   "name": "slime2Yellow2",
+   "symbol": "M",
+   "rgb": [
+    252,
+    220,
+    101
+   ]
+  },
+  {
+   "name": "slime2Yellow3",
+   "symbol": "N",
+   "rgb": [
+    254,
+    243,
+    163
+   ]
+  }
+ ],
+ "sprites": [
+  {
+   "box": [
+    7,
+    10,
+    28,
+    28
+   ],
+   "rows": [
+    "........uuuuuu........",
+    ".....uuussssssuuu.....",
+    "....uussmmmmmmssuu....",
+    "...uusKKmmmmmmmmssu...",
+    "..usmKKKmmmmmmmmmssu..",
+    ".uusmKKmmmmmmmmmmmsuu.",
+    ".usmmmmmmkkkkkkmmmmsu.",
+    "uusmmuuukkkkkkuuummsuu",
+    "uusmuhKhukkkkuhKhummsu",
+    "usmmuhhhukkkkuhhhummsu",
+    "usmmuqhhukkkkuhhqummsu",
+    "usmmkuuukjkkkkuuukmmsu",
+    "uskmsskkkukkukkksskksu",
+    "uokkkkkkkkuukkkkkkiksu",
+    "uuokiikkkkkkkkkkiiiouu",
+    ".uooiiiiiiiiiiiiiioou.",
+    "..uoooiiiiiiiiiiooou..",
+    "...uuuoooooooooouuu...",
+    ".....uuuuuuuuuuuu....."
+   ]
+  },
+  {
+   "box": [
+    41,
+    10,
+    63,
+    28
+   ],
+   "rows": [
+    "........uuuuuuu........",
+    ".....uuuuossssruuu.....",
+    "....uupsmmmmmmmsruu....",
+    "...uroJKommmmmmmmsrv...",
+    "..urmJKKommmmmmmmmsru..",
+    ".uurmJKqmmmmmmmmmmmruu.",
+    ".urmmmmmmkkkkkkkmmmmru.",
+    "uurmmmmkkkkkkkkjuvmmruu",
+    "uurmmmkkkkkkkkjuhJvmmpu",
+    "urmmmkkkkkkkkkjuhgvmmru",
+    "urmmmkkkkkkkkkkvhgjmmpu",
+    "uommmkkkkkkkkkkkujkkmpu",
+    "urkkkkkkkkkkkkkskkkkmpu",
+    "uvkkkkkkkkkkkkkkkkkkkvu",
+    ".uooiikkkkkkkkkkiiioou.",
+    "...ooiiiiiiiiiiiiioo...",
+    "....ooiiiiiiiiiiioo....",
+    "....uuvooooooooovuu....",
+    "......uuuuuuuuuuu......"
+   ]
+  },
+  {
+   "box": [
+    75,
+    10,
+    98,
+    28
+   ],
+   "rows": [
+    "........uuuuuuuv........",
+    ".....uuursssssvuuu......",
+    "....vursommmmmssslv.....",
+    "...upsoJKqmmmmmmmmrv....",
+    "..uurmJKKqmmmmmmmmmrv...",
+    ".uurmmJKommmmmmmmmmmru..",
+    ".urmmmmmmkkkkkkkmmmmpuu.",
+    "uurmmmmkkkkkkkkkkkmmmru.",
+    "uurmmmkkkkkkkkkkkkkmmru.",
+    "urmmmmkkkkkkkkkkkkkmmmuu",
+    "urmmmkkkkkkkkkkkkkkkmspu",
+    "uommmkkkkkkkkkkkkkkkmspu",
+    "urkkmkkkkkkkkkkkkkkkmkvu",
+    "uvkkkkkkkkkkkkkkkkkkklu.",
+    ".uooiiikkkkkkkkkkiikolu.",
+    "...ooiiiiiiiiiiiiikko...",
+    "....ooiiiiiiiiiiooovu...",
+    "....uuvoooooooooo.uu....",
+    "......uuuuuuuuuuu......."
+   ]
+  },
+  {
+   "box": [
+    107,
+    4,
+    135,
+    34
+   ],
+   "rows": [
+    "..............u..............",
+    ".......uN.uu.uLu.uu.uu.......",
+    "........bNucuNLLucuMx........",
+    "........uxNcNLLLMcMxu........",
+    ".......uGxMNLLHLLLxxEu.......",
+    "........GcMNLHcGLLxcE........",
+    "........uMccLHGHLccxu........",
+    "......uuuuuNLLLLxdxuuuu......",
+    ".....ussmmmuuuuuuummmssu.....",
+    "....usmKKmmmmmmmmmmmmmmsu....",
+    "...usmKKKmmmmmmmmmmmmmmmsu...",
+    "..usmmKKmmmmmmmmkkkkmmmmmsu..",
+    ".uusmmmmmommkkkkkkkkkkmmmsuu.",
+    ".usmmmmuuummmkkkkkkuuukmmmsu.",
+    ".usmmmkkkuuumkkkkuuukkkkmmsu.",
+    "uusmmkkkiKuuukkkuuKuukkkmmmsu",
+    "usmmmkkkkuukkkkkkkuuukkkkmmsu",
+    "usmmmkkkkkkkkkkkkkkkkkkkkmmsu",
+    "usmmmkkkkkkkuuuuukkkkkkkkmmsu",
+    "usmmkkkkkkkuKuuuKukkkkkkkmmsu",
+    "uskmkkkkkkuuuuuuuuukkkkkkmmsu",
+    "uskmkkkkkkuuIIIIIuukkkkkkmksu",
+    "uskkmkkkkkuJuuuuuJukkkkkkkksu",
+    "uookikkkkkkkkkkkkkkkkkkkkkkou",
+    "uuokiikkkkkkkkkkkkkkkkkiiiouu",
+    ".uoiiiiikkkkkkkkkkkkkiiiiiou.",
+    ".uuoiiiiiiiikkkkkiiiiiiiiouu.",
+    "..ujooiiiiiiiiiiiiiiiiiioou..",
+    "...uuooooiiiiiiiiiiioooouu...",
+    ".....uuuooooooooooooouuu.....",
+    ".......uuuuuuuuuuuuuuu......."
+   ]
+  },
+  {
+   "box": [
+    5,
+    44,
+    30,
+    70
+   ],
+   "rows": [
+    "..........uuuuuu..........",
+    "........uubbbbbbuu........",
+    ".......ubdbbbbbbDbu.......",
+    "......ubbDbbbbbbDbbu......",
+    "......ubbDbbbbbDbbbu......",
+    "uuu..ubbbbuuuuuudbbbu..uuu",
+    "upruuubbDujjjjjjuDbbuuurpu",
+    "ujgrpubbjppppppppjbburrgpu",
+    ".upjgubuppppppppppubupjpu.",
+    "..gpjubuppupppppupjbujpp..",
+    "...hpubuppupppppupjDupp...",
+    "....uubuppupppppupjDuu....",
+    ".....uDupeppppupepuDu.u...",
+    ".....uubgpppuupppubuubu...",
+    "....ufDuDuuppppuuuu.fDu...",
+    ".....ueuuDDuuuubDu.fubu...",
+    "......uDuuDbbbbDuuf.ubu...",
+    ".......ulgguuuuihfu.ubu...",
+    "......ullukkubukelluubu...",
+    "......uluuikkubuuuljuu....",
+    "......uhhDDudfufDuuppu....",
+    "......upugkubbfhguuuu.....",
+    ".......uukkkkeiiuubu......",
+    ".........uuuububbbu.......",
+    ".........uuuuuuuu.........",
+    ".........uDDuuDDu.........",
+    "..........uu..uu.........."
+   ]
+  },
+  {
+   "box": [
+    42,
+    44,
+    62,
+    70
+   ],
+   "rows": [
+    "......uuuuuuuu.......",
+    "....uuddbbbbdduu.....",
+    "...udbbbbbbbbbbdu....",
+    "..bbbbbbbbbbbbbbdu...",
+    ".ubDCbbbbbbbbbbdubu..",
+    "ubDuuDbbbbbbbbduuuu..",
+    "uDDpttuDbbbbbDjjjuu..",
+    "uDuulgrtuDbbbjpppuu..",
+    "...upjjgrubbujpppp...",
+    "...uuppjgubbjppupp...",
+    "...uDupjgubbjppuppu..",
+    "...uDDupjubbjppupppu.",
+    "....uDDDuubbjpepppu.u",
+    ".....uDDDDbbjpppuu.bu",
+    "...uufuDDDDbujppu.eDu",
+    "...ufubuDDDDbuuu.fubu",
+    "....ubDDuuubbbuuf.ubu",
+    ".....uDullhguuulu.ubu",
+    ".....uulllgkhFuhluubu",
+    "......ulllgkkhuhlguu.",
+    "......uppuuuuFuuugpu.",
+    "......uphuuuuuguubu..",
+    ".......uuggkkkkubu...",
+    "........uuuuuuuu.....",
+    ".........uuuu........",
+    ".........uDbu........",
+    ".........uuuu........"
+   ]
+  },
+  {
+   "box": [
+    73,
+    44,
+    100,
+    70
+   ],
+   "rows": [
+    "..........uuuuuuuv..........",
+    "........uuDbbbbbC.u.........",
+    ".......uDbddbbbbbFDu........",
+    "......uDDbbbbbbbbbbDu.......",
+    "......uDDbbbbbbbbbbDDu......",
+    "uuu..uDDDbbbbbbbbbbDDu..uuuu",
+    "uppuuuDDDbbbbbbbbFDDDuuuppnu",
+    "ujpppuDDDCbbbbbbDCCDDDppppu.",
+    ".uppppDDDDvbbbbuDDDDDDpppnu.",
+    "..gpppDDDDDuFbuDDDDDDDppju..",
+    "...gjuDDDDDDuu.DDDDDDDpju...",
+    "....uuDDDDDDDDDDDDDDDDuu....",
+    "...u.uDDDDDDDDDDD.uuDu......",
+    "...ub.uDDDDDDDDDuFeuu.......",
+    "...uDe.uuDDDDDDDuCbfuu......",
+    "...uFue.uDDCCCCueFuFfu......",
+    "...uFu.euuDDDDuDFbeuu.......",
+    "...uFu.upjguuuFbDDDuu.......",
+    "...ubuullgkkvbbbD.vnu.......",
+    "....uujpjuiuFbbDuuvpnu......",
+    "....unpuuDuuFDDuD.uhnu......",
+    ".....uhuugkuCDuugggjnu......",
+    "......uFujkhvujkkguuu.......",
+    ".......uuuuuuuuuFCu.........",
+    ".........uuuu.uuuv..........",
+    ".........uDDu.uDDC..........",
+    "..........uu...uuv.........."
+   ]
+  },
+  {
+   "box": [
+    107,
+    43,
+    135,
+    71
+   ],
+   "rows": [
+    "......cC.....................",
+    ".....cLcC....................",
+    ".....DcC.....................",
+    "....b......uuuuuuu...........",
+    "...uuu....uGHHHHHHwu...uu....",
+    ".uuu..u..EHHHHHHHHHHy.wGu....",
+    "uuaaaa.uuEHHHHHHHHHHyuwyu....",
+    "uafaaaa.uyEHHHHHHHEEEywyuuuuu",
+    "uaaaaaa.uyHEEEEEEEHGECuuuvtnu",
+    "uaaaaaa.uujjjjjjjjjjwyurnggh.",
+    "u.aaaa.uupppppppppppnvrgjjnu.",
+    ".u.....uuppunppppunppprhpnu..",
+    "..uuuuujunpupppppunpppihju...",
+    "...ujpuuuppunpjppunppulju....",
+    "....unpuupenppppppeenuu......",
+    ".....uppuuppppunpppnu........",
+    "......unaBuupppppuuuu........",
+    ".......uzzzzuuuuuzBAu........",
+    "........uzzBBBjABBzzzu.......",
+    ".........u.zzzzzzzzzznu......",
+    ".........uzBBBBBBBBAunu......",
+    ".........uzzzzzzzzzzupnu.....",
+    ".........uABBBBBBBBAupnu.....",
+    ".........uuuzzzzzuuuuunu.....",
+    ".........uFFDDDDDFFF.uu......",
+    ".........uFFCuuuDFFFu........",
+    ".........uuuu...uuuuu........",
+    ".........uFDu...uDbFu........",
+    ".........uuu.....uuuu........"
+   ]
+  }
+ ]
+}

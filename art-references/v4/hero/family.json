@@ -1,0 +1,101 @@
+{
+  "family": "hero",
+  "art": "src/tools/spriteBaker/half/HeroHalf.ts",
+  "palette": "src/game/elements/halfPalette/HeroPalette.ts",
+  "paletteConst": "HERO_PALETTE",
+  "keyPrefix": "hero",
+  "reference": "art-references/v3/hero-b.jpg",
+  "design": [
+    "art-references/v3/input/hero-design.png"
+  ],
+  "sprites": [
+    {
+      "name": "HERO_SOUTH",
+      "cells": "art-references/v4/hero/cells.json",
+      "index": 0,
+      "legend": "HERO_LEGEND",
+      "box": [
+        30,
+        30,
+        4
+      ]
+    },
+    {
+      "name": "HERO_SOUTH_EAST",
+      "cells": "art-references/v4/hero/cells.json",
+      "index": 1,
+      "legend": "HERO_LEGEND",
+      "box": [
+        30,
+        30,
+        4
+      ]
+    },
+    {
+      "name": "HERO_EAST",
+      "cells": "art-references/v4/hero/cells.json",
+      "index": 2,
+      "legend": "HERO_LEGEND",
+      "box": [
+        30,
+        30,
+        4
+      ]
+    },
+    {
+      "name": "HERO_NORTH_EAST",
+      "cells": "art-references/v4/hero/cells.json",
+      "index": 3,
+      "legend": "HERO_LEGEND",
+      "box": [
+        30,
+        30,
+        4
+      ]
+    },
+    {
+      "name": "HERO_NORTH",
+      "cells": "art-references/v4/hero/cells.json",
+      "index": 4,
+      "legend": "HERO_LEGEND",
+      "box": [
+        30,
+        30,
+        4
+      ]
+    },
+    {
+      "name": "DOG_FRONT",
+      "cells": "art-references/v4/hero/cells.json",
+      "index": 5,
+      "legend": "HERO_LEGEND",
+      "box": [
+        18,
+        16,
+        2
+      ]
+    },
+    {
+      "name": "DOG_SIDE",
+      "cells": "art-references/v4/hero/cells.json",
+      "index": 6,
+      "legend": "HERO_LEGEND",
+      "box": [
+        18,
+        16,
+        2
+      ]
+    },
+    {
+      "name": "DOG_BACK",
+      "cells": "art-references/v4/hero/cells.json",
+      "index": 7,
+      "legend": "HERO_LEGEND",
+      "box": [
+        18,
+        16,
+        2
+      ]
+    }
+  ]
+}

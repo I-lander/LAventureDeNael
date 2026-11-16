@@ -1,0 +1,655 @@
+{
+ "palette": [
+  {
+   "name": "breakable2Blue1",
+   "symbol": "a",
+   "rgb": [
+    145,
+    197,
+    238
+   ]
+  },
+  {
+   "name": "breakable2Blue2",
+   "symbol": "b",
+   "rgb": [
+    177,
+    224,
+    249
+   ]
+  },
+  {
+   "name": "breakable2Blue3",
+   "symbol": "c",
+   "rgb": [
+    205,
+    240,
+    252
+   ]
+  },
+  {
+   "name": "breakable2Brown1",
+   "symbol": "d",
+   "rgb": [
+    166,
+    96,
+    63
+   ]
+  },
+  {
+   "name": "breakable2Brown2",
+   "symbol": "e",
+   "rgb": [
+    188,
+    112,
+    72
+   ]
+  },
+  {
+   "name": "breakable2Brown3",
+   "symbol": "f",
+   "rgb": [
+    186,
+    122,
+    81
+   ]
+  },
+  {
+   "name": "breakable2Green1",
+   "symbol": "g",
+   "rgb": [
+    23,
+    61,
+    40
+   ]
+  },
+  {
+   "name": "breakable2Green2",
+   "symbol": "h",
+   "rgb": [
+    46,
+    50,
+    28
+   ]
+  },
+  {
+   "name": "breakable2Green3",
+   "symbol": "i",
+   "rgb": [
+    37,
+    84,
+    40
+   ]
+  },
+  {
+   "name": "breakable2Green4",
+   "symbol": "j",
+   "rgb": [
+    41,
+    95,
+    60
+   ]
+  },
+  {
+   "name": "breakable2Green5",
+   "symbol": "k",
+   "rgb": [
+    55,
+    110,
+    52
+   ]
+  },
+  {
+   "name": "breakable2Green6",
+   "symbol": "l",
+   "rgb": [
+    53,
+    112,
+    65
+   ]
+  },
+  {
+   "name": "breakable2Green7",
+   "symbol": "m",
+   "rgb": [
+    87,
+    97,
+    56
+   ]
+  },
+  {
+   "name": "breakable2Green8",
+   "symbol": "n",
+   "rgb": [
+    66,
+    133,
+    62
+   ]
+  },
+  {
+   "name": "breakable2Green9",
+   "symbol": "o",
+   "rgb": [
+    86,
+    152,
+    63
+   ]
+  },
+  {
+   "name": "breakable2Green10",
+   "symbol": "p",
+   "rgb": [
+    104,
+    173,
+    63
+   ]
+  },
+  {
+   "name": "breakable2Green11",
+   "symbol": "q",
+   "rgb": [
+    125,
+    190,
+    68
+   ]
+  },
+  {
+   "name": "breakable2Green12",
+   "symbol": "r",
+   "rgb": [
+    141,
+    175,
+    121
+   ]
+  },
+  {
+   "name": "breakable2Green13",
+   "symbol": "s",
+   "rgb": [
+    162,
+    211,
+    88
+   ]
+  },
+  {
+   "name": "breakable2Grey1",
+   "symbol": "t",
+   "rgb": [
+    63,
+    67,
+    53
+   ]
+  },
+  {
+   "name": "breakable2Grey2",
+   "symbol": "u",
+   "rgb": [
+    131,
+    133,
+    111
+   ]
+  },
+  {
+   "name": "breakable2Ink1",
+   "symbol": "v",
+   "rgb": [
+    5,
+    4,
+    11
+   ]
+  },
+  {
+   "name": "breakable2Ink2",
+   "symbol": "w",
+   "rgb": [
+    13,
+    38,
+    24
+   ]
+  },
+  {
+   "name": "breakable2Ink3",
+   "symbol": "x",
+   "rgb": [
+    29,
+    9,
+    40
+   ]
+  },
+  {
+   "name": "breakable2Ink4",
+   "symbol": "y",
+   "rgb": [
+    31,
+    21,
+    26
+   ]
+  },
+  {
+   "name": "breakable2Ink5",
+   "symbol": "z",
+   "rgb": [
+    7,
+    27,
+    47
+   ]
+  },
+  {
+   "name": "breakable2Orange1",
+   "symbol": "A",
+   "rgb": [
+    245,
+    108,
+    12
+   ]
+  },
+  {
+   "name": "breakable2Pink1",
+   "symbol": "B",
+   "rgb": [
+    112,
+    67,
+    87
+   ]
+  },
+  {
+   "name": "breakable2Pink2",
+   "symbol": "C",
+   "rgb": [
+    150,
+    65,
+    102
+   ]
+  },
+  {
+   "name": "breakable2Pink3",
+   "symbol": "D",
+   "rgb": [
+    156,
+    86,
+    122
+   ]
+  },
+  {
+   "name": "breakable2Pink4",
+   "symbol": "E",
+   "rgb": [
+    178,
+    102,
+    141
+   ]
+  },
+  {
+   "name": "breakable2Pink5",
+   "symbol": "F",
+   "rgb": [
+    184,
+    106,
+    160
+   ]
+  },
+  {
+   "name": "breakable2Pink6",
+   "symbol": "G",
+   "rgb": [
+    213,
+    99,
+    149
+   ]
+  },
+  {
+   "name": "breakable2Purple1",
+   "symbol": "H",
+   "rgb": [
+    54,
+    26,
+    72
+   ]
+  },
+  {
+   "name": "breakable2Purple2",
+   "symbol": "I",
+   "rgb": [
+    84,
+    45,
+    109
+   ]
+  },
+  {
+   "name": "breakable2Purple3",
+   "symbol": "J",
+   "rgb": [
+    121,
+    67,
+    122
+   ]
+  },
+  {
+   "name": "breakable2Purple4",
+   "symbol": "K",
+   "rgb": [
+    130,
+    85,
+    146
+   ]
+  },
+  {
+   "name": "breakable2Red1",
+   "symbol": "L",
+   "rgb": [
+    79,
+    38,
+    40
+   ]
+  },
+  {
+   "name": "breakable2Red2",
+   "symbol": "M",
+   "rgb": [
+    98,
+    51,
+    43
+   ]
+  },
+  {
+   "name": "breakable2Red3",
+   "symbol": "N",
+   "rgb": [
+    120,
+    64,
+    49
+   ]
+  },
+  {
+   "name": "breakable2Red4",
+   "symbol": "O",
+   "rgb": [
+    146,
+    81,
+    56
+   ]
+  },
+  {
+   "name": "breakable2Red5",
+   "symbol": "P",
+   "rgb": [
+    200,
+    73,
+    31
+   ]
+  },
+  {
+   "name": "breakable2Red6",
+   "symbol": "Q",
+   "rgb": [
+    192,
+    89,
+    48
+   ]
+  },
+  {
+   "name": "breakable2Teal1",
+   "symbol": "R",
+   "rgb": [
+    28,
+    75,
+    75
+   ]
+  },
+  {
+   "name": "breakable2Teal2",
+   "symbol": "S",
+   "rgb": [
+    46,
+    120,
+    116
+   ]
+  },
+  {
+   "name": "breakable2White1",
+   "symbol": "T",
+   "rgb": [
+    232,
+    251,
+    255
+   ]
+  },
+  {
+   "name": "breakable2Yellow1",
+   "symbol": "U",
+   "rgb": [
+    248,
+    209,
+    78
+   ]
+  }
+ ],
+ "sprites": [
+  {
+   "box": [
+    1,
+    3,
+    20,
+    20
+   ],
+   "rows": [
+    "......wwwwwww.www...",
+    "..ww..nsonpojgkpkw..",
+    "..wkkioppoppponiw...",
+    "..wkpppoopppponokw..",
+    "..wkooppppppqsqpng..",
+    ".wiopppppppponpppkw.",
+    ".wioqsssqpqspopnjgw.",
+    ".gkkjjosqpopsojjjjgw",
+    "winnnnpqnpnjjjnnngw.",
+    "wwgknnnnnnnnnnnjjgw.",
+    ".wgjnkjnnnnnnnkkkniw",
+    "wikknnnnpnnnkknnjknj",
+    "wwgknjknopnnkjjjniw.",
+    "..gjjjjjjnjjjjnjjgw.",
+    "..wijnnjjjjnkjjjgw..",
+    "...wgjjkkjjjjjjgw...",
+    "....wwwgjjjgggww....",
+    ".......wwwww.w......"
+   ]
+  },
+  {
+   "box": [
+    23,
+    3,
+    41,
+    20
+   ],
+   "rows": [
+    "......aTbbbTb......",
+    "....aTTTTTTTTTb....",
+    "...bTTTTTTTTTTTb...",
+    "..aTTTTTTTTTTTTTa..",
+    "..TTTTTTTTTTTTTTb..",
+    ".bTTbTTbTTTTTTTTa..",
+    ".bTTbbbbTTTTbTTTTa.",
+    ".zbbbbbbTTTTTbbTTb.",
+    "zbRSSSSRbTTTbbbbbz.",
+    "zRSTTSSSRbbbaSSaRz.",
+    ".SSbRSTTSRaRSSSSRcz",
+    "zcRSSbTRSRSSRRTRSSc",
+    "zzRcRaaRccRcRRbRcRz",
+    "..RRRRRRRRRRRSRRRz.",
+    "..zbRccRRRRSRcRRz..",
+    "..zzRRRbRRRbRRRz...",
+    "....zzzRRRRzRzz....",
+    ".......zzzz.z......"
+   ]
+  },
+  {
+   "box": [
+    47,
+    4,
+    60,
+    19
+   ],
+   "rows": [
+    "...xvvvvvvx...",
+    "..xNeeeeeeNx..",
+    ".LOOLLLLLLOdN.",
+    "xLOLLLLLLLLNNx",
+    "xNeOLLLLLLOeNx",
+    "..LOeeeeeeOLy.",
+    ".x.LLLLLLLLyy.",
+    "xNdOOOOOOOOOLy",
+    "yNeeeeeeeedOLx",
+    "yMPPeeeeeedNLx",
+    "xMQPPPPPPPNNLx",
+    "yMeeQPPPPQdOLx",
+    ".yMeeeeeeedLv.",
+    "...OeeeeedM...",
+    "...xLOOOOLv...",
+    "....xvvvvx...."
+   ]
+  },
+  {
+   "box": [
+    67,
+    2,
+    83,
+    21
+   ],
+   "rows": [
+    ".......xx........",
+    "......xFDx.......",
+    ".....xFFDDx......",
+    ".....xFADDDx.....",
+    "....xUAUAAAx.....",
+    "....xDUUAUUx.....",
+    "....xKeIIKHx...x.",
+    ".xx.xKdJIIHx.xxEx",
+    "xUExxKAIIKQxxAEDx",
+    "xEAOxIIIIKHxJUAAx",
+    "xAUHI.IIIJH.KIUAx",
+    "xIIHH.III..JIIHQx",
+    ".xIAH.II.DD.IIAHx",
+    ".xIIHIH.UAEE.HHx.",
+    "..xHKH.KIUUJ.HHx.",
+    "..xGHH.JIAHI.Kx..",
+    "..xIHI.IIHI.BHx..",
+    "...xxxxIJHI.xx...",
+    ".......xKHxx.....",
+    "........xx......."
+   ]
+  },
+  {
+   "box": [
+    3,
+    29,
+    18,
+    42
+   ],
+   "rows": [
+    ".....wwwwww.....",
+    "....wBGCCGBw....",
+    "....w.BefB.w....",
+    "..uu.CGCCGBguu..",
+    "..wgkmtjmtrrg...",
+    ".wgnnjnnnnjjjgw.",
+    "urnnrrnrrnnnniuu",
+    "wgkknnnjjnnrrjg.",
+    "wgknnnnnnnnjjjg.",
+    "..jkjnnrrnnnnj..",
+    ".urjrrnkjnrrjru.",
+    ".wwijjnjjnjjg...",
+    "..wwjjjjjjigw...",
+    "....wgjgggw....."
+   ]
+  },
+  {
+   "box": [
+    23,
+    26,
+    41,
+    46
+   ],
+   "rows": [
+    "......yy...........",
+    ".....yMNy..........",
+    "......yNyy..w....x.",
+    "xyx...yLN..ww...yLy",
+    "xMNy...LM..w...yNL.",
+    ".yNNy....ywww.xLN..",
+    "..yNLww.y.wwwwyNL..",
+    "...yywwwyhigwwyL...",
+    ".....Minhhjgnh.....",
+    "....wMhnMhgwnh...ww",
+    "..kiihhkmtgomhwiw..",
+    ".wmijjhimtjokton...",
+    ".w..wjkjmtnnjonw...",
+    "...wwwnjnjknnniii..",
+    "..wigwijnjjnngjjni.",
+    ".wwwggggjjjngRRwgww",
+    "..w..wggjknnRR...w.",
+    ".....wgRRjngRR.....",
+    "......ggRRRRgw.....",
+    "........wgg........",
+    ".........ww........"
+   ]
+  },
+  {
+   "box": [
+    47,
+    27,
+    60,
+    45
+   ],
+   "rows": [
+    ".vvvvvvvvvvvv.",
+    "vdNNONNONONNOv",
+    "veOdeeeeeddOev",
+    "veMOOOOOOdOMdv",
+    "veOeeeeeeddOdv",
+    "veMOOOddOOOMdv",
+    "vdOOOOOOOOOOOv",
+    "vOffeffeefffNv",
+    "vNNNNNNNNNNNNv",
+    "vNLLLMLLLMMLNv",
+    "vNMNLNNMONNLNv",
+    "vNMNMMNONNLLNv",
+    "vNMNLdNNNLNMNv",
+    "vNLLdNNMLMOMNv",
+    "vNLdNNMMNMNLNv",
+    "vNMNNLLNNNNLNv",
+    "vNLMLOOOOOOMNv",
+    "vvNNNNNNNNNNvv",
+    ".vvvvvvvvvvvv."
+   ]
+  },
+  {
+   "box": [
+    66,
+    26,
+    84,
+    45
+   ],
+   "rows": [
+    ".............w.....",
+    "............ww.....",
+    "..w........wk......",
+    "..wi..w....kw...w..",
+    "...ww.ww..wpw..ww..",
+    "...wqwwo..wn..wi...",
+    "....oi.nw.kn.wow...",
+    ".w..kowkkwpw.oi...w",
+    "..j.wq.wnwpw.pw.www",
+    "..wnwnkwqwqwnk.wnw.",
+    "w..lgkqwpjowqiwqw..",
+    "ww.wniqwjjnipwpl...",
+    ".wownRpkjnlplgpww..",
+    "..wqilnpRnRplnnwl..",
+    "...llnnpRnlpRnwn...",
+    "...wnllplnlolRnw...",
+    "....inRnlnlljli....",
+    "....wnRnlRnjRnw....",
+    "....wnjnnRnjjnw....",
+    ".....wngnRngnw....."
+   ]
+  }
+ ]
+}

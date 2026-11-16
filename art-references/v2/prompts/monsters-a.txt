@@ -1,0 +1,21 @@
+Image 1 shows approved sprites of a pixel art game: the hero (front and side), a slime, two goblins, a puppy and a heart. Match exactly its style: same pixel size, same dark colored outline one pixel thick, same bright saturated colors, 3 to 4 flat tones per material in large clean clusters, light from the top-left, same cute chibi face style with big shiny eyes and a white glint. Do not draw any creature of image 1.
+
+Draw a professional pixel art sheet of new monsters for the same top-down adventure game (three-quarter view from above: the top of the head is visible, feet visible below the body).
+
+The sheet has exactly 2 rows of 4 sprites, evenly spaced on a regular grid, each sprite well separated from the others.
+
+Row 1, from left to right:
+1. a cute chibi skeleton warrior, front view facing the viewer: big round skull with two big dark eye holes each with a small glowing cyan pupil, a small grin with square teeth, a bony ribcage, thin bony arms and legs, a small torn purple scarf around the neck, holding a bone like a club in one hand
+2. the same skeleton, strict side view facing left
+3. the same skeleton, back view, no face
+4. a single white bone, small, thrown as a projectile, lying diagonally
+
+Row 2, from left to right:
+5. a grumpy mushroom monster, front view facing the viewer: a big round red cap with white spots, a short cream stalk body, tiny feet, angry frowning eyes and a small open mouth, two tiny leaf arms
+6. the same mushroom monster, strict side view facing left
+7. the same mushroom monster, back view, no face
+8. a small round glowing purple spore ball with a white glint, used as a projectile
+
+Sizes: the skeleton is as tall as the hero of image 1. The mushroom monster is about two thirds of the hero's height. The bone and the spore are about one fifth of the hero's height.
+
+Output: the 8 sprites only, plain flat background #2a2030, crisp nearest-neighbor pixels, no dithering, no gradients, no antialiasing, no text, no labels, no numbers, no ground line, no cast shadow, no frame, no grid lines.

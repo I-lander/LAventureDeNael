@@ -1,0 +1,21 @@
+Image 1 shows the current monsters of a pixel art game (slimes and goblins) next to its hero. Use it ONLY to know which creatures exist and their colors. Its drawing quality is too poor: do not copy its style.
+
+Draw a professional pixel art monster sheet, redesigned in a cute and colorful style, for a top-down adventure game seen from above at a three-quarter angle (classic 16-bit top-down RPG camera: the top of the head is visible, feet visible below the body).
+
+The sheet has exactly 2 rows of 4 sprites, evenly spaced on a regular grid, each sprite well separated from the others.
+
+Row 1, from left to right:
+1. a green slime, front view facing the viewer: a glossy round jelly blob with big shiny eyes, a small smiling mouth and one bright highlight on its dome
+2. the same green slime, strict side view facing right
+3. the same green slime, back view, no face
+4. the king slime, front view: a much bigger angry green slime, twice as large as the others, with frowning eyebrows, an open mouth with two small fangs and a golden crown with red gems
+
+Row 2, from left to right:
+5. a goblin archer, front view facing the viewer: small chibi goblin, big head, green skin, long pointy ears, brown leather hood, green tunic, holding a small wooden bow
+6. the same goblin archer, strict side view facing right
+7. the same goblin archer, back view, no face
+8. a goblin bomber, front view: same chibi goblin with a red bandana and a purple striped shirt, holding a round black bomb with a lit fuse above his head
+
+Style: high quality hand-placed pixel art as made by a professional pixel artist for a commercial 16-bit game. Low resolution: a normal slime or goblin is drawn on a grid of about 32 by 32 pixels, with big clearly visible square pixels. Rounded, readable silhouettes, chibi proportions. A dark colored outline one pixel thick around each silhouette (a darker shade of the local color, not pure black). Bright, saturated, cheerful colors. 3 to 4 flat tones per material, in large clean clusters, one light source from the top-left. Cute expressive faces with big eyes and a white glint. No dithering, no gradients, no antialiasing, no noise, no blur, no stray pixels.
+
+Output: the 8 sprites only, plain flat background #2a2030, crisp nearest-neighbor pixels, no text, no labels, no numbers, no ground line, no cast shadow, no frame, no grid lines.

@@ -1,0 +1,21 @@
+Image 1 shows approved sprites of a pixel art game: the hero (front and side), a slime, two goblins, a puppy and a heart. Match exactly its style: same pixel size, same dark colored outline one pixel thick, same bright saturated colors, 3 to 4 flat tones per material in large clean clusters, light from the top-left, same cute chibi face style with big shiny eyes and a white glint. Do not draw any creature of image 1.
+
+Draw a professional pixel art sheet of new monsters and items for the same top-down adventure game (three-quarter view from above).
+
+The sheet has exactly 2 rows of 4 sprites, evenly spaced on a regular grid, each sprite well separated from the others.
+
+Row 1, from left to right:
+1. a cute purple bat, front view facing the viewer, wings raised high: round fluffy purple body, big pointy ears, big shiny eyes, two tiny white fangs, wide leathery wings with a darker membrane
+2. the same bat, front view, wings lowered down below the body (second flapping frame, same body at the same place)
+3. a lava golem, front view facing the viewer: a big heavy creature made of chunky dark grey-purple rocks, glowing orange lava cracks between the rocks, small glowing yellow eyes under a heavy rocky brow, huge rocky fists, short thick legs
+4. the same lava golem, strict side view facing left
+
+Row 2, from left to right:
+5. the same lava golem, back view, no face, lava cracks on its back
+6. a small round glowing lava ball with an orange core and a yellow center, used as a projectile
+7. a shiny round gold coin seen from the front, with a simple embossed star in its center and one white glint
+8. a stack of three gold coins
+
+Sizes: the bat body is about one third of the hero's height, wings included it is as wide as the hero. The lava golem is one and a half times as tall as the hero. The lava ball, the coin and the coin stack are about one fifth of the hero's height.
+
+Output: the 8 sprites only, plain flat background #2a2030, crisp nearest-neighbor pixels, no dithering, no gradients, no antialiasing, no text, no labels, no numbers, no ground line, no cast shadow, no frame, no grid lines.

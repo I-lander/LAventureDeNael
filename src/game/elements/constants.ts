@@ -1,0 +1,83 @@
+export const LAYOUT_UNIT = 8;
+export const PIXEL_SCALE = LAYOUT_UNIT;
+export const UI_SCALE = LAYOUT_UNIT / 2;
+export const VIEW_WIDTH = 2560;
+export const VIEW_HEIGHT = 1440;
+
+export const FLOOR_TOP = 66 * LAYOUT_UNIT;
+export const PLAYFIELD_TOP = 82 * LAYOUT_UNIT;
+export const PLAYFIELD_BOTTOM = 164 * LAYOUT_UNIT;
+export const PLAYFIELD_LEFT = 14 * LAYOUT_UNIT;
+export const PLAYFIELD_RIGHT = 230 * LAYOUT_UNIT;
+export const SPAWN_X = VIEW_WIDTH + 16 * LAYOUT_UNIT;
+export const DESPAWN_LEFT = -24 * LAYOUT_UNIT;
+
+export const RESTART_DELAY_MS = 1200;
+
+export const SCROLL_SPEED = 26 * LAYOUT_UNIT;
+
+export const PLAYER_MAX_HEALTH = 5;
+export const PLAYER_KEYBOARD_SPEED = 95 * LAYOUT_UNIT;
+export const PLAYER_DRAG_SPEED = 260 * LAYOUT_UNIT;
+export const PLAYER_HIT_RADIUS = 5 * LAYOUT_UNIT;
+export const PLAYER_INVULNERABLE_MS = 1300;
+export const PLAYER_FIRE_INTERVAL_MS = 320;
+export const FIRE_RATE_UPGRADE_FACTOR = 0.85;
+
+export const BULLET_SPEED = 300 * LAYOUT_UNIT;
+export const BULLET_DAMAGE = 1;
+export const MULTISHOT_SPACING = 3 * LAYOUT_UNIT;
+export const MULTISHOT_SPREAD_SPEED = 14 * LAYOUT_UNIT;
+
+export const COINS_PER_SLIME = 1;
+export const LEVEL_HEALTH_GROWTH = 0.4;
+export const ENEMY_BALL_SPEED = 80 * LAYOUT_UNIT;
+export const BALL_HIT_RADIUS = 3 * LAYOUT_UNIT;
+export const HEART_PICKUP_RADIUS = 8 * LAYOUT_UNIT;
+
+export const BOSS_MAX_HEALTH = 120;
+export const BOSS_HIT_RADIUS = 12 * LAYOUT_UNIT;
+export const BOSS_HOME_X = 262 * LAYOUT_UNIT;
+export const BOSS_ENRAGE_RATIO = 0.5;
+export const BOSS_CONTACT_RADIUS = 10 * LAYOUT_UNIT;
+
+export const ENEMY_BOMB_FLIGHT_MS = 1100;
+export const ENEMY_BOMB_ARC_HEIGHT = 40 * LAYOUT_UNIT;
+export const ENEMY_BOMB_RADIUS = 11 * LAYOUT_UNIT;
+export const STAR_PICKUP_RADIUS = 9 * LAYOUT_UNIT;
+
+export const SHIELD_DURATION_MS = 5000;
+export const SHIELD_RADIUS = 14 * LAYOUT_UNIT;
+export const MEGA_LASER_DURATION_MS = 2000;
+export const MEGA_LASER_TICK_MS = 100;
+export const MEGA_LASER_HEIGHT = 14 * LAYOUT_UNIT;
+export const MEGA_LASER_DAMAGE_FACTOR = 2;
+export const BOMB_RAIN_COUNT = 12;
+export const BOMB_RAIN_INTERVAL_MS = 130;
+export const BOMB_RAIN_FALL_MS = 650;
+export const BOMB_RAIN_RADIUS = 16 * LAYOUT_UNIT;
+export const BOMB_RAIN_DAMAGE = 6;
+
+export const PLAYER_WALK_SPEED = 62 * LAYOUT_UNIT;
+export const PLAYER_BODY_RADIUS = 3 * LAYOUT_UNIT;
+export const PLAYER_MUZZLE_DISTANCE = 7 * LAYOUT_UNIT;
+export const AUTO_AIM_RANGE = 60 * LAYOUT_UNIT;
+
+export const ENEMY_SPAWN_DISTANCE = 195 * LAYOUT_UNIT;
+export const ENEMY_DESPAWN_DISTANCE = 340 * LAYOUT_UNIT;
+export const ENEMY_SPAWN_INTERVAL_MS = 1800;
+export const ENEMY_BASE_CAP = 4;
+export const ENEMY_CAP_PER_ZONE = 2;
+export const ENEMY_MAX_CAP = 16;
+export const ZONE_SIZE_TILES = 60;
+
+export const BOSS_KILLS_REQUIRED = 30;
+export const BOSS_REWARD_COINS = 25;
+export const BOSS_SPAWN_DISTANCE = 195 * LAYOUT_UNIT;
+export const BOSS_HOME_DISTANCE = 85 * LAYOUT_UNIT;
+export const VICTORY_BANNER_MS = 3500;
+
+export const PET_FIRE_INTERVAL_MS = 900;
+export const PET_RANGE = 85 * LAYOUT_UNIT;
+export const PET_FOLLOW_DISTANCE = 11 * LAYOUT_UNIT;
+export const PET_SPEED = 80 * LAYOUT_UNIT;

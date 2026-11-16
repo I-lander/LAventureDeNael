@@ -1,0 +1,53 @@
+{
+  "family": "item",
+  "art": "src/tools/spriteBaker/half/ItemHalf.ts",
+  "palette": "src/game/elements/halfPalette/ItemPalette.ts",
+  "paletteConst": "ITEM_PALETTE",
+  "keyPrefix": "item",
+  "reference": "art-references/v3/items-b.jpg",
+  "design": [
+    "art-references/v3/input/items-design.png",
+    "art-references/v3/items-a.jpg"
+  ],
+  "sprites": [
+    {
+      "name": "HEART",
+      "cells": "art-references/v4/item/cells-b.json",
+      "index": 0,
+      "legends": [
+        "ITEM_LEGEND",
+        "EMPTY_HEART_LEGEND"
+      ]
+    },
+    {
+      "name": "STAR",
+      "cells": "art-references/v4/item/cells-b.json",
+      "index": 1,
+      "legend": "ITEM_LEGEND"
+    },
+    {
+      "name": "BOMB",
+      "cells": "art-references/v4/item/cells-b.json",
+      "index": 2,
+      "legend": "ITEM_LEGEND"
+    },
+    {
+      "name": "EXPLOSION",
+      "cells": "art-references/v4/item/cells-b.json",
+      "index": 3,
+      "legend": "ITEM_LEGEND"
+    },
+    {
+      "name": "DESERT_SKULL",
+      "cells": "art-references/v4/item/cells-b.json",
+      "index": 4,
+      "legend": "ITEM_LEGEND"
+    },
+    {
+      "name": "ARROW",
+      "cells": "art-references/v4/item/cells-b.json",
+      "index": 7,
+      "legend": "ITEM_LEGEND"
+    }
+  ]
+}

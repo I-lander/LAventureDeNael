@@ -1,0 +1,61 @@
+{
+  "family": "breakable",
+  "art": "src/tools/spriteBaker/half/BreakableHalf.ts",
+  "palette": "src/game/elements/halfPalette/BreakablePalette.ts",
+  "paletteConst": "BREAKABLE_PALETTE",
+  "keyPrefix": "breakable",
+  "reference": "art-references/v3/breakables3-a.jpg",
+  "design": [
+    "art-references/v3/input/breakables-design.png"
+  ],
+  "sprites": [
+    {
+      "name": "BUSH",
+      "cells": "art-references/v4/breakable/cells.json",
+      "index": 0,
+      "legend": "BREAKABLE_LEGEND"
+    },
+    {
+      "name": "SNOW_BUSH",
+      "cells": "art-references/v4/breakable/cells.json",
+      "index": 1,
+      "legend": "BREAKABLE_LEGEND"
+    },
+    {
+      "name": "CLAY_POT",
+      "cells": "art-references/v4/breakable/cells.json",
+      "index": 2,
+      "legend": "BREAKABLE_LEGEND"
+    },
+    {
+      "name": "LAVA_CRYSTAL",
+      "cells": "art-references/v4/breakable/cells.json",
+      "index": 3,
+      "legend": "BREAKABLE_LEGEND"
+    },
+    {
+      "name": "BARREL_CACTUS",
+      "cells": "art-references/v4/breakable/cells.json",
+      "index": 4,
+      "legend": "BREAKABLE_LEGEND"
+    },
+    {
+      "name": "REEDS",
+      "cells": "art-references/v4/breakable/cells.json",
+      "index": 5,
+      "legend": "BREAKABLE_LEGEND"
+    },
+    {
+      "name": "CRATE",
+      "cells": "art-references/v4/breakable/cells.json",
+      "index": 6,
+      "legend": "BREAKABLE_LEGEND"
+    },
+    {
+      "name": "TALL_GRASS",
+      "cells": "art-references/v4/breakable/cells.json",
+      "index": 7,
+      "legend": "BREAKABLE_LEGEND"
+    }
+  ]
+}

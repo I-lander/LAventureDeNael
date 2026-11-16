@@ -1,0 +1,18 @@
+{
+  "appId": "com.donkeysisle.laventuredenael",
+  "productName": "L'aventure de Nael",
+  "directories": {
+    "buildResources": "resources"
+  },
+  "files": ["assets/**/*", "build/**/*", "capacitor.config.*", "app/**/*"],
+  "publish": null,
+  "nsis": {
+    "allowElevation": true,
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "./assets/icon.ico"
+  }
+}

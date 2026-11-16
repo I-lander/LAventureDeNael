@@ -1,0 +1,554 @@
+{
+ "palette": [
+  {
+   "name": "heroBlue1",
+   "symbol": "a",
+   "rgb": [
+    26,
+    35,
+    71
+   ]
+  },
+  {
+   "name": "heroBlue2",
+   "symbol": "b",
+   "rgb": [
+    28,
+    51,
+    92
+   ]
+  },
+  {
+   "name": "heroBlue3",
+   "symbol": "c",
+   "rgb": [
+    26,
+    67,
+    112
+   ]
+  },
+  {
+   "name": "heroBlue4",
+   "symbol": "d",
+   "rgb": [
+    32,
+    90,
+    153
+   ]
+  },
+  {
+   "name": "heroBlue5",
+   "symbol": "e",
+   "rgb": [
+    35,
+    106,
+    185
+   ]
+  },
+  {
+   "name": "heroBlue6",
+   "symbol": "f",
+   "rgb": [
+    40,
+    123,
+    226
+   ]
+  },
+  {
+   "name": "heroBlue7",
+   "symbol": "g",
+   "rgb": [
+    82,
+    157,
+    214
+   ]
+  },
+  {
+   "name": "heroBrown1",
+   "symbol": "h",
+   "rgb": [
+    164,
+    108,
+    41
+   ]
+  },
+  {
+   "name": "heroBrown2",
+   "symbol": "i",
+   "rgb": [
+    181,
+    115,
+    82
+   ]
+  },
+  {
+   "name": "heroBrown3",
+   "symbol": "j",
+   "rgb": [
+    197,
+    130,
+    93
+   ]
+  },
+  {
+   "name": "heroBrown4",
+   "symbol": "k",
+   "rgb": [
+    237,
+    225,
+    204
+   ]
+  },
+  {
+   "name": "heroGreen1",
+   "symbol": "l",
+   "rgb": [
+    37,
+    102,
+    49
+   ]
+  },
+  {
+   "name": "heroGreen2",
+   "symbol": "m",
+   "rgb": [
+    65,
+    148,
+    51
+   ]
+  },
+  {
+   "name": "heroGreen3",
+   "symbol": "n",
+   "rgb": [
+    108,
+    211,
+    60
+   ]
+  },
+  {
+   "name": "heroGrey1",
+   "symbol": "o",
+   "rgb": [
+    180,
+    181,
+    198
+   ]
+  },
+  {
+   "name": "heroInk1",
+   "symbol": "p",
+   "rgb": [
+    2,
+    4,
+    38
+   ]
+  },
+  {
+   "name": "heroOrange1",
+   "symbol": "q",
+   "rgb": [
+    237,
+    184,
+    134
+   ]
+  },
+  {
+   "name": "heroPink1",
+   "symbol": "r",
+   "rgb": [
+    74,
+    55,
+    68
+   ]
+  },
+  {
+   "name": "heroRed1",
+   "symbol": "s",
+   "rgb": [
+    71,
+    45,
+    48
+   ]
+  },
+  {
+   "name": "heroRed2",
+   "symbol": "t",
+   "rgb": [
+    108,
+    58,
+    49
+   ]
+  },
+  {
+   "name": "heroRed3",
+   "symbol": "u",
+   "rgb": [
+    139,
+    78,
+    58
+   ]
+  },
+  {
+   "name": "heroRed4",
+   "symbol": "v",
+   "rgb": [
+    157,
+    98,
+    73
+   ]
+  },
+  {
+   "name": "heroRed5",
+   "symbol": "w",
+   "rgb": [
+    241,
+    121,
+    103
+   ]
+  },
+  {
+   "name": "heroTeal1",
+   "symbol": "x",
+   "rgb": [
+    140,
+    214,
+    238
+   ]
+  },
+  {
+   "name": "heroWhite1",
+   "symbol": "y",
+   "rgb": [
+    242,
+    240,
+    231
+   ]
+  },
+  {
+   "name": "heroYellow1",
+   "symbol": "z",
+   "rgb": [
+    245,
+    213,
+    113
+   ]
+  }
+ ],
+ "sprites": [
+  {
+   "box": [
+    7,
+    8,
+    31,
+    60
+   ],
+   "rows": [
+    "............p............",
+    "...........pnp...........",
+    "......p...pnnfp...p......",
+    ".....pnp..pnffp..pnp.....",
+    "....pnmfppnnfffppnfp.....",
+    "..p.pnmffpnmfffpnmffp.p..",
+    ".pnppnmfffnfffffnfffppnp.",
+    ".pnfpnmfffmfffffmfffpnmp.",
+    ".pnffmffffffffffffffnndp.",
+    ".pmnffffffffffffffffnmdp.",
+    ".pdmffffffffffffffffffdp.",
+    ".pdfffffffffffffffffffdp.",
+    "pddfffmnfffffffffffffdddp",
+    "pddffmmnnnnnnnnnnnmdddddp",
+    "pdddnnnmmmmmmmmmmmmnndddp",
+    "pddmmmmmmqqqqqqqmmmmmmddp",
+    "pdmmmjjssmqqqqqms.jjmmmdp",
+    "ppdmqq....qqqqq....qqmdpp",
+    "pqdqq.o.yqqqqqqqy.o.qqdqp",
+    "pquqqpy..qqqqqqq..y.qquqp",
+    "pquqqqys.qqqkqqq.ryqqquqp",
+    ".puqwwwqqqqqwwqqqqwwwqup.",
+    "..pjwwwqqqqqqqqqqqwwwip..",
+    "..ptqqqqqqtqqqqtqqqqqtp..",
+    "...puqqqqqqttttqqqqqup...",
+    "....ptjqqqqqqqqqqqqtp....",
+    ".....pptqqqqqqqqqupp.....",
+    ".......pppuuuuuppp.......",
+    ".....pppytuuuuutyppp.....",
+    "....pdffyyjjjjjyyffdp....",
+    "...pfffffyojjjoyfffffp...",
+    "..pdffffffoyyyoffffffdp..",
+    "..pfffdfffoyyyofffdfffp..",
+    "..pfffbfffoyyyofffafffp..",
+    ".pfffdafffoyyyofffadfffp.",
+    ".pfffpdfffoyyyofffdpfffp.",
+    ".pfffpdfffoyyyofffdpfffp.",
+    "pzkoopdfffoyyyofffdpooyzp",
+    "pzhhhpdfffoyyyofffdppppzp",
+    "phqqvpdfffoyyyofffdprggup",
+    "pqqjqpddddlllllddddprggup",
+    "pqqvvppppplmmmlppppprgxup",
+    ".pqqtpllmmmmmmmmmllppgxp.",
+    "..pppplmmmmpppmmmmlppgxp.",
+    ".....plmmmmp.pmmmmlppgxp.",
+    "......pjjjp...pjjip.pgxp.",
+    "......pqqqp...pqqqp.pgxp.",
+    "......pqqqp...pqqqp.ppp..",
+    "......pyyqp...pqyyp......",
+    ".....poooop...poooop.....",
+    "....pyyyoop...pooyyyp....",
+    "....pbbbbbp...pbbbbbp....",
+    "....ppppppp...ppppppp...."
+   ]
+  },
+  {
+   "box": [
+    35,
+    8,
+    67,
+    60
+   ],
+   "rows": [
+    "..............p..................",
+    ".........p...pnp.................",
+    "........pnp..pnfp...p............",
+    ".......pnfp.pnffp..pnp...........",
+    "....p..pnffpnnfffppnmfp..........",
+    "...pnp.pnffpnnfffpnnfffp.........",
+    "...pnnppnfffnfffffnffffp.........",
+    "....pnmmmfffmfffffmffffdp........",
+    ".pppfnmfffffffffffffffffdp.......",
+    "pnnnffffffffffffffffffffdp.......",
+    ".ppnnffffffffffffffffffffdp......",
+    "..pdmffffffffffffffffffffdp......",
+    ".pdfffffffffffffnmffffffffp......",
+    ".pdfffffffffffmnnnnnnnnnnnp......",
+    ".pddfffffffffnnmmmmmmmmmmmp......",
+    ".pddffffffdnmmmmmmqqqqqqmmp......",
+    "..pdffffddmmmmqqssmqqqqm.ip......",
+    "..pddffdpqmmqqq....qqqq...p......",
+    "..pddddpqjmqqqpo.yqqqqqqy.p......",
+    "..pddddpqjqqqq.y..qqqqqq..p......",
+    "..pcdddpqqqqqqqyr.qqqkqq.rp......",
+    "...pddddpiqqqwwwqqqqqwwqqwp......",
+    "...pcdddddjqqwwwqqqqqqqqqwp......",
+    "....pcddddjjqqqqqqtqqqtqqu.......",
+    ".....pcdddcjjqqqqqqtttqqjp.......",
+    "......ppbdddjjqqqqqqqqqip........",
+    "........pppppujjqqqqqjpp.........",
+    "............ppuuuuuppp...........",
+    "..........ppyyuuuuuupp...........",
+    ".........pfffyyjjjjuyfp..........",
+    "........pffffffyjjjoyffp.........",
+    ".......pdfffffffoyyooffdp........",
+    ".......pffffdfffoyyyofdep........",
+    ".......pffffafffoyyyofbfp........",
+    "......pfffffafffoyyyofbeep.......",
+    "......pffffpdfffoyyyoffpep.......",
+    "......pffffpdfffoyyyoffpdp.......",
+    "......pzkoopdfffoyyyoffpohppp....",
+    "......pzhhhpdfffoyyyoffphvbbxp...",
+    "......phqqqudfffoyyyoffpvubgggp..",
+    "......pqqqqq.dddlllllddpbbbggxp..",
+    "......pqqqvupppplmmmmpppujbbggxp.",
+    ".......pqqvplmmmmmllmmmpppjbbgxp.",
+    "........ppplmmmmmplmmmmp..ppbggxp",
+    "..........plmmmmmplmmmp.....pbggp",
+    "...........pjjjpp.pjjjp......ppp.",
+    "...........pqqqp..piqqp......p...",
+    "...........pqqqp..piqyy..........",
+    "..........pqqyyp..poooop.........",
+    "..........poooop..poooyyp........",
+    "..........pooyyyp.pbbbbbp........",
+    "..........pbbbbbp.ppppppp........",
+    "..........ppppppp................"
+   ]
+  },
+  {
+   "box": [
+    65,
+    9,
+    93,
+    60
+   ],
+   "rows": [
+    ".........p......p............",
+    "........pnp....pnp....p......",
+    ".......pnmfp..pnmfp..pnp.....",
+    "...pp..pnmffppnmffpppnfp.....",
+    "..pnnp.pnmfffpnmfffpnmffp....",
+    "...pnmppnmffffnmffffnfffp....",
+    "....pnmmnmffffmfffffmfffdp...",
+    ".pppmnmfmffffffffffffffffdp..",
+    "pnnmmmfffffffffffffffffffdp..",
+    ".ppmnfffffffffffffffffffffdp.",
+    "..pmmfffffffffffffffffffffdp.",
+    ".pmmfffffffffffffffnmfffffdp.",
+    ".pdfffffffffffffffnnnnnnnnnp.",
+    ".pddfffffffffffffnmmmmmmmmmp.",
+    ".pddfffffffffffdmmmmmmmmqqmp.",
+    "..pddffffffffddmmmqqqqssmqmp.",
+    "..pddfffffffpqqmmqqqq....qqp.",
+    "..pddffffffdpqjqmqqq.o.yqqqp.",
+    "..pdddfffffdpqjqqqqq.y.pqqqp.",
+    "..pdddfffffdpqqqqqqqqyr.qqqjp",
+    "...pddffffffdp.qqqwwwqqqqqqqp",
+    "...pddfffffffdjqqqwwwqqqqqqp.",
+    "....pddffffffdjqqqqqqqqtqqqp.",
+    ".....pdddffffdjjqqqqqqqqttp..",
+    "......ppddddddujqqqqqqqqqjp..",
+    "........ppppppuijqqqqqqjpp...",
+    ".............pujjjijpppp.....",
+    ".............pyyyjjjp........",
+    "............pddffyyjp........",
+    "...........pddfffffyop.......",
+    "...........pdfffffffop.......",
+    "...........pdffffdffoyp......",
+    "...........pdffffdfffyp......",
+    "...........pdffffpfffyp......",
+    "...........pdffffpfffoyp.....",
+    "...........pdffffpfffoyp.....",
+    "...........psggzzpfffoyp.....",
+    "...........pszzhhhpppoyp.....",
+    "...........psvhhqqbgxpyp.....",
+    "...........pcuqqqqbggpmp.....",
+    "...........ppvqqqibggppp.....",
+    "............pbiiiibggxp......",
+    "............pppppbbbgxp......",
+    ".............plllppbgxp......",
+    "..............pjjjjpbgxp.....",
+    "..............pqqqqpbgxp.....",
+    "..............pqqqqpppp......",
+    "..............pyyyyp.........",
+    "..............pyyyoop........",
+    "..............pyyyyyyp.......",
+    "..............pbbbbbbp.......",
+    "..............pppppppp......."
+   ]
+  },
+  {
+   "box": [
+    98,
+    8,
+    126,
+    60
+   ],
+   "rows": [
+    "...........p.................",
+    "..........pnp....p...........",
+    "......p...pnfp..pnp..........",
+    ".....pfp..pnnfp.pndp.........",
+    "...ppfffpppnnffpnnddp........",
+    "..pnppfffpnnmfffnffddp.......",
+    "..pnnnmfffnnmfffnfffdp.......",
+    "...pfnnmfffnmfffffffddp......",
+    ".pppffnnmffffffffffffddp.....",
+    "pnnnffffffffffffffffffdp.....",
+    ".pnnnfffffffffffffffffddp....",
+    ".pfmnmfffffffffffffffffdp....",
+    "pfffmmfffffffffffffffffdp....",
+    "pffffffffffffffffffffffnp....",
+    "pfffffffffffffffffffffnmp....",
+    "pffffffffffffffffffffnmmp....",
+    "pdffffffffffffffffddmmmjp....",
+    "pddffffffffffffffddqqmjqp....",
+    "pdddfffffffffffddduqqmqqp....",
+    "pddddffffffffddddduqqqqqp....",
+    "pddddddddddddddddduqqqqqp....",
+    ".pddddddddddddddddjuqqwwp....",
+    ".pcdddddddddddddddqqqqwwp....",
+    "..pcddddddddddddddqqqqqip....",
+    "...pcccddddddddddjjqqqjp.....",
+    "....ppcccdddddddjjjjqip......",
+    "......ppcddddddjjjjjpp.......",
+    "........ppjjjjjttppp.........",
+    ".......ppoyyyyyopp...........",
+    "......pdddfffffffdp..........",
+    ".....pdddffffffffffp.........",
+    ".....pddffffffffffffp........",
+    "....pddafffffffdffffp........",
+    "....pddafffffffpffffp........",
+    "...pdddafffffffpfffffp.......",
+    "...pddpdfffffffpdffffp.......",
+    "...pddpdfffffffpdffffp.......",
+    "...poopdfffffffdpdffzzppp....",
+    "...phopdfffffffdpvokjhpgxp...",
+    "...puupdddfffffddpzhhqqbgxp..",
+    "...puuppppdddddddpvvqqqbgxp..",
+    "....puplllppppppppbvqqibggxp.",
+    ".....pplmmmllllllpc.iipbbgxp.",
+    "......plllbplmmmmlppppbbbggxp",
+    ".......pllllpmmmmllp..ppbbggp",
+    ".......pjjjp.ppjjjp.....pbgp.",
+    ".......pjjip..pqqqp......pp..",
+    ".......pjijp..pqqqp..........",
+    ".......pooop..pyyyop.........",
+    ".......poooop.pyyyyop........",
+    ".......pbbbbp.pyyyyyyp.......",
+    ".......pppppp.pbbbbbbp.......",
+    "..............pppppppp......."
+   ]
+  },
+  {
+   "box": [
+    129,
+    8,
+    153,
+    60
+   ],
+   "rows": [
+    "............p............",
+    "...........pnp...........",
+    "......p...pfnnp...p......",
+    ".....pnp..pffnp..pnp.....",
+    ".....pfnppfffnnppffnp....",
+    "..p.pffmnpfffmnpfffnp.p..",
+    ".pnppfffnfffffnffffnppnp.",
+    ".pnnpfffmfffffmffffnpnnp.",
+    ".pfnnffffffffffffffmfnfp.",
+    ".pffnffffffffffffffffnfp.",
+    ".pdffffffffffffffffffffp.",
+    ".pdfffffffffffffffffffdp.",
+    "pdfffffffffffffffffffffdp",
+    "pdfffffffffffffffffffffdp",
+    "pddfffffffffffffffffffddp",
+    "pmdddfffffffffffffffdddmp",
+    "pmnndddfffffffffffdddnnmp",
+    "ppmnnndddddddddddddnnnmpp",
+    "pidmmmnnnnnmnmnnnnnmmmdjp",
+    "pidddmmmmmmnnmmmmmmmdddjp",
+    "pisddddddddmmmddddddddtip",
+    ".prdddddddnnmnmdddddddtp.",
+    "..pdddddddnndnndddddddp..",
+    "..pcddddddnnddnddddddcp..",
+    "...pcdddddddddddddddcp...",
+    "....pcdddddddddddddcp....",
+    ".....ppcdddddddddcpp.....",
+    ".......pppjjjjjppp.......",
+    ".....pppoyyyyyyyoppp.....",
+    "....pdfffffffffffffdp....",
+    "...pdfffffffffffffffdp...",
+    "..pdfffffffffffffffffdp..",
+    "..pfffdfffffffffffdfffp..",
+    "..pfffdfffffffffffdfffp..",
+    ".pfffdafffffffffffaffffp.",
+    ".pfffpdfffffffffffdpfffp.",
+    ".pfffpdfffffffffffdpfffp.",
+    "pzkfepdfffffffffffdpffkzp",
+    "phzyopdfffffffffffdpokzhp",
+    "pjhhhpddfffffffffddphhhip",
+    "pqqvvpdddddddddddddpviqqp",
+    "pqqibpppppppppppppppujqqp",
+    ".piibplllllllllllllpujjp.",
+    "..pbbplmmmmpppmmmmlpppp..",
+    "..pbbplmmmmp.pmmmmlp.....",
+    "..pbbbpijjp...pjjjp......",
+    "..pbbbpqqqp...pqqqp......",
+    "...ppppqqqp...pqqqp......",
+    "......pyyyp...pyyyp......",
+    ".....pyyyyp...pyyyyp.....",
+    "....poyyyyp...pyyyyop....",
+    "....pbbbbbp...pbbbbbp....",
+    "....ppppppp...ppppppp...."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+Image 1 is the approved hero of a pixel art game, shown from 5 angles. Match exactly its style: same pixel size, same dark colored outline one pixel thick, same bright saturated colors, 3 to 4 flat tones per material in large clean clusters, light from the top-left, same cute face style with big shiny eyes and a white glint. Do not draw the hero.
+
+Draw a professional pixel art sheet of extra sprites for the same top-down adventure game (three-quarter view from above).
+
+The sheet has exactly 2 rows of 4 sprites, evenly spaced on a regular grid, each sprite well separated from the others.
+
+Row 1, from left to right:
+1. a cute small puppy companion, front view facing the viewer: golden-orange fur, floppy ears, cream muzzle, big shiny eyes, a tiny wagging tail, sitting on four short legs
+2. the same puppy, strict side view facing right, standing
+3. the same puppy, back view, no face, tail visible
+4. a shiny red heart pickup with one white highlight
+
+Row 2, from left to right:
+5. a golden five-pointed power star with a happy little face
+6. a round black bomb with a short lit fuse and one highlight
+7. a red potion in a round glass bottle with a cork
+8. a round explosion puff: white-yellow center, orange ring, red-brown smoky edge
+
+Sizes: the puppy is about half the height of the hero of image 1. The heart, star, bomb and potion are about one third of the hero's height. The explosion is about as tall as the puppy.
+
+Output: the 8 sprites only, plain flat background #2a2030, crisp nearest-neighbor pixels, no dithering, no gradients, no antialiasing, no text, no labels, no numbers, no ground line, no cast shadow, no frame, no grid lines.

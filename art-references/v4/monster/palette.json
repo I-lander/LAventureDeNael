@@ -1,0 +1,32 @@
+{
+ "colors": [
+  {"symbol": "k", "key": "monsterInk", "hex": "#01031c"},
+  {"symbol": "d", "key": "monsterSlimeDeep", "hex": "#24593b"},
+  {"symbol": "s", "key": "monsterSlimeShadow", "hex": "#2f8848"},
+  {"symbol": "b", "key": "monsterSlimeBase", "hex": "#44a53e"},
+  {"symbol": "l", "key": "monsterSlimeLight", "hex": "#59c53c"},
+  {"symbol": "q", "key": "monsterSlimeMid", "hex": "#6dd24b"},
+  {"symbol": "r", "key": "monsterSlimeRim", "hex": "#82eb51"},
+  {"symbol": "w", "key": "monsterGlint", "hex": "#fcfdf8"},
+  {"symbol": "y", "key": "monsterGoldBase", "hex": "#fbd532"},
+  {"symbol": "o", "key": "monsterGoldShade", "hex": "#f0aa3d"},
+  {"symbol": "n", "key": "monsterGoldDark", "hex": "#c16832"},
+  {"symbol": "Y", "key": "monsterGoldLight", "hex": "#fdefa0"},
+  {"symbol": "R", "key": "monsterRedBase", "hex": "#cf3336"},
+  {"symbol": "D", "key": "monsterRedShade", "hex": "#8c1c38"},
+  {"symbol": "g", "key": "monsterSkinBase", "hex": "#8bb549"},
+  {"symbol": "h", "key": "monsterSkinShade", "hex": "#6aa146"},
+  {"symbol": "e", "key": "monsterSkinDark", "hex": "#4c884b"},
+  {"symbol": "G", "key": "monsterSkinLight", "hex": "#a4cf5e"},
+  {"symbol": "H", "key": "monsterHoodBase", "hex": "#8c5439"},
+  {"symbol": "I", "key": "monsterHoodShade", "hex": "#5b322e"},
+  {"symbol": "J", "key": "monsterHoodLight", "hex": "#ae724e"},
+  {"symbol": "T", "key": "monsterTan", "hex": "#d2b48f"},
+  {"symbol": "p", "key": "monsterBlush", "hex": "#dc947a"},
+  {"symbol": "B", "key": "monsterBombBase", "hex": "#3a3c55"},
+  {"symbol": "P", "key": "monsterShirtShade", "hex": "#5d3086"},
+  {"symbol": "Q", "key": "monsterShirtBase", "hex": "#a355b8"},
+  {"symbol": "F", "key": "monsterSpark", "hex": "#ee5b26"},
+  {"symbol": "X", "key": "monsterBackdrop", "hex": "#281f2f"}
+ ]
+}

@@ -1,0 +1,111 @@
+{
+  "family": "monster",
+  "art": "src/tools/spriteBaker/half/MonsterHalf.ts",
+  "palette": "src/game/elements/halfPalette/MonsterPalette.ts",
+  "paletteConst": "MONSTER_PALETTE",
+  "keyPrefix": "monster",
+  "reference": "art-references/v3/slimes-a.jpg",
+  "design": [
+    "art-references/v3/input/slimes-design.png"
+  ],
+  "sprites": [
+    {
+      "name": "SLIME_FRONT",
+      "cells": "art-references/v4/monster/cells.json",
+      "index": 0,
+      "box": [
+        28,
+        22,
+        2
+      ],
+      "legends": [
+        "MONSTER_LEGEND",
+        "BLUE_SLIME_LEGEND",
+        "RED_SLIME_LEGEND"
+      ]
+    },
+    {
+      "name": "SLIME_SIDE",
+      "cells": "art-references/v4/monster/cells.json",
+      "index": 1,
+      "box": [
+        28,
+        22,
+        2
+      ],
+      "legends": [
+        "MONSTER_LEGEND",
+        "BLUE_SLIME_LEGEND",
+        "RED_SLIME_LEGEND"
+      ]
+    },
+    {
+      "name": "SLIME_BACK",
+      "cells": "art-references/v4/monster/cells.json",
+      "index": 2,
+      "box": [
+        28,
+        22,
+        2
+      ],
+      "legends": [
+        "MONSTER_LEGEND",
+        "BLUE_SLIME_LEGEND",
+        "RED_SLIME_LEGEND"
+      ]
+    },
+    {
+      "name": "KING_SLIME",
+      "cells": "art-references/v4/monster/cells.json",
+      "index": 3,
+      "legends": [
+        "MONSTER_LEGEND",
+        "KING_SLIME_ANGRY_LEGEND"
+      ]
+    },
+    {
+      "name": "ARCHER_FRONT",
+      "cells": "art-references/v4/monster/cells.json",
+      "index": 4,
+      "legend": "MONSTER_LEGEND",
+      "box": [
+        38,
+        32,
+        3
+      ]
+    },
+    {
+      "name": "ARCHER_SIDE",
+      "cells": "art-references/v4/monster/cells.json",
+      "index": 5,
+      "legend": "MONSTER_LEGEND",
+      "box": [
+        38,
+        32,
+        3
+      ]
+    },
+    {
+      "name": "ARCHER_BACK",
+      "cells": "art-references/v4/monster/cells.json",
+      "index": 6,
+      "legend": "MONSTER_LEGEND",
+      "box": [
+        38,
+        32,
+        3
+      ]
+    },
+    {
+      "name": "BOMBER_FRONT",
+      "cells": "art-references/v4/monster/cells.json",
+      "index": 7,
+      "legend": "MONSTER_LEGEND",
+      "box": [
+        38,
+        32,
+        3
+      ]
+    }
+  ]
+}

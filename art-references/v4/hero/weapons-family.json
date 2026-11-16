@@ -1,0 +1,13 @@
+{
+  "family": "hero-weapons",
+  "art": "src/tools/spriteBaker/half/WeaponHalf.ts",
+  "palette": "src/game/elements/halfPalette/HeroPalette.ts",
+  "paletteConst": "HERO_PALETTE",
+  "keyPrefix": "hero",
+  "sprites": [
+    { "name": "WEAPON_PISTOL", "legend": "WEAPON_LEGEND" },
+    { "name": "WEAPON_SHOTGUN", "legend": "WEAPON_LEGEND" },
+    { "name": "WEAPON_LASER_GUN", "legend": "WEAPON_LEGEND" },
+    { "name": "WEAPON_ROCKET_LAUNCHER", "legend": "WEAPON_LEGEND" }
+  ]
+}

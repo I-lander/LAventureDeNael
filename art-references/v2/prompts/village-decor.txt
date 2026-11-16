@@ -1,0 +1,21 @@
+Image 1 shows approved sprites of a pixel art game, from left to right: the hero, a forest tree, a snowy pine, a volcanic rock and a village shop cottage. Match exactly its style and its scale: the pixels must have exactly the same size as the pixels of image 1, same dark colored outline one pixel thick, bright saturated cheerful colors, 3 to 4 flat tones per material in large clean clusters, light from the top-left, no dithering. Do not draw anything of image 1.
+
+Draw a professional pixel art sheet of village decoration objects for the same top-down adventure game (three-quarter view from above: tops are visible from above, fronts are visible from the front).
+
+The sheet has exactly 2 rows of 4 objects, evenly spaced on a regular grid, each object well separated from the others.
+
+Row 1, from left to right:
+1. a round stone fountain: a wide circular basin of light grey stones filled with bright blue water, a central stone pillar with a small bowl on top, water splashing from the top
+2. an old iron street lamp: a thin dark iron post with a small decorated base, a lantern on top with a warm glowing yellow light
+3. a stone well: a round wall of grey stones, a small wooden roof on two posts, a wooden bucket hanging on a rope
+4. a wooden park bench with a backrest, warm brown planks
+
+Row 2, from left to right:
+5. a flower bed: a small patch of grass with clusters of red, yellow, white and blue flowers and green leaves
+6. a group of three wooden barrels with dark iron rings, one of them with an open top full of red apples
+7. a short wooden picket fence segment, white painted, three pickets wide
+8. a small market stall: a wooden counter covered with fruits and vegetables, two wooden poles and a red and white striped cloth awning on top
+
+Sizes: the fountain is as tall as the hero of image 1 and three times as wide. The street lamp is one and a half times as tall as the hero. The well is a little taller than the hero. The bench, the barrels and the fence are about half of the hero's height. The flower bed is about as wide as the hero. The market stall is a little taller than the hero and twice as wide.
+
+Output: the 8 objects only, plain flat background #2a2030, crisp nearest-neighbor pixels, no character, no text, no labels, no numbers, no ground line, no cast shadow, no frame, no grid lines.

@@ -1,0 +1,690 @@
+{
+ "palette": [
+  {
+   "name": "coinBrown1",
+   "symbol": "a",
+   "rgb": [
+    74,
+    44,
+    17
+   ]
+  },
+  {
+   "name": "coinBrown2",
+   "symbol": "b",
+   "rgb": [
+    86,
+    67,
+    18
+   ]
+  },
+  {
+   "name": "coinBrown3",
+   "symbol": "c",
+   "rgb": [
+    110,
+    68,
+    33
+   ]
+  },
+  {
+   "name": "coinBrown4",
+   "symbol": "d",
+   "rgb": [
+    89,
+    83,
+    53
+   ]
+  },
+  {
+   "name": "coinBrown5",
+   "symbol": "e",
+   "rgb": [
+    130,
+    111,
+    49
+   ]
+  },
+  {
+   "name": "coinBrown6",
+   "symbol": "f",
+   "rgb": [
+    154,
+    106,
+    52
+   ]
+  },
+  {
+   "name": "coinBrown7",
+   "symbol": "g",
+   "rgb": [
+    177,
+    94,
+    45
+   ]
+  },
+  {
+   "name": "coinBrown8",
+   "symbol": "h",
+   "rgb": [
+    173,
+    109,
+    39
+   ]
+  },
+  {
+   "name": "coinBrown9",
+   "symbol": "i",
+   "rgb": [
+    189,
+    103,
+    30
+   ]
+  },
+  {
+   "name": "coinBrown10",
+   "symbol": "j",
+   "rgb": [
+    154,
+    142,
+    64
+   ]
+  },
+  {
+   "name": "coinBrown11",
+   "symbol": "k",
+   "rgb": [
+    217,
+    136,
+    35
+   ]
+  },
+  {
+   "name": "coinInk1",
+   "symbol": "l",
+   "rgb": [
+    5,
+    2,
+    27
+   ]
+  },
+  {
+   "name": "coinInk2",
+   "symbol": "m",
+   "rgb": [
+    18,
+    13,
+    38
+   ]
+  },
+  {
+   "name": "coinInk3",
+   "symbol": "n",
+   "rgb": [
+    40,
+    18,
+    24
+   ]
+  },
+  {
+   "name": "coinOrange1",
+   "symbol": "o",
+   "rgb": [
+    231,
+    117,
+    35
+   ]
+  },
+  {
+   "name": "coinOrange2",
+   "symbol": "p",
+   "rgb": [
+    253,
+    119,
+    17
+   ]
+  },
+  {
+   "name": "coinOrange3",
+   "symbol": "q",
+   "rgb": [
+    243,
+    145,
+    27
+   ]
+  },
+  {
+   "name": "coinOrange4",
+   "symbol": "r",
+   "rgb": [
+    233,
+    164,
+    53
+   ]
+  },
+  {
+   "name": "coinOrange5",
+   "symbol": "s",
+   "rgb": [
+    252,
+    186,
+    40
+   ]
+  },
+  {
+   "name": "coinOrange6",
+   "symbol": "t",
+   "rgb": [
+    240,
+    195,
+    109
+   ]
+  },
+  {
+   "name": "coinPink1",
+   "symbol": "u",
+   "rgb": [
+    69,
+    34,
+    49
+   ]
+  },
+  {
+   "name": "coinPink2",
+   "symbol": "v",
+   "rgb": [
+    130,
+    57,
+    128
+   ]
+  },
+  {
+   "name": "coinPink3",
+   "symbol": "w",
+   "rgb": [
+    172,
+    94,
+    157
+   ]
+  },
+  {
+   "name": "coinPurple1",
+   "symbol": "x",
+   "rgb": [
+    48,
+    31,
+    73
+   ]
+  },
+  {
+   "name": "coinPurple2",
+   "symbol": "y",
+   "rgb": [
+    64,
+    49,
+    83
+   ]
+  },
+  {
+   "name": "coinPurple3",
+   "symbol": "z",
+   "rgb": [
+    73,
+    37,
+    105
+   ]
+  },
+  {
+   "name": "coinPurple4",
+   "symbol": "A",
+   "rgb": [
+    96,
+    46,
+    119
+   ]
+  },
+  {
+   "name": "coinPurple5",
+   "symbol": "B",
+   "rgb": [
+    86,
+    70,
+    107
+   ]
+  },
+  {
+   "name": "coinPurple6",
+   "symbol": "C",
+   "rgb": [
+    107,
+    56,
+    145
+   ]
+  },
+  {
+   "name": "coinPurple7",
+   "symbol": "D",
+   "rgb": [
+    104,
+    87,
+    124
+   ]
+  },
+  {
+   "name": "coinPurple8",
+   "symbol": "E",
+   "rgb": [
+    134,
+    76,
+    165
+   ]
+  },
+  {
+   "name": "coinPurple9",
+   "symbol": "F",
+   "rgb": [
+    156,
+    97,
+    187
+   ]
+  },
+  {
+   "name": "coinRed1",
+   "symbol": "G",
+   "rgb": [
+    94,
+    36,
+    30
+   ]
+  },
+  {
+   "name": "coinRed2",
+   "symbol": "H",
+   "rgb": [
+    80,
+    55,
+    60
+   ]
+  },
+  {
+   "name": "coinRed3",
+   "symbol": "I",
+   "rgb": [
+    119,
+    47,
+    44
+   ]
+  },
+  {
+   "name": "coinRed4",
+   "symbol": "J",
+   "rgb": [
+    155,
+    33,
+    36
+   ]
+  },
+  {
+   "name": "coinRed5",
+   "symbol": "K",
+   "rgb": [
+    97,
+    63,
+    70
+   ]
+  },
+  {
+   "name": "coinRed6",
+   "symbol": "L",
+   "rgb": [
+    139,
+    66,
+    44
+   ]
+  },
+  {
+   "name": "coinRed7",
+   "symbol": "M",
+   "rgb": [
+    162,
+    67,
+    47
+   ]
+  },
+  {
+   "name": "coinRed8",
+   "symbol": "N",
+   "rgb": [
+    201,
+    54,
+    31
+   ]
+  },
+  {
+   "name": "coinRed9",
+   "symbol": "O",
+   "rgb": [
+    221,
+    62,
+    26
+   ]
+  },
+  {
+   "name": "coinRed10",
+   "symbol": "P",
+   "rgb": [
+    225,
+    86,
+    36
+   ]
+  },
+  {
+   "name": "coinRed11",
+   "symbol": "Q",
+   "rgb": [
+    250,
+    82,
+    19
+   ]
+  },
+  {
+   "name": "coinWhite1",
+   "symbol": "R",
+   "rgb": [
+    255,
+    253,
+    224
+   ]
+  },
+  {
+   "name": "coinYellow1",
+   "symbol": "S",
+   "rgb": [
+    252,
+    207,
+    57
+   ]
+  },
+  {
+   "name": "coinYellow2",
+   "symbol": "T",
+   "rgb": [
+    251,
+    216,
+    77
+   ]
+  },
+  {
+   "name": "coinYellow3",
+   "symbol": "U",
+   "rgb": [
+    252,
+    226,
+    108
+   ]
+  },
+  {
+   "name": "coinYellow4",
+   "symbol": "V",
+   "rgb": [
+    252,
+    232,
+    136
+   ]
+  }
+ ],
+ "sprites": [
+  {
+   "box": [
+    3,
+    5,
+    33,
+    24
+   ],
+   "rows": [
+    "myym.......m........m.......mzz",
+    ".zACA......A........z......ACAz",
+    "..vvAAF....EEm.....EEm...FAAvvm",
+    "..yvvvzF..zwAz....xCwx..Fzvvvx.",
+    "..mvvvACF.AwAE.mmmEAwy.FCAvvv..",
+    "..mvvvCAFmzwvAzFFzCvwxmFACvvv..",
+    "..mvEzAzFmywAEEFFEEAw.lFzAzEv..",
+    "...vzvvCCm.zEEEEEEEEz.lCEvvzC..",
+    "..zAvvvCzz.yElEEEElEx.zzCvvvvz.",
+    "..m.vvAAzClEylAEEylzClAzAvvv.m.",
+    ".....vAzAzmCEACEECAECmzAAvv....",
+    "......vAvzzxEEEzzEEExzzvAv.....",
+    "......CAvvzzzCEEEEAzzxvvAA.....",
+    "......zzzAAxCECCCCECxAAyxx.....",
+    "..........mxCFFFFFFCx..........",
+    "...........mCCFFFFECm..........",
+    "............zCCEFCCz...........",
+    ".............xCCCAx............",
+    ".............xxmmxz............",
+    ".............m...m............."
+   ]
+  },
+  {
+   "box": [
+    36,
+    5,
+    55,
+    30
+   ],
+   "rows": [
+    ".....m........m.....",
+    ".....z........z.....",
+    ".....EE.....mEE.....",
+    "....AwAx....xAwy....",
+    "....AEvEmmmmEAEy....",
+    "....zwvCzFFBCvwx....",
+    "....zwAEEFFEEAwx....",
+    ".....zEEEEEEEEz.....",
+    ".....zElEEEElEz.....",
+    "....mEAlxEEylyEm....",
+    ".....CEACEECAEA.....",
+    ".....mEEExyEEE......",
+    ".....AzCEEEEAzzz....",
+    "....CyCECCCCECxEz...",
+    "..mCExCFFFFFFCxDCx..",
+    "..zCElCCFFFFECmDCC..",
+    ".mCCElxCCEFCCz.BCCx.",
+    ".xCCEz.xACCAx.mFCCCm",
+    ".zCCCFmzxmmxz.BAECC.",
+    ".zAEzEm.m.....zzzzC.",
+    ".zCACEm.......zACCCm",
+    "mzCCCEm.......zACCAl",
+    "...CCEm.......zCCCm.",
+    "....CEm.......zCC...",
+    "...mCz........mCx...",
+    "....z..........zm..."
+   ]
+  },
+  {
+   "box": [
+    61,
+    5,
+    93,
+    31
+   ],
+   "rows": [
+    "............mmmmmm.m.............",
+    "............DBDDDDyD.............",
+    "...........mBDBDDDBDy............",
+    "..........mBDDyBBBDDBm...........",
+    "...........BBBByyDBBB.mmyym......",
+    ".....myB.yxyyyBByByyx.gBDDD......",
+    ".....DDDyf.BgT.yyuTLDxqyDDDBm....",
+    "....xDDDxL.yByBBBByBy.LyByyD.....",
+    "....yDDy..BB.yBBBBy.DBcLyByyx....",
+    "....yyyyyL.ByyBBBBByBxQyyLyym....",
+    "....muyyxQ.BBBBBBBBByxoyyygoKm...",
+    "....DKLLPKy.yyBBBBBy.yBLIoM.D....",
+    "....yDuyIBBB.....m..yBBygBBB.Im..",
+    "..xKo.yymBBBByyyIyyBBBBxuyBKPDD..",
+    "..BByoyy..BBBBB.IBBBBBy..uIqxDD..",
+    ".BBBBsM...yyBB.Iqu.Byyy...xhxDDy.",
+    "mBBBBqyym.mIccoBBffcLIm.lyBBMDDym",
+    ".yBBygBym...ygBBBByLy...lyyDL.BDy",
+    ".DBy.gy...mDxIyByBuM.Dm..yyyLBBBy",
+    "mByuoLIn..mIyBMyByyyxum...ILquyBm",
+    "..LKBDyy..lDLLuBBy.LLD...yxDyyLu.",
+    ".uyBBxBBmlxBDyyyyyPxDy..lBByBBy..",
+    ".yBBBymy.mgLyyymmmyyuMBmyymyBBB..",
+    ".xBy.By..yDyIM....mLPBDmm.yB.yBm.",
+    "...yyBB...yyyy....myyyy...BByy...",
+    ".....m...myx.ym....y..y....l.....",
+    "........mByyyxm....xyyBBm........"
+   ]
+  },
+  {
+   "box": [
+    97,
+    5,
+    115,
+    31
+   ],
+   "rows": [
+    "............yym....",
+    ".......mmmyDDDDB...",
+    "......yyPyBByyBBD..",
+    "....BDDyLBBBByDDDym",
+    "...DDDyyPBBBByyBBDx",
+    "..yDyymmPPBBBy.fHy.",
+    "...yyyDDDHPByBBIy..",
+    "..LI.BDDDBIKD.BBBm.",
+    ".yDnBBDDBDD.BBx.mDB",
+    "mBB.BByyyDDmyBBBByy",
+    "mBByBByyyByGyByBBB.",
+    "mBBymIIIyy.Lx.yyyy.",
+    "mBBy.BLfLMLyyy.....",
+    "..y.BByBD.HyBB.....",
+    ".uIn.Ihf..I.BB.....",
+    "..yHnKBBDDDIIx.....",
+    ".myyyBBByDDD.m.....",
+    "...nBBBByyDDlm.....",
+    "...y.yy.DD.uHBD....",
+    "..xyuyyB.yoLByy....",
+    "...mP.BB.oDBBB.....",
+    ".....y..uKByBBxDm..",
+    ".....yyy.BByy.By...",
+    "......LI.yyy.B.....",
+    "....myyyy.yBy......",
+    "......yyy.mm.......",
+    ".....y.yyDm........"
+   ]
+  },
+  {
+   "box": [
+    5,
+    36,
+    35,
+    62
+   ],
+   "rows": [
+    "...........m.mmmmmm............",
+    "...........DBDDDDyD............",
+    "..........ByBBBByByy...........",
+    ".........m.xy....y.............",
+    ".....mm..mDDDBLKDDDDl..mm......",
+    "....BDDymByyyuqyDDDDDm.DDD.....",
+    "...ByyyyPuMfgshBByByyPyDDDD....",
+    "...DDDy.LDDDDDsHyHgLLqyBDDD....",
+    "...yDyyMDDDDDDBsggBDDKgyyBym...",
+    "...LKyHKDDDDDDyhBDDDDDIyyuI....",
+    "...ygIP.DDDDDyHLyDDDDDyPIgy....",
+    "..xDD.PmyBDDyyqLyDDDDyyPxDD....",
+    ".xLHyyKmyyyyyLfoyyDDyymyyyKPx..",
+    "xDDqoyym.yHILDBHouyyy.lyyooDDy.",
+    ".DDysM..GMDKIDyyqMMLLn..MsyDD..",
+    "yyyyoy..myyyMyyyfyyyy...yPyyyy.",
+    "Dyyuyy...myyyuyHLyyym..xyyx.yDx",
+    "DyyLyy.....LIPQLPIL.....yyLyyDx",
+    "yyyLyum..xDD.yBDBDBD...muyLyyy.",
+    "mLLPI....mKBBDDByyyul..x.IPLLm.",
+    ".y.xm.Bm.BHL.yyyyuIHDmmD.m..yy.",
+    "xD.mym...yyyMuxxuHyyB....ym.By.",
+    "mDxDxyBmHLuxxm...xx.fumBy.D.Bm.",
+    ".myB..m.yygMm.....MhyDmmm.BB...",
+    "........yyxym.....xyyym........",
+    ".......m.xyym.....yyyy.........",
+    ".......lmmmml....lmmmml........"
+   ]
+  },
+  {
+   "box": [
+    45,
+    44,
+    57,
+    57
+   ],
+   "rows": [
+    ".....uuu.....",
+    "...GJOOOJu...",
+    "..INoQQQQNG..",
+    ".IORqqqqqQQI.",
+    "GOQqqsssqqQNu",
+    "JQpqsVVVsppQJ",
+    "JQqqTVVVTqqQJ",
+    "JQqqTVVVTqqQJ",
+    "JQpqsVVVspQQJ",
+    "uOQpqsssqqqOu",
+    ".IOppqqqpVOI.",
+    "..IOQQpQQOG..",
+    "...uJNNNJu...",
+    ".....uuu....."
+   ]
+  },
+  {
+   "box": [
+    70,
+    44,
+    83,
+    57
+   ],
+   "rows": [
+    "....mHHHH.....",
+    "...jVUrrrTTn..",
+    "..VRrssssqTT..",
+    "..RrRssrsssTr.",
+    ".wrsssVTsssqS.",
+    "mVosssRSrsssrb",
+    "mTosUVsssSssrb",
+    "mTosqrsSSrssrb",
+    "lTqsssqsqsssSa",
+    ".eTsssqksssrSm",
+    "..SSssssssrTg.",
+    "..gSSqqkqtTgn.",
+    "...GkSSSSrh...",
+    "....mlLLLm...."
+   ]
+  },
+  {
+   "box": [
+    95,
+    43,
+    113,
+    59
+   ],
+   "rows": [
+    "........mjjjj.m....",
+    ".......VtsrrrrTb...",
+    ".....mTrsUTTSssTb..",
+    ".....mTrsoSSrsssa..",
+    "....mldrsssssqrSar.",
+    "..mVUUUkeTrrrTUhnrb",
+    "..VrqkTVqbtttriiLSb",
+    ".VrRTssTUeqqqkccSSa",
+    ".UssVrsrTqldddSTtin",
+    "erssTSssVsckqqqkiG.",
+    "ersSSSqsVqlcccccaa.",
+    "erskSkssVqeUUUTrin.",
+    "nTsssrsrrgiqqqkiG..",
+    ".TqsssrTilacccG....",
+    "..TTrrSii..........",
+    "..nrrriG...........",
+    "....mmm............"
+   ]
+  }
+ ]
+}

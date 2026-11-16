@@ -1,0 +1,22 @@
+{
+ "colors": [
+  {"symbol": "k", "key": "golemInk", "hex": "#03011f"},
+  {"symbol": "d", "key": "golemRockDeep", "hex": "#271f2e"},
+  {"symbol": "s", "key": "golemRockShade", "hex": "#3d2f52"},
+  {"symbol": "b", "key": "golemRockBase", "hex": "#524468"},
+  {"symbol": "l", "key": "golemRockLight", "hex": "#6a5b7f"},
+  {"symbol": "r", "key": "golemLavaRed", "hex": "#d9542a"},
+  {"symbol": "o", "key": "golemLavaOrange", "hex": "#ec7e24"},
+  {"symbol": "a", "key": "golemAmber", "hex": "#f5ae2a"},
+  {"symbol": "y", "key": "golemYellow", "hex": "#fcdc44"},
+  {"symbol": "e", "key": "golemEmber", "hex": "#a32c22"},
+  {"symbol": "g", "key": "golemGoldShade", "hex": "#d98a22"},
+  {"symbol": "n", "key": "golemGoldDeep", "hex": "#6a420e"},
+  {"symbol": "w", "key": "golemWhite", "hex": "#ffffff"},
+  {"symbol": "p", "key": "golemBatDeep", "hex": "#2a1a45"},
+  {"symbol": "q", "key": "golemBatShade", "hex": "#4f2d6f"},
+  {"symbol": "u", "key": "golemBatBase", "hex": "#77438c"},
+  {"symbol": "v", "key": "golemBatLight", "hex": "#8d5aa6"},
+  {"symbol": "h", "key": "golemBatEar", "hex": "#a0608a"}
+ ]
+}

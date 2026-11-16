@@ -1,0 +1,488 @@
+import {
+  ART_DIRECTIONS,
+  ArtDirection,
+  BAT_FRAMES,
+  ENEMY_POSES,
+  ENEMY_VIEWS,
+  EnemyKind,
+  EnemyPose,
+  EnemyView,
+  GROUND_VARIANT_COUNT,
+  GroundKind,
+  PixelGrid,
+  PixelLegend,
+  SHADOW_WIDTHS,
+  SPRITE_ATLAS,
+  ShopKind,
+  TEXTURE,
+  WALK_STEPS,
+  WORLD_ATLAS,
+  WalkStep,
+  enemyFrame,
+  groundFrame,
+  petFrame,
+  playerFrame,
+  shadowFrame,
+} from '../../game/elements';
+import {
+  ASH_DETAIL_1,
+  ASH_DETAIL_2,
+  ASH_DETAIL_3,
+  ASH_PLAIN,
+  GRASS_DETAIL_1,
+  GRASS_DETAIL_2,
+  GRASS_DETAIL_3,
+  GRASS_PLAIN,
+  PATH_DETAIL_1,
+  PATH_DETAIL_2,
+  PATH_DETAIL_3,
+  PATH_PLAIN,
+  SNOW_DETAIL_1,
+  SNOW_DETAIL_2,
+  SNOW_DETAIL_3,
+  SNOW_PLAIN,
+  WORLD_LEGEND,
+} from './TerrainArt';
+import {
+  BIOME_LEGEND,
+  SAND_DETAIL_1,
+  SAND_PLAIN,
+  SWAMP_DETAIL_1,
+  SWAMP_DETAIL_2,
+  SWAMP_DETAIL_3,
+  SWAMP_PLAIN,
+} from './BiomeArt';
+import { SAND_DETAIL_2, SAND_DETAIL_3, SAND_EXTRA_LEGEND } from './GroundExtraArt';
+import { SIGN_ICONS } from './SignArt';
+import {
+  BLUE_GOO_LEGEND,
+  GREEN_GOO_LEGEND,
+  RED_GOO_LEGEND,
+  SHADOW_LARGE,
+  SHADOW_LEGEND,
+  SHADOW_SMALL,
+  SPARK_LEGEND,
+} from './EffectArt';
+import { GOBLIN_BITS_LEGEND } from './GoblinArt';
+import { SHIELD_BUBBLE_LEGEND, buildShieldBubble } from './SpecialArt';
+import { BITS_LEGENDS, buildShadow } from './WorldExtraArt';
+import {
+  BALL,
+  BOMB_TARGET,
+  BOMB_TARGET_LEGEND,
+  BULLET,
+  BULLET_LEGEND,
+  LASER_BOLT,
+  LASER_BOLT_LEGEND,
+  MEGA_LASER,
+  MEGA_LASER_LEGEND,
+  MUZZLE_FLASH,
+  MUZZLE_FLASH_LEGEND,
+  PELLET,
+  PELLET_LEGEND,
+  RED_BALL_LEGEND,
+  ROCKET,
+  ROCKET_LEGEND,
+  SLIME_BALL_LEGEND,
+  VILLAGE_ARROW,
+  VILLAGE_ARROW_LEGEND,
+} from './half/EffectHalf';
+import {
+  DOG_BACK,
+  DOG_FRONT,
+  DOG_SIDE,
+  HERO_EAST,
+  HERO_LEGEND,
+  HERO_NORTH,
+  HERO_NORTH_EAST,
+  HERO_SOUTH,
+  HERO_SOUTH_EAST,
+} from './half/HeroHalf';
+import {
+  ARCHER_BACK,
+  ARCHER_FRONT,
+  ARCHER_SIDE,
+  BLUE_SLIME_LEGEND,
+  BOMBER_FRONT,
+  KING_SLIME,
+  KING_SLIME_ANGRY_LEGEND,
+  MONSTER_LEGEND,
+  RED_SLIME_LEGEND,
+  SLIME_BACK,
+  SLIME_FRONT,
+  SLIME_SIDE,
+} from './half/MonsterHalf';
+import {
+  BONE,
+  MUSHROOM_BACK,
+  MUSHROOM_FRONT,
+  MUSHROOM_SIDE,
+  NEW_MONSTER_LEGEND,
+  SKELETON_BACK,
+  SKELETON_FRONT,
+  SKELETON_SIDE,
+  SPORE,
+} from './half/SkeletonHalf';
+import {
+  BAT_WINGS_DOWN,
+  BAT_WINGS_UP,
+  COIN,
+  COIN_STACK,
+  GOLEM_BACK,
+  GOLEM_FRONT,
+  GOLEM_LEGEND,
+  GOLEM_SIDE,
+  LAVA_BALL,
+} from './half/GolemHalf';
+import {
+  BUBBLE_DONE,
+  BUBBLE_QUEST,
+  VILLAGER_BOY,
+  VILLAGER_ELDER,
+  VILLAGER_FARMER,
+  VILLAGER_HUNTER,
+  VILLAGER_LEGEND,
+  VILLAGER_SMITH,
+  VILLAGER_WIZARD,
+} from './half/VillagerHalf';
+import { CACTUS, DEAD_TREE, LILY_PADS, MOSSY_LOG, NATURE_LEGEND, PINE, ROCK, TREE, WILLOW } from './half/NatureHalf';
+import {
+  BARRELS,
+  BENCH,
+  FENCE,
+  FLOWER_BED,
+  FOUNTAIN,
+  MARKET_STALL,
+  STREET_LAMP,
+  VILLAGE_DECOR_LEGEND,
+  WELL,
+} from './half/DecorHalf';
+import {
+  BARREL_CACTUS,
+  BREAKABLE_LEGEND,
+  BUSH,
+  CLAY_POT,
+  CRATE,
+  LAVA_CRYSTAL,
+  REEDS,
+  SNOW_BUSH,
+  TALL_GRASS,
+} from './half/BreakableHalf';
+import { ARROW, BOMB, DESERT_SKULL, EMPTY_HEART_LEGEND, EXPLOSION, HEART, ITEM_LEGEND, STAR } from './half/ItemHalf';
+import {
+  HOUSE_ADOBE,
+  HOUSE_CABIN,
+  HOUSE_FORGE,
+  HOUSE_LEGEND,
+  HOUSE_STILT,
+  HOUSE_STONE,
+  HOUSE_THATCH,
+  SHOP_GOLD_LEGEND,
+  SHOP_HOUSE_SPLIT,
+  SHOP_PURPLE_LEGEND,
+  SHOP_RED_LEGEND,
+} from './half/HouseHalf';
+import {
+  WEAPON_LASER_GUN,
+  WEAPON_LEGEND,
+  WEAPON_PISTOL,
+  WEAPON_ROCKET_LAUNCHER,
+  WEAPON_SHOTGUN,
+} from './half/WeaponHalf';
+import { halveGrid } from './halve';
+import { AtlasFrameSource, AtlasSource } from './packAtlas';
+import { bobDown, feetCenter, liftFoot, squashDown } from './poses';
+import { RasterImage, rasterizeGrid, rasterizeStamps } from './rasterize';
+
+interface FrameBox {
+  width: number;
+  height: number;
+  footRows: number;
+}
+
+const HERO_BOX: FrameBox = { width: 30, height: 30, footRows: 4 };
+const GOBLIN_BOX: FrameBox = { width: 38, height: 32, footRows: 3 };
+const SLIME_BOX: FrameBox = { width: 28, height: 22, footRows: 2 };
+const DOG_BOX: FrameBox = { width: 18, height: 16, footRows: 2 };
+const SKELETON_BOX: FrameBox = { width: 38, height: 34, footRows: 3 };
+const MUSHROOM_BOX: FrameBox = { width: 34, height: 31, footRows: 2 };
+const GOLEM_BOX: FrameBox = { width: 44, height: 32, footRows: 3 };
+const BAT_BOX = { width: 20, height: 14 };
+const FOOT_LIFT = 1;
+const SLIME_SQUASH_ROWS = 2;
+const SHIELD_BUBBLE_DIAMETER = 32;
+const SIGN_ICON_OFFSET = { x: 33, y: 36 };
+const GOO_BIT: PixelGrid = ['lm', 'md'];
+const HERO_HEAD_ROWS = 14;
+
+const HERO_VIEWS: Record<ArtDirection, PixelGrid> = {
+  south: HERO_SOUTH,
+  'south-east': HERO_SOUTH_EAST,
+  east: HERO_EAST,
+  'north-east': HERO_NORTH_EAST,
+  north: HERO_NORTH,
+};
+
+const SLIME_VIEWS: Record<EnemyView, PixelGrid> = { front: SLIME_FRONT, side: SLIME_SIDE, back: SLIME_BACK };
+const ARCHER_VIEWS: Record<EnemyView, PixelGrid> = { front: ARCHER_FRONT, side: ARCHER_SIDE, back: ARCHER_BACK };
+const BOMBER_VIEWS: Record<EnemyView, PixelGrid> = { front: BOMBER_FRONT, side: BOMBER_FRONT, back: BOMBER_FRONT };
+const DOG_VIEWS: Record<EnemyView, PixelGrid> = { front: DOG_FRONT, side: DOG_SIDE, back: DOG_BACK };
+
+const SLIME_LEGENDS: { kind: EnemyKind; legend: PixelLegend }[] = [
+  { kind: 'greenSlime', legend: MONSTER_LEGEND },
+  { kind: 'blueSlime', legend: BLUE_SLIME_LEGEND },
+  { kind: 'redSlime', legend: RED_SLIME_LEGEND },
+];
+
+interface WalkerArt {
+  kind: EnemyKind;
+  views: Record<EnemyView, PixelGrid>;
+  legend: PixelLegend;
+  box: FrameBox;
+  hops: boolean;
+}
+
+const WALKERS: WalkerArt[] = [
+  { kind: 'goblinArcher', views: ARCHER_VIEWS, legend: MONSTER_LEGEND, box: GOBLIN_BOX, hops: false },
+  { kind: 'goblinBomber', views: BOMBER_VIEWS, legend: MONSTER_LEGEND, box: GOBLIN_BOX, hops: false },
+  {
+    kind: 'skeleton',
+    views: { front: SKELETON_FRONT, side: SKELETON_SIDE, back: SKELETON_BACK },
+    legend: NEW_MONSTER_LEGEND,
+    box: SKELETON_BOX,
+    hops: false,
+  },
+  {
+    kind: 'mushroom',
+    views: { front: MUSHROOM_FRONT, side: MUSHROOM_SIDE, back: MUSHROOM_BACK },
+    legend: NEW_MONSTER_LEGEND,
+    box: MUSHROOM_BOX,
+    hops: true,
+  },
+  {
+    kind: 'lavaGolem',
+    views: { front: GOLEM_FRONT, side: GOLEM_SIDE, back: GOLEM_BACK },
+    legend: GOLEM_LEGEND,
+    box: GOLEM_BOX,
+    hops: false,
+  },
+];
+
+const SHOP_HOUSES: { texture: string; shop: ShopKind; legend: PixelLegend }[] = [
+  { texture: TEXTURE.houseWeapons, shop: 'weapons', legend: SHOP_RED_LEGEND },
+  { texture: TEXTURE.housePotions, shop: 'potions', legend: SHOP_PURPLE_LEGEND },
+  { texture: TEXTURE.housePet, shop: 'pet', legend: SHOP_GOLD_LEGEND },
+];
+
+const GROUND_TILES: Record<GroundKind, { tiles: PixelGrid[]; legend: PixelLegend }[]> = {
+  forest: [{ tiles: [GRASS_PLAIN, GRASS_DETAIL_1, GRASS_DETAIL_2, GRASS_DETAIL_3], legend: WORLD_LEGEND }],
+  snow: [{ tiles: [SNOW_PLAIN, SNOW_DETAIL_1, SNOW_DETAIL_2, SNOW_DETAIL_3], legend: WORLD_LEGEND }],
+  volcano: [{ tiles: [ASH_PLAIN, ASH_DETAIL_1, ASH_DETAIL_2, ASH_DETAIL_3], legend: WORLD_LEGEND }],
+  path: [{ tiles: [PATH_PLAIN, PATH_DETAIL_1, PATH_DETAIL_2, PATH_DETAIL_3], legend: WORLD_LEGEND }],
+  desert: [
+    { tiles: [SAND_PLAIN, SAND_DETAIL_1], legend: BIOME_LEGEND },
+    { tiles: [SAND_DETAIL_2, SAND_DETAIL_3], legend: SAND_EXTRA_LEGEND },
+  ],
+  swamp: [{ tiles: [SWAMP_PLAIN, SWAMP_DETAIL_1, SWAMP_DETAIL_2, SWAMP_DETAIL_3], legend: BIOME_LEGEND }],
+};
+
+const WORLD_GRIDS: { texture: string; rows: PixelGrid; legend: PixelLegend }[] = [
+  { texture: TEXTURE.tree, rows: TREE, legend: NATURE_LEGEND },
+  { texture: TEXTURE.pine, rows: PINE, legend: NATURE_LEGEND },
+  { texture: TEXTURE.rock, rows: ROCK, legend: NATURE_LEGEND },
+  { texture: TEXTURE.cactus, rows: CACTUS, legend: NATURE_LEGEND },
+  { texture: TEXTURE.deadTree, rows: DEAD_TREE, legend: NATURE_LEGEND },
+  { texture: TEXTURE.willow, rows: WILLOW, legend: NATURE_LEGEND },
+  { texture: TEXTURE.mossyLog, rows: MOSSY_LOG, legend: NATURE_LEGEND },
+  { texture: TEXTURE.lilyPads, rows: LILY_PADS, legend: NATURE_LEGEND },
+  { texture: TEXTURE.desertSkull, rows: DESERT_SKULL, legend: ITEM_LEGEND },
+  { texture: TEXTURE.houseThatch, rows: HOUSE_THATCH, legend: HOUSE_LEGEND },
+  { texture: TEXTURE.houseStone, rows: HOUSE_STONE, legend: HOUSE_LEGEND },
+  { texture: TEXTURE.houseCabin, rows: HOUSE_CABIN, legend: HOUSE_LEGEND },
+  { texture: TEXTURE.houseAdobe, rows: HOUSE_ADOBE, legend: HOUSE_LEGEND },
+  { texture: TEXTURE.houseStilt, rows: HOUSE_STILT, legend: HOUSE_LEGEND },
+  { texture: TEXTURE.houseForge, rows: HOUSE_FORGE, legend: HOUSE_LEGEND },
+  { texture: TEXTURE.fountain, rows: FOUNTAIN, legend: VILLAGE_DECOR_LEGEND },
+  { texture: TEXTURE.well, rows: WELL, legend: VILLAGE_DECOR_LEGEND },
+  { texture: TEXTURE.streetLamp, rows: STREET_LAMP, legend: VILLAGE_DECOR_LEGEND },
+  { texture: TEXTURE.bench, rows: BENCH, legend: VILLAGE_DECOR_LEGEND },
+  { texture: TEXTURE.marketStall, rows: MARKET_STALL, legend: VILLAGE_DECOR_LEGEND },
+  { texture: TEXTURE.flowerBed, rows: FLOWER_BED, legend: VILLAGE_DECOR_LEGEND },
+  { texture: TEXTURE.barrels, rows: BARRELS, legend: VILLAGE_DECOR_LEGEND },
+  { texture: TEXTURE.fence, rows: FENCE, legend: VILLAGE_DECOR_LEGEND },
+  { texture: TEXTURE.villagerElder, rows: VILLAGER_ELDER, legend: VILLAGER_LEGEND },
+  { texture: TEXTURE.villagerFarmer, rows: VILLAGER_FARMER, legend: VILLAGER_LEGEND },
+  { texture: TEXTURE.villagerSmith, rows: VILLAGER_SMITH, legend: VILLAGER_LEGEND },
+  { texture: TEXTURE.villagerBoy, rows: VILLAGER_BOY, legend: VILLAGER_LEGEND },
+  { texture: TEXTURE.villagerWizard, rows: VILLAGER_WIZARD, legend: VILLAGER_LEGEND },
+  { texture: TEXTURE.villagerHunter, rows: VILLAGER_HUNTER, legend: VILLAGER_LEGEND },
+  { texture: TEXTURE.bubbleQuest, rows: BUBBLE_QUEST, legend: VILLAGER_LEGEND },
+  { texture: TEXTURE.bubbleDone, rows: BUBBLE_DONE, legend: VILLAGER_LEGEND },
+  { texture: TEXTURE.bush, rows: BUSH, legend: BREAKABLE_LEGEND },
+  { texture: TEXTURE.snowBush, rows: SNOW_BUSH, legend: BREAKABLE_LEGEND },
+  { texture: TEXTURE.clayPot, rows: CLAY_POT, legend: BREAKABLE_LEGEND },
+  { texture: TEXTURE.lavaCrystal, rows: LAVA_CRYSTAL, legend: BREAKABLE_LEGEND },
+  { texture: TEXTURE.barrelCactus, rows: BARREL_CACTUS, legend: BREAKABLE_LEGEND },
+  { texture: TEXTURE.reeds, rows: REEDS, legend: BREAKABLE_LEGEND },
+  { texture: TEXTURE.crate, rows: CRATE, legend: BREAKABLE_LEGEND },
+  { texture: TEXTURE.tallGrass, rows: TALL_GRASS, legend: BREAKABLE_LEGEND },
+];
+
+function gridFrame(name: string, rows: PixelGrid, legend: PixelLegend): AtlasFrameSource {
+  return { name, image: rasterizeGrid(rows, legend) };
+}
+
+function halfFrame(name: string, rows: PixelGrid, legend: PixelLegend): AtlasFrameSource {
+  return gridFrame(name, halveGrid(rows), legend);
+}
+
+function standingFrame(name: string, rows: PixelGrid, legend: PixelLegend, box: FrameBox): AtlasFrameSource {
+  const widest = rows.reduce((current, row) => Math.max(current, row.length), 0);
+  const x = Math.round(box.width / 2 - feetCenter(rows, box.footRows));
+  const y = box.height - rows.length;
+  if (!Number.isFinite(x) || x < 0 || y < 0 || x + widest > box.width) {
+    throw new Error(`Sprite ${name} does not fit its ${box.width}x${box.height} frame (x ${x}, y ${y}, width ${widest})`);
+  }
+  return { name, image: rasterizeStamps(box.width, box.height, [{ rows, legend, x, y }]) };
+}
+
+function walkPose(rows: PixelGrid, step: WalkStep, box: FrameBox): PixelGrid {
+  if (step === 'a' || step === 'c') {
+    return rows;
+  }
+  return liftFoot(bobDown(rows, box.footRows), step === 'b' ? 'left' : 'right', box.footRows, FOOT_LIFT);
+}
+
+function playerFrames(): AtlasFrameSource[] {
+  return ART_DIRECTIONS.flatMap((direction) =>
+    WALK_STEPS.map((step) =>
+      standingFrame(playerFrame(direction, step), walkPose(HERO_VIEWS[direction], step, HERO_BOX), HERO_LEGEND, HERO_BOX),
+    ),
+  );
+}
+
+function slimePose(rows: PixelGrid, pose: EnemyPose): PixelGrid {
+  return pose === 'idle' ? rows : squashDown(rows, SLIME_SQUASH_ROWS);
+}
+
+function walkerPose(rows: PixelGrid, pose: EnemyPose, box: FrameBox): PixelGrid {
+  if (pose === 'idle') {
+    return rows;
+  }
+  const lowered = bobDown(rows, box.footRows);
+  return pose === 'attack' ? lowered : liftFoot(lowered, 'left', box.footRows, FOOT_LIFT);
+}
+
+function enemyFrames(): AtlasFrameSource[] {
+  const poses = ENEMY_POSES;
+  const slimes = SLIME_LEGENDS.flatMap(({ kind, legend }) =>
+    ENEMY_VIEWS.flatMap((view) =>
+      poses.map((pose) =>
+        standingFrame(enemyFrame(kind, view, pose), slimePose(SLIME_VIEWS[view], pose), legend, SLIME_BOX),
+      ),
+    ),
+  );
+  const walkers = WALKERS.flatMap(({ kind, views, legend, box, hops }) =>
+    ENEMY_VIEWS.flatMap((view) =>
+      poses.map((pose) => {
+        const rows = hops ? slimePose(views[view], pose) : walkerPose(views[view], pose, box);
+        return standingFrame(enemyFrame(kind, view, pose), rows, legend, box);
+      }),
+    ),
+  );
+  const bats = [BAT_WINGS_UP, BAT_WINGS_DOWN].map((rows, index) => {
+    const width = rows.reduce((current, row) => Math.max(current, row.length), 0);
+    return {
+      name: BAT_FRAMES[index],
+      image: rasterizeStamps(BAT_BOX.width, BAT_BOX.height, [
+        { rows, legend: GOLEM_LEGEND, x: Math.round((BAT_BOX.width - width) / 2), y: 1 },
+      ]),
+    };
+  });
+  return [...slimes, ...walkers, ...bats];
+}
+
+function shadowFrames(): AtlasFrameSource[] {
+  return SHADOW_WIDTHS.map((width) => gridFrame(shadowFrame(width), buildShadow(width), SHADOW_LEGEND));
+}
+
+function shopFrame(name: string, legend: PixelLegend, shop: ShopKind): AtlasFrameSource {
+  const width = SHOP_HOUSE_SPLIT.reduce((current, row) => Math.max(current, row.length), 0);
+  return {
+    name,
+    image: rasterizeStamps(width, SHOP_HOUSE_SPLIT.length, [
+      { rows: SHOP_HOUSE_SPLIT, legend, x: 0, y: 0 },
+      { rows: halveGrid(SIGN_ICONS[shop].rows), legend: SIGN_ICONS[shop].legend, ...SIGN_ICON_OFFSET },
+    ]),
+  };
+}
+
+function groundFrames(): AtlasFrameSource[] {
+  const kinds = Object.keys(GROUND_TILES) as GroundKind[];
+  return kinds.flatMap((kind) => {
+    const tiles = GROUND_TILES[kind].flatMap((group) => group.tiles.map((rows) => ({ rows, legend: group.legend })));
+    if (tiles.length !== GROUND_VARIANT_COUNT) {
+      throw new Error(`Ground ${kind} has ${tiles.length} variants instead of ${GROUND_VARIANT_COUNT}`);
+    }
+    return tiles.map((tile, variant) => halfFrame(groundFrame(kind, variant), tile.rows, tile.legend));
+  });
+}
+
+export function heroHeadImage(): RasterImage {
+  return rasterizeGrid(HERO_SOUTH.slice(0, HERO_HEAD_ROWS), HERO_LEGEND);
+}
+
+export function buildSpriteCatalog(): AtlasSource[] {
+  const sprites: AtlasFrameSource[] = [
+    ...playerFrames(),
+    ...enemyFrames(),
+    ...ENEMY_VIEWS.map((view) => standingFrame(petFrame(view), DOG_VIEWS[view], HERO_LEGEND, DOG_BOX)),
+    gridFrame(TEXTURE.kingSlime, KING_SLIME, MONSTER_LEGEND),
+    gridFrame(TEXTURE.kingSlimeAngry, KING_SLIME, KING_SLIME_ANGRY_LEGEND),
+    gridFrame(TEXTURE.heart, HEART, ITEM_LEGEND),
+    gridFrame(TEXTURE.heartEmpty, HEART, EMPTY_HEART_LEGEND),
+    gridFrame(TEXTURE.heartPickup, HEART, ITEM_LEGEND),
+    gridFrame(TEXTURE.powerStar, STAR, ITEM_LEGEND),
+    gridFrame(TEXTURE.bomb, BOMB, ITEM_LEGEND),
+    gridFrame(TEXTURE.explosion, EXPLOSION, ITEM_LEGEND),
+    gridFrame(TEXTURE.bullet, BULLET, BULLET_LEGEND),
+    gridFrame(TEXTURE.muzzleFlash, MUZZLE_FLASH, MUZZLE_FLASH_LEGEND),
+    gridFrame(TEXTURE.weaponPistol, WEAPON_PISTOL, WEAPON_LEGEND),
+    gridFrame(TEXTURE.weaponShotgun, WEAPON_SHOTGUN, WEAPON_LEGEND),
+    gridFrame(TEXTURE.weaponLaserGun, WEAPON_LASER_GUN, WEAPON_LEGEND),
+    gridFrame(TEXTURE.weaponRocketLauncher, WEAPON_ROCKET_LAUNCHER, WEAPON_LEGEND),
+    gridFrame(TEXTURE.slimeBall, BALL, SLIME_BALL_LEGEND),
+    gridFrame(TEXTURE.redBall, BALL, RED_BALL_LEGEND),
+    gridFrame(TEXTURE.greenGoo, GOO_BIT, GREEN_GOO_LEGEND),
+    gridFrame(TEXTURE.blueGoo, GOO_BIT, BLUE_GOO_LEGEND),
+    gridFrame(TEXTURE.redGoo, GOO_BIT, RED_GOO_LEGEND),
+    gridFrame(TEXTURE.spark, GOO_BIT, SPARK_LEGEND),
+    halfFrame(TEXTURE.shadowSmall, SHADOW_SMALL, SHADOW_LEGEND),
+    halfFrame(TEXTURE.shadowLarge, SHADOW_LARGE, SHADOW_LEGEND),
+    gridFrame(TEXTURE.goblinBits, GOO_BIT, GOBLIN_BITS_LEGEND),
+    gridFrame(TEXTURE.arrow, ARROW, ITEM_LEGEND),
+    gridFrame(TEXTURE.bombTarget, BOMB_TARGET, BOMB_TARGET_LEGEND),
+    gridFrame(TEXTURE.shieldBubble, buildShieldBubble(SHIELD_BUBBLE_DIAMETER), SHIELD_BUBBLE_LEGEND),
+    gridFrame(TEXTURE.megaLaser, MEGA_LASER, MEGA_LASER_LEGEND),
+    gridFrame(TEXTURE.pellet, PELLET, PELLET_LEGEND),
+    gridFrame(TEXTURE.laserBolt, LASER_BOLT, LASER_BOLT_LEGEND),
+    gridFrame(TEXTURE.rocket, ROCKET, ROCKET_LEGEND),
+    ...shadowFrames(),
+    gridFrame(TEXTURE.bone, BONE, NEW_MONSTER_LEGEND),
+    gridFrame(TEXTURE.spore, SPORE, NEW_MONSTER_LEGEND),
+    gridFrame(TEXTURE.lavaBall, LAVA_BALL, GOLEM_LEGEND),
+    gridFrame(TEXTURE.coin, COIN, GOLEM_LEGEND),
+    gridFrame(TEXTURE.coinStack, COIN_STACK, GOLEM_LEGEND),
+    gridFrame(TEXTURE.villageArrow, VILLAGE_ARROW, VILLAGE_ARROW_LEGEND),
+    ...BITS_LEGENDS.map((bits) => gridFrame(bits.texture, GOO_BIT, bits.legend)),
+  ];
+  const world: AtlasFrameSource[] = [
+    ...groundFrames(),
+    ...WORLD_GRIDS.map((entry) => gridFrame(entry.texture, entry.rows, entry.legend)),
+    ...SHOP_HOUSES.map((house) => shopFrame(house.texture, house.legend, house.shop)),
+  ];
+  return [
+    { key: SPRITE_ATLAS, frames: sprites },
+    { key: WORLD_ATLAS, frames: world },
+  ];
+}

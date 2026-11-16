@@ -1,0 +1,12 @@
+Image 1 is a sheet of approved sprites of a pixel art game: it is the design to keep.
+Image 2 shows the same sprites, at the same places, automatically reduced to half resolution: each sprite now uses half as many pixels in width and in height, so its pixels are twice as big. The automatic reduction broke the faces and the small details.
+
+The most important rule: the output must be LOW RESOLUTION like image 2. Every pixel of the output is one big square of exactly the size of the squares of image 2. Never draw pixels smaller than the squares of image 2, never copy the small pixels of image 1. Image 1 only tells what the sprites are, image 2 tells the pixel size.
+
+Redraw image 2 by hand, as a professional pixel artist would, on exactly the same pixel grid as image 2: same pixel size, same size of each sprite in pixels, same position of each sprite on the sheet, same silhouettes, same poses, same views and same colors as image 1.
+
+Fix the broken parts so that they read clearly at this low resolution: the bat's face (two eyes and two tiny white fangs), its pointy ears and its wing membranes in two purple tones; the golem's chunky rocks with glowing orange lava cracks and small yellow eyes; the round lava ball; the gold coins with an embossed star and one white glint.
+
+Rules: at this resolution a face is made of a few clear pixels (two dark eyes of 1 or 2 pixels with a white glint pixel, a mouth of 1 to 2 pixels). A dark colored outline one pixel thick around each silhouette (a darker shade of the local color). 2 to 3 flat tones per material in clean clusters, light from the top-left. No dithering, no noise, no stray pixels, no anti-aliasing, no gradients.
+
+Output: the 8 sprites only, at the same positions as in image 2, plain flat background #2a2030, crisp nearest-neighbor square pixels, no text, no labels, no numbers, no grid lines, no ground line, no cast shadow.

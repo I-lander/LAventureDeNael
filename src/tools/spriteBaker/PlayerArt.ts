@@ -1,0 +1,116 @@
+import type { PixelGrid, PixelLegend } from '../../game/elements';
+
+export const PLAYER_HEAD: PixelGrid = [
+  '..........o.....o.............',
+  '.........oLo...oLo....o.......',
+  '....oo..oLGo..oLGco..oLo......',
+  '...oLLo.oLGcooLGccooLGco......',
+  '....oLGooLGccoLGcccoLGcco.....',
+  '.....oLGGLGcccLGccccGcccoo....',
+  '..oooGLGcGccccGcccccccccbbo...',
+  '.oLLGGcccccccccccccccccccbbo..',
+  '..ooGccccccccccccccccccccbbbo.',
+  '...oGcccccccccccccccccccccbbo.',
+  '..oGcccccccccccccccLGccccccbo.',
+  '..obccccccccccccccLLLLLLLLLcbo',
+  '..obcccccccccccccLGGGGGGGGGGbo',
+  '..obbccccccccccbGGsGGGsGGsGGbo',
+  '...obbccccccbSsssssssoooosssso',
+  '...obbcccccboSssssssssowssssso',
+  '...obbcccccboSssssssssoossssso',
+  '...obbcccccboSssssssssoossssSo',
+  '...obbccccccbossssssssssssssso',
+  '....obbcccccbSssssssssssoosso.',
+  '.....obbbcccbSssssssssssssso..',
+  '......obbbbboSsssssssssso.....',
+  '........oooooSSssssssoo.......',
+  '............oSSSSSSo..........',
+];
+
+export const PLAYER_TORSO: PixelGrid = [
+  '...............occwwSSSSSwwcco......ooooo.......',
+  '..............occcwwSSSSwwcccoooooooyyyYYooooooo',
+  '.............opcccwwwwwwcccccppppppwyYYYdBlllllo',
+  '.............opcccwwwwwWcccccccccccwyYYYdBpppppo',
+  '.............opcccwwwwwWbccccccccccWYYYYdBpppppo',
+  '.............opcccwwwwwWbbcccbbbbbbWYYYddBBBBBBo',
+  '.............occccwwwwWWbbbccoooooooYYdddopBooo.',
+  '.............occccwwwwWWbbbbco.....ooooooopBo...',
+  '.............occccwwwwWWbbbbbo...........opBo...',
+  '.............occccwwwwWWbbbbbo...........oBBo...',
+  '.............obbbbwwwwWWBBBBBo...........oooo...',
+  '.............ooooooooooooooooo..................',
+  '.............ongggggggggggggno..................',
+];
+
+export const PLAYER_LEGS_A: PixelGrid = [
+  '.............ongggggggggggggno..................',
+  '.............ongggo..oggggnno...................',
+  '............oSSso.....osssSo....................',
+  '...........oSSso.......osssSo...................',
+  '..........oSSso.........osssSo..................',
+  '.........oWWWWo.........owwwwo..................',
+  '........oWWWWWo.........owwwwwo.................',
+  '.......oWWWWWWWo........owwwwwwwo...............',
+  '.......oBBBBBBBo........oBBBBBBBo...............',
+  '.......ooooooooo........ooooooooo...............',
+];
+
+export const PLAYER_LEGS_B: PixelGrid = [
+  '.............ongggggggggggggno..................',
+  '.............ongggggggggno......................',
+  '............oSSo...osssSo.......................',
+  '.......oWWoSSSSo...osssSo.......................',
+  '......oWWWoSSSSo...osssSo.......................',
+  '......oBBBoooooo...owwwwo.......................',
+  '......ooooo........owwwwwo......................',
+  '...................owwwwwwwo....................',
+  '...................oBBBBBBBo....................',
+  '...................ooooooooo....................',
+];
+
+export const PLAYER_LEGS_C: PixelGrid = [
+  '.............ongggggggggggggno..................',
+  '.............ongggo..oggggnno...................',
+  '............ossSo.....oSSSSo....................',
+  '...........ossSo.......oSSSSo...................',
+  '..........ossSo.........oSSSSo..................',
+  '.........owwwwo.........oWWWWo..................',
+  '........owwwwwo.........oWWWWWo.................',
+  '.......owwwwwwwo........oWWWWWWWo...............',
+  '.......oBBBBBBBo........oBBBBBBBo...............',
+  '.......ooooooooo........ooooooooo...............',
+];
+
+export const PLAYER_LEGS_D: PixelGrid = [
+  '.............ongggggggggggggno..................',
+  '.............ongggggggggno......................',
+  '............osso...oSSSSo.......................',
+  '.......owwosssSo...oSSSSo.......................',
+  '......owwwosssSo...oSSSSo.......................',
+  '......oBBBoooooo...oWWWWo.......................',
+  '......ooooo........oWWWWWo......................',
+  '...................oWWWWWWWo....................',
+  '...................oBBBBBBBo....................',
+  '...................ooooooooo....................',
+];
+
+export const PLAYER_LEGEND: PixelLegend = {
+  o: 'ink',
+  L: 'greenLight',
+  G: 'green',
+  c: 'blue',
+  b: 'blueDark',
+  B: 'blueDeep',
+  p: 'blueLight',
+  l: 'cyan',
+  w: 'white',
+  W: 'whiteShade',
+  s: 'skin',
+  S: 'skinShade',
+  y: 'goldLight',
+  Y: 'gold',
+  d: 'goldDark',
+  n: 'greenDark',
+  g: 'green',
+};

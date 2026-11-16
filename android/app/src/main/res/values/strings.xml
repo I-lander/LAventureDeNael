@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">L\'aventure de Nael</string>
+    <string name="title_activity_main">L\'aventure de Nael</string>
+    <string name="package_name">com.donkeysisle.laventuredenael</string>
+    <string name="custom_url_scheme">com.donkeysisle.laventuredenael</string>
+</resources>

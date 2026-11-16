@@ -1,0 +1,22 @@
+Image 1 shows approved sprites of a pixel art game at low resolution, with big square pixels: the hero and his dog.
+Image 2 shows six village houses of the same game, drawn in a three-quarter view. Use image 2 only for the design, the materials and the colors of the houses.
+Image 3 shows the village shop of the game. Use it only for its design and colors.
+
+Draw seven buildings in a strict FRONT VIEW, like the buildings of a classic 2D game seen straight from the front: the front wall is a flat rectangle facing the viewer, the roof is seen from the front (a triangle gable, a rounded thatch or a flat edge above the wall), no side wall visible, no perspective, no top view. Each building has its door at the bottom center of its front wall, the door is a little taller than the hero of image 1.
+
+Pixel size, the most important point: use exactly the same big square pixels as image 1. Never draw a pixel smaller than the pixels of the hero. Each house is about two and a half times as tall as the hero and about three times as wide. The shop is a little bigger than the houses.
+
+The sheet has exactly 2 rows on a regular grid, each building well separated from the others.
+Row 1, from left to right:
+1. the round cottage with a golden straw thatched roof and white walls, a round window and a green door
+2. the tall two-storey stone house with a blue slate roof and wooden windows
+3. the wooden log cabin with a thick layer of white snow on its roof, icicles and a warm yellow window
+4. the desert house with sand-colored adobe walls, a flat roof with a terracotta border and an orange cloth curtain in the doorway
+Row 2, from left to right:
+5. the green wooden swamp hut on short wooden stilts with a reed roof, a round window and a lantern
+6. the blacksmith forge with dark stone walls, a dark red tiled roof, a big chimney and a glowing forge fire in a window
+7. the village shop of image 3: red tiled roof, cream walls with wooden beams, stone base, two windows with flower boxes, and a blank wooden sign board above the door (the sign is empty: no drawing and no text)
+
+Style of image 1: a dark colored outline one pixel thick, bright saturated colors, 2 to 3 flat tones per material in clean clusters, light from the top-left, no dithering, no noise, no anti-aliasing.
+
+Output: the 7 buildings only, plain flat background #2a2030, crisp nearest-neighbor square pixels, no character, no text, no ground, no grass, no cast shadow, no frame.

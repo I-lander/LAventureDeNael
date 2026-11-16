@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Gros pixels</title>
+<style>
+body { background: #1a1424; color: #f4f2ea; font-family: sans-serif; margin: 16px; }
+h2 { font-size: 18px; margin: 28px 0 8px; color: #f8d880; }
+.row { display: flex; gap: 12px; flex-wrap: wrap; }
+figure { margin: 0; flex: 1 1 300px; }
+figcaption { font-weight: bold; margin-bottom: 4px; }
+img { width: 100%; image-rendering: pixelated; border: 2px solid #3a6150; }
+.bad { opacity: 0.45; }
+</style>
+</head>
+<body>
+<h1>Version gros pixels</h1>
+<p>Pour chaque planche : le dessin d'aujourd'hui, la réduction automatique, puis le résultat de Gemini. Les essais grisés n'ont pas gardé les gros pixels.</p>
+<h2>1. Héros et chien</h2>
+<div class="row"><figure><figcaption>Aujourd'hui</figcaption><img src="input/hero-design.png"></figure><figure><figcaption>B (gros pixels)</figcaption><img src="hero-b.jpg"></figure><figure class="bad"><figcaption>A (trop fin)</figcaption><img src="hero-a.jpg"></figure></div>
+<h2>2. Slimes et gobelins</h2>
+<div class="row"><figure><figcaption>Aujourd'hui</figcaption><img src="input/slimes-design.png"></figure><figure><figcaption>A (gros pixels)</figcaption><img src="slimes-a.jpg"></figure><figure class="bad"><figcaption>B (trop fin)</figcaption><img src="slimes-b.jpg"></figure></div>
+<h2>3. Chauve-souris, golem, pièces</h2>
+<div class="row"><figure><figcaption>Aujourd'hui</figcaption><img src="input/golem-design.png"></figure><figure><figcaption>A</figcaption><img src="golem-a.jpg"></figure><figure><figcaption>B</figcaption><img src="golem-b.jpg"></figure></div>
+<h2>4. Décor de village</h2>
+<div class="row"><figure><figcaption>Aujourd'hui</figcaption><img src="input/decor-design.png"></figure><figure><figcaption>A (gros pixels)</figcaption><img src="decor-a.jpg"></figure><figure class="bad"><figcaption>B (trop fin)</figcaption><img src="decor-b.jpg"></figure></div>
+<h2>5. Objets</h2>
+<div class="row"><figure><figcaption>Aujourd'hui</figcaption><img src="input/items-design.png"></figure><figure><figcaption>A</figcaption><img src="items-a.jpg"></figure><figure><figcaption>B</figcaption><img src="items-b.jpg"></figure></div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+{
+ "colors": [
+  {
+   "symbol": "a",
+   "key": "heroBlue1",
+   "hex": "#1b325b",
+   "cells": 7
+  },
+  {
+   "symbol": "b",
+   "key": "heroBlue2",
+   "hex": "#1e5a96",
+   "cells": 34
+  },
+  {
+   "symbol": "c",
+   "key": "heroBlue3",
+   "hex": "#2579dc",
+   "cells": 133
+  },
+  {
+   "symbol": "d",
+   "key": "heroBlue4",
+   "hex": "#4497d5",
+   "cells": 2
+  },
+  {
+   "symbol": "e",
+   "key": "heroBrown1",
+   "hex": "#98662c",
+   "cells": 3
+  },
+  {
+   "symbol": "f",
+   "key": "heroBrown2",
+   "hex": "#c16022",
+   "cells": 2
+  },
+  {
+   "symbol": "g",
+   "key": "heroBrown3",
+   "hex": "#b77d5a",
+   "cells": 8
+  },
+  {
+   "symbol": "h",
+   "key": "heroGreen1",
+   "hex": "#256332",
+   "cells": 6
+  },
+  {
+   "symbol": "i",
+   "key": "heroGreen2",
+   "hex": "#3f9534",
+   "cells": 32
+  },
+  {
+   "symbol": "j",
+   "key": "heroGreen3",
+   "hex": "#68d03b",
+   "cells": 17
+  },
+  {
+   "symbol": "k",
+   "key": "heroGrey1",
+   "hex": "#b0a099",
+   "cells": 2
+  },
+  {
+   "symbol": "l",
+   "key": "heroGrey2",
+   "hex": "#b1b2c4",
+   "cells": 16
+  },
+  {
+   "symbol": "m",
+   "key": "heroInk1",
+   "hex": "#000228",
+   "cells": 157
+  },
+  {
+   "symbol": "n",
+   "key": "heroInk2",
+   "hex": "#1a1128",
+   "cells": 5
+  },
+  {
+   "symbol": "o",
+   "key": "heroOrange1",
+   "hex": "#efa22b",
+   "cells": 36
+  },
+  {
+   "symbol": "p",
+   "key": "heroOrange2",
+   "hex": "#e9b480",
+   "cells": 64
+  },
+  {
+   "symbol": "q",
+   "key": "heroOrange3",
+   "hex": "#f5e0a1",
+   "cells": 16
+  },
+  {
+   "symbol": "r",
+   "key": "heroRed1",
+   "hex": "#452e32",
+   "cells": 5
+  },
+  {
+   "symbol": "s",
+   "key": "heroRed2",
+   "hex": "#60281d",
+   "cells": 6
+  },
+  {
+   "symbol": "t",
+   "key": "heroRed3",
+   "hex": "#854f39",
+   "cells": 21
+  },
+  {
+   "symbol": "u",
+   "key": "heroRed4",
+   "hex": "#ec7463",
+   "cells": 11
+  },
+  {
+   "symbol": "v",
+   "key": "heroTeal1",
+   "hex": "#87d3eb",
+   "cells": 3
+  },
+  {
+   "symbol": "w",
+   "key": "heroWhite1",
+   "hex": "#f0ede4",
+   "cells": 17
+  }
+ ]
+}

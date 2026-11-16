@@ -1,0 +1,66 @@
+{
+  "family": "house",
+  "art": "src/tools/spriteBaker/half/HouseHalf.ts",
+  "palette": "src/game/elements/halfPalette/HousePalette.ts",
+  "paletteConst": "HOUSE_PALETTE",
+  "keyPrefix": "house",
+  "reference": "art-references/v3/houses-b.jpg",
+  "design": [
+    "art-references/input/house-approved.png",
+    "art-references/v3/input/shop-design.png"
+  ],
+  "sprites": [
+    {
+      "name": "HOUSE_THATCH",
+      "cells": "art-references/v4/house/cells-snap.json",
+      "index": 0,
+      "legend": "HOUSE_LEGEND"
+    },
+    {
+      "name": "HOUSE_STONE",
+      "cells": "art-references/v4/house/cells-snap.json",
+      "index": 1,
+      "legend": "HOUSE_LEGEND"
+    },
+    {
+      "name": "HOUSE_CABIN",
+      "cells": "art-references/v4/house/cells-snap.json",
+      "index": 2,
+      "legend": "HOUSE_LEGEND"
+    },
+    {
+      "name": "HOUSE_ADOBE",
+      "cells": "art-references/v4/house/cells-snap.json",
+      "index": 3,
+      "legend": "HOUSE_LEGEND"
+    },
+    {
+      "name": "HOUSE_STILT",
+      "cells": "art-references/v4/house/cells-snap.json",
+      "index": 4,
+      "legend": "HOUSE_LEGEND"
+    },
+    {
+      "name": "HOUSE_FORGE",
+      "cells": "art-references/v4/house/cells-snap.json",
+      "index": 5,
+      "legend": "HOUSE_LEGEND"
+    },
+    {
+      "name": "SHOP_HOUSE",
+      "cells": "art-references/v4/house/cells-snap.json",
+      "index": 6,
+      "legend": "HOUSE_LEGEND"
+    },
+    {
+      "name": "SHOP_HOUSE_SPLIT",
+      "cells": "art-references/v4/house/cells-snap.json",
+      "index": 6,
+      "legends": [
+        "SHOP_RED_LEGEND",
+        "SHOP_PURPLE_LEGEND",
+        "SHOP_GOLD_LEGEND"
+      ]
+    }
+  ]
+}

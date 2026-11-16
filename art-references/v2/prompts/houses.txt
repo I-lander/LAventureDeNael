@@ -1,0 +1,19 @@
+Image 1 shows approved sprites of a pixel art game, from left to right: the hero, a forest tree, a snowy pine, a volcanic rock and a village shop cottage. Match exactly its style and its scale: the pixels must have exactly the same size as the pixels of image 1, same dark colored outline one pixel thick, bright saturated cheerful colors, 3 to 4 flat tones per material in large clean clusters, light from the top-left, no dithering. Do not draw the hero or the shop cottage of image 1.
+
+Draw a professional pixel art sheet of six different village houses for the same top-down adventure game. View: front view seen from slightly above, like a classic 16-bit top-down RPG building (the roof is seen from above, the front wall is seen from the front). Each house has a door at the bottom of its front wall, as tall as the hero of image 1.
+
+The sheet has exactly 2 rows of 3 houses, evenly spaced on a regular grid, each house well separated from the others.
+
+Row 1, from left to right:
+1. a small round cottage with a thick golden straw thatched roof, white plaster walls, one round window and a green wooden door, a few pink flowers in a window box
+2. a tall narrow two-storey stone house with a steep blue slate roof, grey stone walls, two rows of windows, a small balcony with a wooden railing
+3. a wooden log cabin for the snow: dark brown log walls, a roof covered with a thick layer of white snow, icicles under the roof edge, a stone chimney with smoke-free top, a warm yellow lit window
+
+Row 2, from left to right:
+4. a desert house: rounded sand-colored adobe clay walls, a flat roof with a terracotta border, an arched doorway with an orange cloth curtain, a few clay pots next to the wall
+5. a swamp hut on short wooden stilts: green mossy wooden planks, a roof made of reeds, a round window, a few hanging lanterns and a small wooden stair to the door
+6. a sturdy blacksmith forge house: dark stone walls, a dark red tiled roof, a big chimney, an open front with a glowing orange forge fire and an anvil visible inside
+
+Sizes: each house is about two and a half to three times as tall as the hero of image 1 and about as wide as it is tall. They are slightly smaller than the shop cottage of image 1.
+
+Output: the 6 houses only, plain flat background #2a2030, crisp nearest-neighbor pixels, no character, no text, no ground, no grass, no cast shadow, no frame, no grid lines.

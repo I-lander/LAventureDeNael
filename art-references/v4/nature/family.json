@@ -1,0 +1,61 @@
+{
+  "family": "nature",
+  "art": "src/tools/spriteBaker/half/NatureHalf.ts",
+  "palette": "src/game/elements/halfPalette/NaturePalette.ts",
+  "paletteConst": "NATURE_PALETTE",
+  "keyPrefix": "nature",
+  "reference": "art-references/v3/nature3-a.jpg",
+  "design": [
+    "art-references/v3/input/nature-design.png"
+  ],
+  "sprites": [
+    {
+      "name": "TREE",
+      "cells": "art-references/v4/nature/cells.json",
+      "index": 0,
+      "legend": "NATURE_LEGEND"
+    },
+    {
+      "name": "PINE",
+      "cells": "art-references/v4/nature/cells.json",
+      "index": 1,
+      "legend": "NATURE_LEGEND"
+    },
+    {
+      "name": "ROCK",
+      "cells": "art-references/v4/nature/cells.json",
+      "index": 2,
+      "legend": "NATURE_LEGEND"
+    },
+    {
+      "name": "CACTUS",
+      "cells": "art-references/v4/nature/cells.json",
+      "index": 3,
+      "legend": "NATURE_LEGEND"
+    },
+    {
+      "name": "DEAD_TREE",
+      "cells": "art-references/v4/nature/cells.json",
+      "index": 4,
+      "legend": "NATURE_LEGEND"
+    },
+    {
+      "name": "WILLOW",
+      "cells": "art-references/v4/nature/cells.json",
+      "index": 5,
+      "legend": "NATURE_LEGEND"
+    },
+    {
+      "name": "MOSSY_LOG",
+      "cells": "art-references/v4/nature/cells.json",
+      "index": 6,
+      "legend": "NATURE_LEGEND"
+    },
+    {
+      "name": "LILY_PADS",
+      "cells": "art-references/v4/nature/cells.json",
+      "index": 7,
+      "legend": "NATURE_LEGEND"
+    }
+  ]
+}

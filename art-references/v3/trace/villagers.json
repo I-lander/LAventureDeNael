@@ -1,0 +1,809 @@
+{
+ "palette": [
+  {
+   "name": "villager2Blue1",
+   "symbol": "a",
+   "rgb": [
+    14,
+    42,
+    55
+   ]
+  },
+  {
+   "name": "villager2Blue2",
+   "symbol": "b",
+   "rgb": [
+    32,
+    47,
+    101
+   ]
+  },
+  {
+   "name": "villager2Blue3",
+   "symbol": "c",
+   "rgb": [
+    36,
+    69,
+    129
+   ]
+  },
+  {
+   "name": "villager2Blue4",
+   "symbol": "d",
+   "rgb": [
+    40,
+    89,
+    160
+   ]
+  },
+  {
+   "name": "villager2Blue5",
+   "symbol": "e",
+   "rgb": [
+    41,
+    119,
+    206
+   ]
+  },
+  {
+   "name": "villager2Blue6",
+   "symbol": "f",
+   "rgb": [
+    91,
+    124,
+    162
+   ]
+  },
+  {
+   "name": "villager2Brown1",
+   "symbol": "g",
+   "rgb": [
+    129,
+    110,
+    41
+   ]
+  },
+  {
+   "name": "villager2Brown2",
+   "symbol": "h",
+   "rgb": [
+    169,
+    77,
+    34
+   ]
+  },
+  {
+   "name": "villager2Brown3",
+   "symbol": "i",
+   "rgb": [
+    197,
+    89,
+    28
+   ]
+  },
+  {
+   "name": "villager2Brown4",
+   "symbol": "j",
+   "rgb": [
+    151,
+    100,
+    70
+   ]
+  },
+  {
+   "name": "villager2Brown5",
+   "symbol": "k",
+   "rgb": [
+    188,
+    99,
+    47
+   ]
+  },
+  {
+   "name": "villager2Brown6",
+   "symbol": "l",
+   "rgb": [
+    171,
+    117,
+    85
+   ]
+  },
+  {
+   "name": "villager2Brown7",
+   "symbol": "m",
+   "rgb": [
+    188,
+    126,
+    78
+   ]
+  },
+  {
+   "name": "villager2Brown8",
+   "symbol": "n",
+   "rgb": [
+    210,
+    148,
+    114
+   ]
+  },
+  {
+   "name": "villager2Brown9",
+   "symbol": "o",
+   "rgb": [
+    186,
+    153,
+    135
+   ]
+  },
+  {
+   "name": "villager2Brown10",
+   "symbol": "p",
+   "rgb": [
+    193,
+    174,
+    162
+   ]
+  },
+  {
+   "name": "villager2Brown11",
+   "symbol": "q",
+   "rgb": [
+    228,
+    201,
+    168
+   ]
+  },
+  {
+   "name": "villager2Brown12",
+   "symbol": "r",
+   "rgb": [
+    224,
+    201,
+    184
+   ]
+  },
+  {
+   "name": "villager2Green1",
+   "symbol": "s",
+   "rgb": [
+    45,
+    116,
+    75
+   ]
+  },
+  {
+   "name": "villager2Green2",
+   "symbol": "t",
+   "rgb": [
+    63,
+    136,
+    76
+   ]
+  },
+  {
+   "name": "villager2Green3",
+   "symbol": "u",
+   "rgb": [
+    128,
+    166,
+    150
+   ]
+  },
+  {
+   "name": "villager2Grey1",
+   "symbol": "v",
+   "rgb": [
+    44,
+    57,
+    57
+   ]
+  },
+  {
+   "name": "villager2Grey2",
+   "symbol": "w",
+   "rgb": [
+    67,
+    65,
+    77
+   ]
+  },
+  {
+   "name": "villager2Grey3",
+   "symbol": "x",
+   "rgb": [
+    88,
+    87,
+    101
+   ]
+  },
+  {
+   "name": "villager2Grey4",
+   "symbol": "y",
+   "rgb": [
+    118,
+    115,
+    92
+   ]
+  },
+  {
+   "name": "villager2Grey5",
+   "symbol": "z",
+   "rgb": [
+    107,
+    107,
+    116
+   ]
+  },
+  {
+   "name": "villager2Grey6",
+   "symbol": "A",
+   "rgb": [
+    126,
+    130,
+    134
+   ]
+  },
+  {
+   "name": "villager2Grey7",
+   "symbol": "B",
+   "rgb": [
+    155,
+    137,
+    129
+   ]
+  },
+  {
+   "name": "villager2Grey8",
+   "symbol": "C",
+   "rgb": [
+    157,
+    158,
+    164
+   ]
+  },
+  {
+   "name": "villager2Grey9",
+   "symbol": "D",
+   "rgb": [
+    190,
+    194,
+    199
+   ]
+  },
+  {
+   "name": "villager2Ink1",
+   "symbol": "E",
+   "rgb": [
+    6,
+    2,
+    25
+   ]
+  },
+  {
+   "name": "villager2Ink2",
+   "symbol": "F",
+   "rgb": [
+    22,
+    16,
+    35
+   ]
+  },
+  {
+   "name": "villager2Orange1",
+   "symbol": "G",
+   "rgb": [
+    222,
+    104,
+    33
+   ]
+  },
+  {
+   "name": "villager2Orange2",
+   "symbol": "H",
+   "rgb": [
+    229,
+    124,
+    46
+   ]
+  },
+  {
+   "name": "villager2Orange3",
+   "symbol": "I",
+   "rgb": [
+    233,
+    156,
+    64
+   ]
+  },
+  {
+   "name": "villager2Orange4",
+   "symbol": "J",
+   "rgb": [
+    220,
+    166,
+    88
+   ]
+  },
+  {
+   "name": "villager2Orange5",
+   "symbol": "K",
+   "rgb": [
+    240,
+    184,
+    60
+   ]
+  },
+  {
+   "name": "villager2Orange6",
+   "symbol": "L",
+   "rgb": [
+    228,
+    172,
+    128
+   ]
+  },
+  {
+   "name": "villager2Purple1",
+   "symbol": "M",
+   "rgb": [
+    53,
+    44,
+    64
+   ]
+  },
+  {
+   "name": "villager2Purple2",
+   "symbol": "N",
+   "rgb": [
+    70,
+    28,
+    102
+   ]
+  },
+  {
+   "name": "villager2Purple3",
+   "symbol": "O",
+   "rgb": [
+    98,
+    44,
+    132
+   ]
+  },
+  {
+   "name": "villager2Purple4",
+   "symbol": "P",
+   "rgb": [
+    115,
+    80,
+    120
+   ]
+  },
+  {
+   "name": "villager2Purple5",
+   "symbol": "Q",
+   "rgb": [
+    151,
+    79,
+    173
+   ]
+  },
+  {
+   "name": "villager2Red1",
+   "symbol": "R",
+   "rgb": [
+    63,
+    33,
+    39
+   ]
+  },
+  {
+   "name": "villager2Red2",
+   "symbol": "S",
+   "rgb": [
+    96,
+    22,
+    35
+   ]
+  },
+  {
+   "name": "villager2Red3",
+   "symbol": "T",
+   "rgb": [
+    84,
+    50,
+    45
+   ]
+  },
+  {
+   "name": "villager2Red4",
+   "symbol": "U",
+   "rgb": [
+    133,
+    28,
+    43
+   ]
+  },
+  {
+   "name": "villager2Red5",
+   "symbol": "V",
+   "rgb": [
+    127,
+    56,
+    30
+   ]
+  },
+  {
+   "name": "villager2Red6",
+   "symbol": "W",
+   "rgb": [
+    97,
+    67,
+    61
+   ]
+  },
+  {
+   "name": "villager2Red7",
+   "symbol": "X",
+   "rgb": [
+    142,
+    46,
+    51
+   ]
+  },
+  {
+   "name": "villager2Red8",
+   "symbol": "Y",
+   "rgb": [
+    116,
+    73,
+    55
+   ]
+  },
+  {
+   "name": "villager2Red9",
+   "symbol": "Z",
+   "rgb": [
+    185,
+    38,
+    44
+   ]
+  },
+  {
+   "name": "villager2Red10",
+   "symbol": "0",
+   "rgb": [
+    113,
+    88,
+    78
+   ]
+  },
+  {
+   "name": "villager2Red11",
+   "symbol": "1",
+   "rgb": [
+    138,
+    109,
+    101
+   ]
+  },
+  {
+   "name": "villager2Teal1",
+   "symbol": "2",
+   "rgb": [
+    24,
+    85,
+    70
+   ]
+  },
+  {
+   "name": "villager2Teal2",
+   "symbol": "3",
+   "rgb": [
+    220,
+    227,
+    229
+   ]
+  },
+  {
+   "name": "villager2Yellow1",
+   "symbol": "4",
+   "rgb": [
+    247,
+    212,
+    53
+   ]
+  },
+  {
+   "name": "villager2Yellow2",
+   "symbol": "5",
+   "rgb": [
+    240,
+    206,
+    99
+   ]
+  }
+ ],
+ "sprites": [
+  {
+   "box": [
+    5,
+    3,
+    23,
+    29
+   ],
+   "rows": [
+    "....FEEEEEF........",
+    "...F0LLLLLL0.......",
+    "...0qqLLLLLL0......",
+    "...LLLLLLLLL0F.....",
+    "..ELLLLLLLLLnY.....",
+    "..Eq33qLLq33rAF....",
+    "..EqL0LLLLLLrzF....",
+    ".EoqLELLL00LoxF....",
+    "..orLLLLLLLLpxF.F..",
+    "..E3rr3333rrDz.FTj.",
+    "..E333noBp33zFFTYYE",
+    "...D333p3333z.FETTE",
+    "...z33333333zFFTTT.",
+    "..EB3333333z..ETT..",
+    ".EY.xC3333DAYT.EE..",
+    ".EYY.wD3DCzTYYYjn..",
+    "EYYYYTxCx.YYTT.0L..",
+    "EYYYYYY..TYYTT.EE..",
+    "EYT.FTTFFFEE.FETT..",
+    "ELn.TTFFYjjw..F....",
+    ".LjTYTTTTRYj.FETY..",
+    "...RYYYYYRFFEEFEF..",
+    "..EYYYYYYTFRYRFTT..",
+    "..ETYYYYYYTTTRFEF..",
+    "....YYYYYTY.F.ETT..",
+    "...TYT.EE.T.F.FEF..",
+    "...FEEF..FEEF......"
+   ]
+  },
+  {
+   "box": [
+    33,
+    2,
+    52,
+    30
+   ],
+   "rows": [
+    ".......FEFFEF.......",
+    ".....FRYYYYYYT......",
+    "....FYjJJJJJJjE.....",
+    "....Ejjjmmmmjj.F....",
+    "..FFjmmmmmmmmmlEF...",
+    ".FYYJJJmjjjmmJJYgjF.",
+    "FYJmjkkkVjVkkkkjJJYF",
+    "FTmjhGiijLmiiiGVlmYF",
+    ".FT.iimmLLLmmmihRYF.",
+    "..FEhmLLLLLL0LmJE...",
+    "...EVnL00LLLELnLE...",
+    "...EijnnLLLL0LmIE...",
+    "...EHVnLLLLLLnjHF...",
+    "...Fiij0LL0Ln0Vi....",
+    "...FiGVEynnyyFViE...",
+    "...EGhoa2pp2tzRiE...",
+    "..FVh132tAust3zVVF..",
+    "..EHRDDatsst2zz.VE..",
+    "..FVErBzssssy0EEET..",
+    "....ELTAAAzaLnEERwE.",
+    "...F00auDDDz0TXSUFE.",
+    "...Fn.23D33DESUkSSE.",
+    "....00233333EYTjTYE.",
+    "....Ftsu3333aYYYYTF.",
+    "....FttsuuuuswTTTF..",
+    ".....vvvtsstvaFEF...",
+    "......FE0vv0.F......",
+    ".......E.FF.R.......",
+    ".......FF..FF......."
+   ]
+  },
+  {
+   "box": [
+    62,
+    2,
+    80,
+    30
+   ],
+   "rows": [
+    "......EEEEE........",
+    "....F.wvvv..EF.....",
+    "...F..EE..EE..F....",
+    "..E...YY.RYYREF....",
+    "..FE.YYYYYYYYEF....",
+    "..FE.YYYYYYYYRF....",
+    "..FE..ERYYRE.RF....",
+    "....RY.RYYRRYTE....",
+    ".....Y.TYY.TYR.....",
+    "..EE.TYYYYYYT.F....",
+    "...FE.REEEERREE....",
+    "...FEEE.TY.EEF.....",
+    "....FE.EEE.FEF.....",
+    "..FE..EEEEEEw.F....",
+    "..wBzTTEEEEYWzw....",
+    "..BBzW0BzxB0WzBE...",
+    ".Ezz..TYYYYY.wBw...",
+    "EBxvTYYYYYYYYTzBE..",
+    "ETT.TYTTYYRTYR.YE..",
+    "EYY.RYTTYYYYY..YEE.",
+    "EY..TYTRTTTY..WYYTE",
+    "EY..RTYTRRTRw..YYE.",
+    "EY..TYYYYYY.xwvYYE.",
+    ".EE.TYYYYYY.yz.E...",
+    "..F.TYjYYYY.wx.....",
+    "...FE..E.YY..xw....",
+    "...F..EEFF.T.EF....",
+    "...F.TR..FFR.F.....",
+    "...FE..F.FE..EF...."
+   ]
+  },
+  {
+   "box": [
+    90,
+    2,
+    109,
+    29
+   ],
+   "rows": [
+    ".........FFF........",
+    "...F.F.FEE.E........",
+    "..E.F.F.TT.E........",
+    ".FET.TRTTT..FF......",
+    ".E.TTTTTTTTT..F.....",
+    ".ETTTTTTTTTTT.F.....",
+    "E.TTTRTTTTTTT.F.....",
+    "ERTTTjTTYRTTTTE.....",
+    ".ETRjLjTnjRTR.F.....",
+    "E.RjL0LjL0jjR.F.....",
+    "..YLLELLLELLYE......",
+    ".Flnn0LLL0nLTF......",
+    "..WLnLWLLLLLF.....F.",
+    "...0nLL0LL00.....FWF",
+    "...FW0mml0F.....FTlE",
+    "...FSSXmXSR....FTjTF",
+    "..FSZZUmZZUR.FFWjTF.",
+    "..EZUZZZZZUjFWElTF..",
+    ".F0mSZZZZZUL0YTTF...",
+    ".EL0UZZZZZU0nRTTF...",
+    ".ELETZZZZURElR.WF...",
+    ".ELEbPPPPxaFRF......",
+    ".F0Edebbeec.F.......",
+    "..EFbcEFcAa.........",
+    "....E0E.FnE.........",
+    "...FxBE.EpA.........",
+    "...ExxF.Exz.........",
+    "...EFF..FFF........."
+   ]
+  },
+  {
+   "box": [
+    3,
+    34,
+    24,
+    62
+   ],
+   "rows": [
+    ".........EEEE.........",
+    "........E5eeeE........",
+    ".......EeeeebeE.......",
+    ".......Eeee5dEEE......",
+    "......Ed5eeeeE........",
+    "......E44eeeeE........",
+    ".....EeedeeeeJE.......",
+    ".....Eccccccccc.......",
+    "..EEeeeeeeeeeeeeEE....",
+    ".EeebbOOONLNOObbbeE...",
+    "EbbbOQQQNLLLNQQObbbE..",
+    ".EbbQQNnLLLLLnQQEbE...",
+    "...EQNmLELLLELlQE.....",
+    "...EQNLLELLLELLQE.....",
+    "...EQNnnLLLLLnnQE...55",
+    "...EQOlLL000LLMQE...55",
+    "...EQOOlLLLLlOOOE..54I",
+    "...EQQEecllceEQOQ..EE.",
+    "...EQQeeecLeeeEOQ.EE..",
+    "...EQEeeeeeeeeeEEEE...",
+    "....EeeFeeeeeceeMEE...",
+    "....EecEdeedcNceEL....",
+    "...EeedceeeecEEeEE....",
+    "....ElEeeeeeeF.eE.....",
+    ".....EEeeeeeeE........",
+    "......eeeeeeee........",
+    ".....EeeeeeeeeE.......",
+    ".....FeceeeedeE.......",
+    ".....EEEeeeedeE......."
+   ]
+  },
+  {
+   "box": [
+    33,
+    34,
+    51,
+    62
+   ],
+   "rows": [
+    "..EF........FEF....",
+    ".ExwF.FEEF.Fwx.F...",
+    ".ExCMwAAAAwMADxF...",
+    ".ExAAAAAAAAAACxF...",
+    "..xACDCAACDCAAx....",
+    "..wAwEwAAwEwAzw....",
+    ".EACCCCAACCCCAwF...",
+    ".AADDDxEExDDDCAx...",
+    ".AADzxDxxDxwCCAx...",
+    ".EAolWEEEEWl1CxF...",
+    ".EA1n0WmlW0L0xCx...",
+    ".xATn00LL00L0wzw...",
+    ".ExWnLLLLLLL0wwF...",
+    ".Ew1nLLLLLLLoAwF...",
+    ".EBM1nL00LnWEEEF...",
+    ".EpxRR0LL0SSwCxF...",
+    "..zB1UUUUSSRxpxEEE.",
+    "..TTFSZUSUXRE.W1YYE",
+    ".EYYYT.EEERR.YT.YYE",
+    ".YYYYYYB1.SZS..EEEE",
+    "ETW.WYYB1.SSEE.F.TR",
+    "Ep..YYY10TTT.F..J5M",
+    "EYpFTYYB1YTR.F.FqHE",
+    "EY.RYYYB1TYYYR.Ek3E",
+    "..E0TYT00TY1pxFMYRR",
+    "...E0pCwxppxEF..EE.",
+    "...FEEEEEEEEF......",
+    "...FEEE.FEEEF......",
+    "...FRY.FFERRF......"
+   ]
+  },
+  {
+   "box": [
+    64,
+    41,
+    78,
+    55
+   ],
+   "rows": [
+    ".FEEEEEEEEEEE..",
+    "g444444444444E.",
+    "g4444gSZSg4444.",
+    "g4444YSZSg4444F",
+    "g4444YSZSg4444E",
+    "g4444YSZH44444E",
+    "g4444YSZH44444F",
+    "g44444gEg44444E",
+    "g4444gSZSg4444E",
+    "g44444gEg44444.",
+    "jK44444444444E.",
+    ".FYIK44KIIIIY..",
+    "...Fg4Kj.......",
+    "..Fg4gF........",
+    "..FYYF........."
+   ]
+  },
+  {
+   "box": [
+    92,
+    41,
+    107,
+    55
+   ],
+   "rows": [
+    "..EEEEEEEEEEEE..",
+    ".CDDDDDDDDDDDDE.",
+    "EDDDDEffffDDDDD.",
+    "EDDDDffEEffDDDDE",
+    "EDDDDfEDEffDDDDE",
+    "EDDDDDDEffEDDDDE",
+    "EDDDDDDffEDDDDDE",
+    "EDDDDDDffDDDDDDE",
+    "EDDDDDDEEDDDDDDE",
+    "EDDDDDDffDDDDDD.",
+    ".ADDDDDEDDDDDDE.",
+    "..EEADDDCAAAAE..",
+    "....EDDE........",
+    "...EDDE.........",
+    "...EAE.........."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+Image 1 is a sheet of 8 sprites of a pixel art game at very low resolution, with big square pixels. They were reduced automatically, so some faces and details are broken.
+Images 2 and 3 are approved sprites of the same game at the same low resolution: they show how faces, outlines and shading must look at this pixel size.
+
+Clean up image 1 by hand, as a professional pixel artist would. Keep exactly the pixel grid of image 1: the same big square pixels, the same size of each sprite in pixels, the same position of each sprite on the sheet, the same silhouettes and the same colors. Never draw a pixel smaller than the squares of image 1.
+
+Fix: the skull with two big black eye holes and small cyan pupils and square teeth, the purple scarf, the bone club, the ribs as 2 or 3 clean lines, the thin bony arms and legs one pixel wide; the mushroom's red cap with round white spots, its angry eyes and open mouth, its small leaf arms; the small white bone and the round purple spore.
+
+Style of images 2 and 3: a dark colored outline one pixel thick, 2 to 3 flat tones per material in clean clusters, light from the top-left, faces made of a few clear pixels (two dark eyes with a white glint pixel, a tiny mouth). No dithering, no noise, no stray pixels, no anti-aliasing.
+
+Output: the 8 sprites only, at the same positions as in image 1, plain flat background #2a2030, crisp nearest-neighbor square pixels, no text, no labels, no grid lines, no shadow.

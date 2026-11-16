@@ -1,0 +1,21 @@
+Image 1 shows approved sprites of a pixel art game: the hero (front and side), a slime, two goblins, a puppy and a heart. Match exactly its style: same pixel size, same dark colored outline one pixel thick, same bright saturated colors, 3 to 4 flat tones per material in large clean clusters, light from the top-left, same cute chibi proportions (big head, small body) and the same cute face style with big shiny eyes and a white glint. Do not draw any creature of image 1.
+
+Draw a professional pixel art sheet of friendly villagers for the same top-down adventure game (three-quarter view from above). Every villager is in strict front view facing the viewer, standing, arms down or holding their object, smiling.
+
+The sheet has exactly 2 rows of 4 sprites, evenly spaced on a regular grid, each sprite well separated from the others.
+
+Row 1, from left to right:
+1. an old village elder: long white beard, bald head, a long brown robe with a rope belt, a wooden walking stick
+2. a young girl farmer: orange braided hair, a straw hat, a green dress with a white apron, holding a small basket of red apples
+3. a big friendly blacksmith: dark skin, short black beard, brown leather apron over a grey shirt, holding a hammer
+4. a little boy: messy brown hair, a red t-shirt, blue shorts, holding a wooden toy sword
+
+Row 2, from left to right:
+5. a wizard woman: long purple hair, a tall pointy blue hat with yellow stars, a blue robe, holding a short magic wand
+6. a hunter in a fur coat: a grey wolf fur hood, a thick brown coat, a small red scarf, holding a lantern
+7. a yellow speech bubble with a big red exclamation mark inside, cartoon style, with a small tail at the bottom
+8. a grey speech bubble with a big blue question mark inside, same shape as item 7
+
+Sizes: the villagers are as tall as the hero of image 1; the blacksmith and the hunter are a little taller, the little boy is a little shorter. The speech bubbles are about half of the hero's height.
+
+Output: the 8 sprites only, plain flat background #2a2030, crisp nearest-neighbor pixels, no dithering, no gradients, no antialiasing, no text other than the two punctuation marks, no labels, no numbers, no ground line, no cast shadow, no frame, no grid lines.

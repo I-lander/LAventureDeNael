@@ -1,0 +1,69 @@
+grid 2.867 2.0 2.867 1.5
+sprite 0 size 126 x 119
+sprite 1 size 78 x 127
+sprite 2 size 148 x 127
+sprite 3 size 129 x 106
+sprite 4 size 121 x 122
+sprite 5 size 136 x 110
+colors 61
+  a housesBlue1 #0e1b37
+  b housesBlue2 #1d2f54
+  c housesBlue3 #2d4570
+  d housesBlue4 #416691
+  e housesBlue5 #557da4
+  f housesBlue6 #6b90b3
+  g housesBlue7 #8fa5b9
+  h housesBlue8 #6cafdd
+  i housesBlue9 #8dbcdb
+  j housesBlue10 #abcee3
+  k housesBlue11 #bde0f4
+  l housesBrown1 #613821
+  m housesBrown2 #5c5f38
+  n housesBrown3 #955617
+  o housesBrown4 #876146
+  p housesBrown5 #7b7c44
+  q housesBrown6 #aa6b29
+  r housesBrown7 #cf571a
+  s housesBrown8 #979344
+  t housesBrown9 #a47c57
+  u housesBrown10 #c38333
+  v housesBrown11 #c9744e
+  w housesBrown12 #a9986b
+  x housesBrown13 #c79467
+  y housesBrown14 #c79f81
+  z housesGreen1 #254f3a
+  A housesGreen2 #424726
+  B housesGreen3 #66752d
+  C housesGreen4 #3f7a53
+  D housesGrey1 #423943
+  E housesGrey2 #544e57
+  F housesGrey3 #6c686e
+  G housesGrey4 #878484
+  H housesGrey5 #a88c9b
+  I housesGrey6 #b2a9a9
+  J housesGrey7 #c9bec0
+  K housesInk1 #11060d
+  L housesInk2 #230807
+  M housesInk3 #292411
+  N housesOrange1 #eb6f2a
+  O housesOrange2 #f7902f
+  P housesOrange3 #db9c41
+  Q housesOrange4 #e3956b
+  R housesOrange5 #ebb34d
+  S housesOrange6 #ddb680
+  T housesOrange7 #fdce59
+  U housesOrange8 #f1cc97
+  V housesRed1 #411709
+  W housesRed2 #412126
+  X housesRed3 #603134
+  Y housesRed4 #882c12
+  Z housesRed5 #7a4637
+  0 housesRed6 #774045
+  1 housesRed7 #be451f
+  2 housesRed8 #b05942
+  3 housesRed9 #b68578
+  4 housesWhite1 #dfdeda
+  5 housesWhite2 #e8f9fe
+  6 housesYellow1 #8e865a
+  7 housesYellow2 #fce27f
+  8 housesYellow3 #fff2aa

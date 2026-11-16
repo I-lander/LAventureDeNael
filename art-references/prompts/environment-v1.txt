@@ -1,0 +1,19 @@
+Draw a professional pixel art environment asset sheet in a cute and colorful style, for a top-down adventure game seen from above at a three-quarter angle (classic 16-bit top-down RPG camera: roofs and tree tops are visible from above, front walls and trunks are visible below them).
+
+The sheet has exactly 2 rows, on a regular grid, each asset well separated from the others.
+
+Row 1, four objects, from left to right:
+1. a round leafy forest tree: a big fluffy bright green canopy made of 3 or 4 rounded leaf clumps, a short brown trunk, a few lighter leaf highlights on the top-left
+2. a snowy pine tree: three stacked tiers of dark teal-green branches, each tier covered with a thick cap of white snow, a short brown trunk
+3. a volcanic rock: a chunky dark grey-purple boulder with a glowing orange lava crack across it
+4. a cute village shop cottage, front view from slightly above: a big rounded red tiled roof, cream walls with wooden beams, a wooden arched door in the middle, two small windows with blue glass, a small chimney, and a blank square wooden sign board hanging above the door (the sign is empty, no drawing and no text on it)
+
+Row 2, four square ground tiles of exactly the same size, seamless and tileable, viewed from straight above, from left to right:
+5. grass: bright green grass with a few small darker tufts and lighter blades
+6. snow: white snow with a few soft pale blue drifts
+7. volcanic ground: dark purple-grey ash with a few small cracks and tiny orange embers
+8. village path: warm light brown dirt with a few small pebbles
+
+Style: high quality hand-placed pixel art as made by a professional pixel artist for a commercial 16-bit game. Low resolution: the trees are drawn on a grid of about 32 by 40 pixels, the cottage on about 48 by 48 pixels, each ground tile on exactly 16 by 16 pixels shown enlarged, all with big clearly visible square pixels. Rounded, readable shapes. A dark colored outline one pixel thick around the objects of row 1 (a darker shade of the local color, not pure black); no outline around the ground tiles. Bright, saturated, cheerful colors. 3 to 4 flat tones per material, in large clean clusters, one light source from the top-left. No dithering, no gradients, no antialiasing, no noise, no blur, no stray pixels.
+
+Output: the 8 assets only, plain flat background #2a2030, crisp nearest-neighbor pixels, no text, no labels, no numbers, no cast shadow, no frame, no grid lines.

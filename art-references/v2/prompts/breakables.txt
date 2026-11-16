@@ -1,0 +1,21 @@
+Image 1 shows approved sprites of a pixel art game, from left to right: the hero, a forest tree, a snowy pine, a volcanic rock and a village shop cottage. Match exactly its style and its scale: the pixels must have exactly the same size as the pixels of image 1, same dark colored outline one pixel thick, bright saturated cheerful colors, 3 to 4 flat tones per material in large clean clusters, light from the top-left, no dithering. Do not draw anything of image 1.
+
+Draw a professional pixel art sheet of small breakable objects for the same top-down adventure game (three-quarter view from above). The player shoots them to break them and find hearts and coins hidden inside.
+
+The sheet has exactly 2 rows of 4 objects, evenly spaced on a regular grid, each object well separated from the others.
+
+Row 1, from left to right:
+1. a round leafy green bush, with a few lighter leaves on the top-left
+2. a round bush covered with a cap of white snow, a few dark teal leaves visible under the snow
+3. a round terracotta clay pot with a darker rim and a simple painted stripe
+4. a cluster of three dark purple volcanic crystals glowing orange at their tips
+
+Row 2, from left to right:
+5. a small round green desert cactus with a pink flower on top and small white spines
+6. a tuft of tall swamp reeds and cattails, dark green with brown tips
+7. a small wooden crate with darker plank lines and nails
+8. a tuft of tall bright green grass, a few long blades
+
+Sizes: every object is about half of the hero's height and about as wide as the hero, except the crate and the clay pot, which are a little smaller.
+
+Output: the 8 objects only, plain flat background #2a2030, crisp nearest-neighbor pixels, no character, no text, no labels, no numbers, no ground line, no cast shadow, no frame, no grid lines.
